@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=APTus
+GenericName=APTus
+Comment=Keep your system up to date and clean, install and remove packages
+Comment[de_DE]=Hält das System aktuell und sauber, installiert und entfernt Pakete
+Comment[el_GR]=Διατηρήστε το σύστημά σας ενημερωμένο και εγκαταστήστε, απεγκαταστήστε ή καθαρίστε πακέτα λογισμικού
+Comment[es_AR]=Mantiene su sistema actualizado y limpia, instala y elimina paquetes
+Comment[fr_FR]=Garder votre système à jour, propre, installer et supprimer des paquets
+Comment[it_IT]=Mantieni il tuo sistema aggiornato e pulito, installa e rimuovi i pacchetti
+Comment[ja_JP]=システムからパッケージのインストール・更新・削除します
+Comment[pl_PL]=Utrzymuj system zaktualizowany i czysty, instaluj i usuwaj pakiety
+Comment[pt_BR]=Mantenha o seu sistema atualizado e limpo, instale e remove pacotes
+Comment[pt_PT]=Mantenha seu sistema atualizado e limpo, instale/remova pacotes
+Comment[ru_RU]=Поддержка системы в актуальном состоянии, чистка, установка и удаление пакетов
+Exec=remsu /usr/bin/sparky-aptus
+Icon=system-software-install
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Applications;System

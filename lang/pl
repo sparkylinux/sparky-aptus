@@ -1,0 +1,156 @@
+# Polish localization file for Sparky APTus.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Translated to Polish by pavroo
+# Last update 2016/04/06 by pavroo
+
+LOCAL1="Aktualizacja"
+LOCAL2="Instalacja"
+LOCAL3="Usuwanie"
+LOCAL4="Naprawa"
+LOCAL5="Czyszczenie"
+LOCAL6="Repozytoria"
+LOCAL7="Zrobione! \nWszystkie stare pakiety DEB zostały usunięte. \n\nKliknij OK aby zakończyć."
+LOCAL8="Zrobione! \n\nKliknij OK aby zakończyć."
+LOCAL9="Zrobione! \nWszystkie pobrane pakiety DEB zostały usunięte. \nTwój system został oczyszczony.\n\nKliknij OK aby zakończyć."
+LOCAL10="Wybierz plik repozytoriów, który chcesz edytować"
+LOCAL11="Wybierz plik DEB z lokalnego dysku, który chcesz zainstalować"
+LOCAL12="Żadne zmiany nie zostały wprowadzone! \n\nKliknij OK aby zakończyć."
+LOCAL13="Instalacja jądra i686-PAE"
+LOCAL14="To jest system 64 bitowy! \nJądro i686-PAE jest przeznaczone tylko dla systmów 32 bitowych. \n\nZamknij..."
+LOCAL15="Jądro i686-PAE jest już zainstalowane! \n\nZamknij..."
+LOCAL16="Połączenie z internetem nieudane!\n\nPrawdopodobnie NIE jesteś połączony z internetem lub główny serwer repozytoriów jest niedostępny.\n\nSprawdź to i spróbuj ponownie."
+LOCAL17="Instalacja jądra i686-PAE i jego nagłówków w systemie 32 bitowym. \nUpewnij się, że Twój system jest zaktualizowany, zanim rozpoczniesz.\n\nCzy chcesz zainstalować teraz?"
+LOCAL18="Żaden pakiet nie został zainstalowany! \nZamknij..."
+LOCAL19="Jądro i686-PAE i jego nagłówki zostały zainstalowane! \nUruchom ponownie komputer aby zastosować zmiany."
+LOCAL20="Coś poszło źle! \nPrawdopodobnie zatrzymałeś instalację lub serwer repozytoriów jest niedostępny.\nSprawdź połączenie z internetem, odśwież listę pakietów i spróbuj ponownie. \n\nWyjście..."
+LOCAL21="Lista"
+LOCAL22="Informacja"
+LOCAL23="Instalacja jądra Liquorix"
+LOCAL24="Zakończ"
+LOCAL25="Jądro Liquorix jest już zainstalowane! \n\nZamknij..."
+LOCAL26="Proszę wybrać jedną z opcji:"
+LOCAL27="Instalacja jądra i686 NON-PAE Liquorix"
+LOCAL28="Instalacja jądra i686-PAE Liquorix"
+LOCAL29="Instalacja jądra 64 bitowego Liquorix"
+LOCAL30="Zakończ, nic nie rób"
+LOCAL31="To jest system 64 bitowy.\nJądro i686 NIE może być zainstalowane.\n\nZamknij..."
+LOCAL32="Jeśli wszystko poszło dobrze, jądro Liquorix i jego nagłówki zostały zainstalowane! \n\nUruchom ponownie komputer aby zastosować zmiany."
+LOCAL33="To jest system 32 bitowy.\nJądro 64 bitowe NIE może być zainstalowane.\n\nZamknij..."
+LOCAL34="Sparky APTus Usuwanie Pakietów NonFree"
+LOCAL35="Lista pakietów nie-wolnych i restrykcyjnych, zainstalowanych w systemie"
+LOCAL36="Czy chcesz usunąć wszystkie wyszczególnione pakiety?"
+LOCAL37="Żaden pakiet nie został usunięty! \n\nKliknij OK aby zakończyć."
+LOCAL38="usuwanie jądra"
+LOCAL39="usnięte jądra"
+LOCAL40="W systemie jest tylko jedno zainstalowane jądro. NIE może być usunięte!"
+LOCAL41="Aktualne (aktywne) jądro to"
+LOCAL42="Czy mam usunąć to jądro?"
+LOCAL43="Jądro nie zostało usunięte"
+LOCAL44="Sparky APTus Szybka Instalacja"
+LOCAL45="Wpisz nazwę pakietu do instalacji.\nMożesz wprowadzić kilka nazw, oddzielonych od siebie spacją.\n\nUpewnij się, że system Twój jest zaktualizowany, \nzanim rozpoczniesz."
+LOCAL46="Sparky APTus Szybkie Usunięcie"
+LOCAL47="Wpisz nazwę pakietu do usunięcia z systemu. \nMożesz wprowadzić kilka nazw, oddzielonych od siebie spacją. \n\nMusisz później usunąć pozostałe zależności, używając opcji USUŃ NIEPOTRZEBNE PAKIETY."
+LOCAL48="zainstaluje brakujące pakiety językowe.\n\nUpewnij się, że Twój system jest zaktualizowany, zanim rozpoczniesz. \nWybierz swój język"
+LOCAL49="Sprawdzi możliwość, pobierze i zainstaluje pakiet językowy"
+LOCAL50=""
+LOCAL51="Kliknij OK aby rozpocząć."
+LOCAL52="Pobieranie i instalacja"
+LOCAL53="pakietów.\n\Proszę czekać..."
+LOCAL54="Usunięcie VirtualBox Guest Utils"
+LOCAL55="Pakiet VirtualBox Guest Utils NIE jest zainstalowany. \n\nZakończ..."
+LOCAL56="Usuwanie pakietu VirtualBox Guest Utils z Twojego systemu.\n\nNie usuwaj tego pakietu jeśli używasz SparkyLinux w wirtualnej maszynie VirtualBox. \n\nCzy chcesz usunąć ten pakiet teraz?"
+LOCAL57="Oszukujemy?\n\nPakiet VirtualBox Guest Utils jest wciąż zainstalowany!\n\nKliknij OK aby zakończyć."
+LOCAL59="Pulpit"
+LOCAL60="Instalacja Jądra Sparky"
+LOCAL61="Jądro Sparky jest już zainstalowane! \n\nZamknij..."
+LOCAL62="Instalacja najnowszego jądra i686 NON-PAE Sparky"
+LOCAL63="Instalacja najnowszego jądra i686-PAE Sparky"
+LOCAL64="Instalacja najnowszego jądra 64 bit Sparky"
+LOCAL65="Jeśli wszystko poszło dobrze, najnowsze jądro Sparky i jego nagłówki zostały zainstalowane! \n\nUruchom ponownie komputer aby zastosować zmiany."
+
+##### pliki .desktop, również do przetłumaczenia:
+
+### autoclean.desktop
+# Name[pl_PL]=Usuń stare pakiety DEB
+# Comment[pl_PL]=Usuń wszystkie stare pakiety DEB z systemu
+
+### autoremove.desktop
+# Name[pl_PL]=Usuń niepotrzebne pakiety
+# Comment[pl_PL]=Usuń niepotrzebne pakiety z systemu
+
+### clean.desktop
+# Name[pl_PL]=Usuń wszystkie pakiety DEB
+# Comment[pl_PL]=Usuń z systemu wszystkie pobrane pakiety DEB
+
+### fix-apt.desktop
+# Name[pl_PL]=Napraw uszkodzone pakiety za pomocą APT
+# Comment[pl_PL]=Sprawdź i napraw uszkodzone pakiety za pomocą APT
+
+### fix-dpkg.desktop
+# Name[pl_PL]=Napraw uszkodzone pakiety za pomocą DPKG
+# Comment[pl_PL]=Sprawdź i napraw uszkodzone pakiety za pomocą DPKG
+
+### install-deb.desktop
+# Name[pl_PL]=Instalacja lub reinstalacja pakietu DEB z dysku
+# Comment[pl_PL]=Instalacja lub reinstalacja pakietu DEB z dysku
+
+### install-kernel-pae.desktop
+# Name[pl_PL]=Instalacja jądra Debian i686-PAE
+# Comment[pl_PL]=Instalacja jądra Debian i686-PAE
+
+### install-liquorix.desktop
+# Name[pl_PL]=Instalacja jądra Liquorix
+# Comment[pl_PL]=Instalacja jądra Liquorix
+
+### install-locale.desktop
+# Name[pl_PL]=Instalacja pakietów językowych
+# Comment[pl_PL]=Instalacja brakujących pakietów językowych
+
+### quick-install.desktop
+# Name[pl_PL]=Instalacja pakietów z repozytorium
+# Comment[pl_PL]=Instalacja pakietów z repozytorium
+
+### kernel.desktop
+# Name[pl_PL]=Usuń stare jądro systemu
+# Comment[pl_PL]=Usuń stare, nieaktywne jądro systemu
+
+### nonfree-remove.desktop
+# Name[pl_PL]=Usuń pakiety niewolne
+# Comment[pl_PL]=Usuń z systemu pakiety Non-Free oraz Restricted
+
+### quick-remove.desktop
+# Name[pl_PL]=Usuń pakiet
+# Comment[pl_PL]=Usunięcie wybranego pakietu z systemu
+
+### vboxguest-remove.desktop
+# Name[pl_PL]=Usuń VirtualBox Guest Utils
+# Comment[pl_PL]=Usuń VirtualBox Guest Utils
+
+### edit-repo-custom.desktop
+# Name[pl_PL]=Edycja dodatkowych repozytoriów
+# Comment[pl_PL]=Edycja listy dodatkowych repozytoriów
+
+### edit-repo-main.desktop
+# Name[pl_PL]=Edycja głównych repozytoriów
+# Comment[pl_PL]=Edycja listy głównych repozytoriów
+
+### dist-upgrade.desktop
+# Name[pl_PL]=Pełna aktualizacja systemu
+# Comment[pl_PL]=Pełna aktualizacja systemu
+
+### update.desktop
+# Name[pl_PL]=Aktualizacja listy pakietów
+# Comment[pl_PL]=Aktualizacja listy pakietów
+
+### upgrade.desktop
+# Name[pl_PL]=Bezpieczna aktualizacja systemu
+# Comment[pl_PL]=Bezpieczna aktualizacja systemu
+
+### sparky-aptus.desktop
+# Name[pl_PL]=
+# Comment[pl_PL]=Utrzymuj system zaktualizowany i czysty, instaluj i usuwaj pakiety
+
+### install-sparky-kernel.desktop
+# Name[pl_PL]=Instalacja jądra Sparky
+# Comment[pl_PL]=Instalacja najnowszego jądra Sparky

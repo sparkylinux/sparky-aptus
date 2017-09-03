@@ -1,0 +1,154 @@
+﻿# Fichier de localisation française de Sparky APTus.
+# Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
+# Sous licence GNU GPL v2
+# Dernière mise à jour 2016/06/05
+
+LOCAL1="Mise à jour"
+LOCAL2="Installer"
+LOCAL3="Supprimer"
+LOCAL4="Réparer les paquets cassés"
+LOCAL5="Nettoyage"
+LOCAL6="Dépôts"
+LOCAL7="Fait! \nToutes les versions anciennes des paquets DEB ont été supprimées. \n\nCliquez sur OK pour quitter."
+LOCAL8="Fait! \n\nCliquez sur OK pour quitter."
+LOCAL9="Fait! \nTous les paquets DEB téléchargés ont été enlevés. \nVotre système est propre à présent.\n\nCliquez sur OK pour quitter."
+LOCAL10="Choisissez un fichier de la liste des dépôts que vous voulez éditer"
+LOCAL11="Sélectionnez le fichier DEB à installer depuis un disque local"
+LOCAL12="Rien n'a été changé! \n\nCliquez sur OK pour quitter."
+LOCAL13="Installateur du noyau i686-PAE"
+LOCAL14="Vous utilisez un système 64 bits! \nLe noyau i686-PAE est destiné seulement à un système 32 bits. \n\nSortie..."
+LOCAL15="Le noyau i686-PAE est déjà installé! \n\nSortie..."
+LOCAL16="Échec du test de la connexion internet!\n\nVous n'êtes probablement pas connecté à Internet ou bien le serveur de dépôt principal est hors-service.\n\nVérifiez et essayez à nouveau."
+LOCAL17="Ceci va installer le noyau i686-PAE et ses en-têtes sur le système 32 bits. \nVérifiez que votre système est à jour avant de commencer. \nVoulez-vous l'installer maintenant?"
+LOCAL18="Aucun paquet n'a été installé! \nSortie..."
+LOCAL19="le noyau i686-PAE et ses en-têtes ont été installés! \nRedémarrer l'ordinateur pour prendre en compte les changements."
+LOCAL20="Il y a un problème! \nPeut-être avez-vous stoppé l'installation ou bien votre connexion internet est interrompue.\nVérifiez et réessayez.\n\nSortie..."
+LOCAL21="Choisir"
+LOCAL22="Information"
+LOCAL23="Installation du noyau Liquorix "
+LOCAL24="Quitter"
+LOCAL25="Le noyau Liquorix est déjà installé! \n\nSortie..."
+LOCAL26="S'il vous plaît, choisissez une option:"
+LOCAL27="Installer le noyau Liquorix i686 NON-PAEl"
+LOCAL28="Installer le noyau Liquorix i686-PAE"
+LOCAL29="Installer le noyau Liquorix 64 bits"
+LOCAL30="Ne rien faire et quitter"
+LOCAL31="Vous utilisez un système 64 bits actuellement!.\nLe noyau i686 NE PEUT PAS être installé.\n\nSortie..."
+LOCAL32="Si tout s'est bien passé le noyau Liquorix et ses en-têtes ont été installés! \n\nRedémarrer l'ordinateur pour prendre en compte les changements."
+LOCAL33="Vous utilisez un système 32 bits actuellement.\nLe noyau 64 bits NE PEUT PAS être installé.\n\nSortie..."
+LOCAL34="Suppresseur de Sparky APTus NonFree"
+LOCAL35="Ceci est une liste des paquets Non-libre et de droit Restreint installés sur votre système?"
+LOCAL37="Aucun paquet n'a été supprimé! \n\nCliquez sur OK pour fermer la fenêtre."
+LOCAL38="Suppression du noyau"
+LOCAL39="Les noyaux suivants ont été supprimés"
+LOCAL40="Il n'y a qu'un seul noyau installé sur le système. Il ne peut être supprimé!"
+LOCAL41="Le noyau actuel et actif est"
+LOCAL42="Dois-je supprimer ce noyau?"
+LOCAL43="Noyau non supprimé"
+LOCAL44="Installation rapide avec Sparky APTus"
+LOCAL45="Tapez le nom du paquet que vous voulez installer.\nVous pouvez taper plusieurs noms séparés par la touche Espace.\n\nVérifiez que votre système est à jour \navant de commencer l'opération."
+LOCAL46="Suppression rapide avec Sparky APTus"
+LOCAL47="Tapez le nom du paquet que vous voulez supprimer du système.\nVous pouvez taper plusieurs noms séparés par la touche Espace.\n\nVous devrez ensuite supprimer toutes les dépendances en utilisant l'option AUTOREMOVE."
+LOCAL48="Installation des paquets de localisation manquants dans votre langue.\n\nVérifiez que votre système est à jour avant de commencer.\n\nS'il vous plaît, choisissez votre langue"
+LOCAL49="Ceci va vérifier, télécharger et installer les paquets de "
+LOCAL50="langue"
+LOCAL51="Cliquez sur OK pour démarrer."
+LOCAL52="Téléchargeons et installons"
+LOCAL53="les paquets à présent.\n\S'il vous plaît, patientez..."
+LOCAL54="Suppression des utilitaires d'invité de VirtualBox "
+LOCAL55="le paquet des utilitaires d'invité de VirtualBox n'est pas installé.\n\nSortie..."
+LOCAL56="Ceci va supprimer le paquet des utilitaires d'invité de VirtualBox installés sur votre système.\n\nNe les supprimer pas si vous exécuter SparkyLinux à l'intérieur de l'environnement VirtualBox. \n\nVoulez-vous supprimer quand même le paquet?"
+LOCAL57="Comment?\n\nles utilitaires d'invité de VirtualBox sont toujours installés!\n\nCliquez sur OK pour quitter."
+LOCAL59="Bureau"
+LOCAL60="Installateur du noyau Sparky"
+LOCAL61="Le noyau Sparky est déjà installé! \n\nSortie..."
+LOCAL62="Installer le dernier noyau Sparky i686 NON-PAE"
+LOCAL63="Installer le dernier noyau Sparky i686-PAEl"
+LOCAL64="Installer le dernier noyau Sparky 64 bits"
+LOCAL65="Si tout s'est bien passé le dernier noyau Sparky et ses en-têtes ont été installés! \n\nRedémarrer l'ordinateur pour prendre en compte les changements."
+
+##### .desktop files to be translated too:
+
+### autoclean.desktop
+# Name[fr_FR]=Supprimer les anciens paquets DEB
+# Comment[fr_FR]=Supprimer tous les anciens paquets DEB du système
+
+### autoremove.desktop
+# Name[fr_FR]=Supprimer les paquets inutiles
+# Comment[fr_FR]=Supprimer tous les paquets inutiles du système
+
+### clean.desktop
+# Name[fr_FR]=Supprimer tous les paquets DEB
+# Comment[fr_FR]=Supprimer tous les paquets DEB téléchargés du système
+
+### fix-apt.desktop
+# Name[fr_FR]=Réparer avec APT les paquets cassés
+# Comment[fr_FR]=Vérifier et réparer avec APT les paquets cassés non-installés:mis à jour correctement
+
+### fix-dpkg.desktop
+# Name[fr_FR]=Réparer avec DPKG les paquets cassés
+# Comment[fr_FR]=Vérifier et réparer avec DPKG les paquets cassés non-installés:mis à jour correctement
+
+### install-deb.desktop
+# Name[fr_FR]=Installer ou réinstaller un paquet DEB depuis un disque local
+# Comment[fr_FR]=Installer ou réinstaller un paquet DEB depuis un disque local
+
+### install-kernel-pae.desktop
+# Name[fr_FR]=Installer le noyau Debian i686-PAE
+# Comment[fr_FR]=Installer le noyau Debian i686-PAE
+
+### install-liquorix.desktop
+# Name[fr_FR]=Installer le noyau Liquorix
+# Comment[fr_FR]=Installer le noyau Liquorix
+
+### install-locale.desktop
+# Name[fr_FR]=Installer les paquets de langue
+# Comment[fr_FR]=Installer les paquets de langue manquants
+
+### quick-install.desktop
+# Name[fr_FR]=Installer des paquets depuis les dépôts
+# Comment[fr_FR]=Installer des paquets depuis les dépôts
+
+### kernel.desktop
+# Name[fr_FR]=Supprimer les vieux noyaux du système
+# Comment[fr_FR]=Supprimer les vieux noyaux inactifs du système
+
+### nonfree-remove.desktop
+# Name[fr_FR]=Supprimer les paquets Non-libres
+# Comment[fr_FR]=Supprimer les paquets Non-libres et de droits restreints du système
+
+### quick-remove.desktop
+# Name[fr_FR]=Supprimer des paquets du système
+# Comment[fr_FR]=Supprimer des paquets sélectionnés du système
+
+### vboxguest-remove.desktop
+# Name[fr_FR]=Supprimer les utilitaires d'invité de VirtualBox
+# Comment[fr_FR]=Supprimer les utilitaires d'invité de VirtualBox
+
+### edit-repo-custom.desktop
+# Name[fr_FR]=Editer les dépôts personnalisés
+# Comment[fr_FR]=Editer la liste des dépôts personnalisés
+
+### edit-repo-main.desktop
+# Name[fr_FR]=Éditer le dépôt principal
+# Comment[fr_FR]=Éditer la liste du dépôt principal
+
+### dist-upgrade.desktop
+# Name[fr_FR]=Mettre à jour le système
+# Comment[fr_FR]=Mettre complètement à jour le système
+
+### update.desktop
+# Name[fr_FR]=Actualiser la liste des paquets
+# Comment[fr_FR]=Actualiser la liste des paquets
+
+### upgrade.desktop
+# Name[fr_FR]=Mettre à jour le système de façon sure
+# Comment[fr_FR]=Mettre à jour le système de façon sure
+
+### sparky-aptus.desktop
+# Name[fr_FR]=
+# Comment[fr_FR]=Garder votre système à jour, propre, installer et supprimer des paquets
+
+### install-sparky-kernel.desktop
+# Name[fr_FR]=Installer le noyau Sparky
+# Comment[fr_FR]=Installer le dernier noyau Sparky

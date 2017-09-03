@@ -1,0 +1,107 @@
+#!/bin/bash
+
+#  Sparky APTus Locale Exe script is a part of sparky-locale
+#  Created by Paweł "pavroo" Pijanowski 2014/05/21
+#  Copyright 2014, 2015, 2016, 2017 under the GNU GPL2 License
+#  Last update 2017/04/28
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-aptus"
+if [ "`cat /etc/default/locale | grep de_DE`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep el_GR`" != "" ]; then
+. $DEFLOCDIR/el
+elif [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep ru_RU`" != "" ]; then
+. $DEFLOCDIR/ru
+else
+. $DEFLOCDIR/en
+fi
+
+testroot="`whoami`"
+
+# check connection
+PINGTEST=$(ping -c 1 debian.org | grep [0-9])
+
+if [ "$PINGTEST" = "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"\n$LOCAL16"
+	exit 1
+fi
+
+if [ "$testroot" != "root" ]; then
+	/usr/bin/remsu $0 &
+fi
+
+yad --width=450 --height=150 --window-icon=preferences-desktop-locale --image=/usr/share/icons/sparky/flags/48/$IMG.png --text="$LOCAL49 $LANG $LOCAL50\n\n$LOCAL51" --title="APTus" --button=Ok:0 --button=$LOCAL24:1
+
+if [ "$?" != "0" ]; then
+
+yad --width=450 --height=100 --window-icon=preferences-desktop-locale --image=/usr/share/icons/sparky/flags/48/$IMG.png --text="$LOCAL12" --title="APTus" --button=Ok:0
+exit 1
+
+else
+
+# install firefox packages
+if [ -f /usr/bin/firefox-esr ] || [ -f /usr/bin/firefox ]; then
+
+apt-get install firefox-esr-l10n-$COUNTRY -y | zenity --progress --pulsate --width=450 --height=100 --auto-close --window-icon=preferences-desktop-locale --text="$LOCAL52 Firefox $LANG $LOCAL53" --title="APTus" --no-cancel
+
+fi
+
+# install icedove packages
+#if [ -f /usr/bin/icedove ]; then
+
+#apt-get install icedove-l10n-$COUNTRY -y | zenity --progress --pulsate --width=450 --height=100 --auto-close --window-icon=preferences-desktop-locale --text="$LOCAL52 Icedove $LANG $LOCAL53" --title="APTus" --no-cancel
+
+#fi
+
+# install thunderbird packages
+if [ -f /usr/bin/thunderbird ]; then
+
+apt-get install thunderbird-locale-$COUNTRY -y | zenity --progress --pulsate --width=450 --height=100 --auto-close --window-icon=preferences-desktop-locale --text="$LOCAL52 Thunderbird $LANG $LOCAL53" --title="APTus" --no-cancel
+
+#fi
+
+# install libreoffice packages
+if [ -f /usr/bin/libreoffice ]; then
+
+apt-get install libreoffice-help-$COUNTRY -y | zenity --progress --pulsate --width=450 --height=100 --auto-close --window-icon=preferences-desktop-locale --text="$LOCAL52 LibreOffice $LANG $LOCAL53" --title="APTus" --no-cancel
+
+fi
+
+# install kde4 packages
+# if [ -f /usr/bin/plasma-desktop ]; then
+
+#apt-get install kde-l10n-$COUNTRY -y | zenity --progress --pulsate --width=450 --height=100 --auto-close --window-icon=/usr/share/icons/sparky/aptus/sparky-aptus.png --text="Downloading and installing KDE $LANG packages now.\n\Please wait" --title="Sparky APTus" --no-cancel
+
+# fi
+
+# install calligra packages
+if [ -f /usr/bin/calligrawords ]; then
+
+apt-get install calligra-l10n-$COUNTRY -y | zenity --progress --pulsate --width=450 --height=100 --auto-close --window-icon=preferences-desktop-locale --text="$LOCAL52 Calligra $LANG $LOCAL53" --title="APTus" --no-cancel
+
+exit 0
+
+fi
+
+if [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+
+apt-get install fonts-vlgothic fonts-ipafont fcitx-mozc -y | zenity --progress --pulsate --width=450 --height=100 --auto-close --window-icon=preferences-desktop-locale --text="$LOCAL58" --title="APTus" --no-cancel
+
+fi
+
+fi

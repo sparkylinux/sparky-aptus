@@ -1,0 +1,155 @@
+# File di localizzazione italiano per Sparky APTus.
+# Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 22/10/2015
+# Rilasciato sotto licenza GNU GPL v2
+# Last update 2017/09/02 by Carlo
+
+LOCAL1="Aggiorna"
+LOCAL2="Installa"
+LOCAL3="Rimuovi"
+LOCAL4="Ripara"
+LOCAL5="Pulizia"
+LOCAL6="Repository"
+LOCAL7="Fatto! \nTutte le vecchie versioni dei pacchetti DEB sono state rimosse. \n\nClicca su OK per terminare."
+LOCAL8="Fatto! \n\nClicca su OK per terminare."
+LOCAL9="Fatto! \nTutti i pacchetti DEB scaricati sono stati rimossi. \nIl tuo sistema e' pulito adesso.\n\nClicca su OK per terminare."
+LOCAL10="Seleziona il file contenente i repositori che vuoi modificare dalla lista"
+LOCAL11="Seleziona il file DEB da installare da locale"
+LOCAL12="Nulla e' stato cambiato! \n\nClicca su OK per terminare."
+LOCAL13="i686-PAE Kernel Installer"
+LOCAL14="Stai usando un sistema a 64 bit! \nIl Kernel i686-PAE e' sviluppato solamente per sistemi a 32 bit. \n\nsto uscendo..."
+LOCAL15="Il Kernel i686-PAE e' già stato installato! \n\nSto uscendo..."
+LOCAL16="Il test della connessione Internet e' fallito!\n\nProbabilmente NON sei connesso ad internet od il repository principale del server e' offline.\n\nControlla e prova di nuovo."
+LOCAL17="Questo installerà il kernel i686-PAE ed i suoi headers sul sistema a 32 bit. \nAssicurati che il tuo sistema sia aggiornato prima di procedere.\n\nVuoi installare adesso?"
+LOCAL18="Nessun pacchetto e' stato installato! \nSto uscendo..."
+LOCAL19="Il kernel i686-PAE ed i suoi headers sono stati installati! \nRiavvia la macchina per applicare le modifiche."
+LOCAL20="Qualcosa e' andato storto! \nProbabilmente hai interrotto l'installazione o ti sei disconnesso da internet.\ncontrolla e prova di nuovo.\n\nSto uscendo..."
+LOCAL21="Seleziona"
+LOCAL22="Informazioni"
+LOCAL23="Liquorix Kernel Installer"
+LOCAL24="Esci"
+LOCAL25="Il Kernel Liquorix e' già installato! \n\nSto uscendo..."
+LOCAL26="Prego, effettua una scelta:"
+LOCAL27="Installa il Kernel Liquorix i686 NON-PAE"
+LOCAL28="Installa il Kernel Liquorix i686-PAE"
+LOCAL29="Installa il Kernel Liquorix 64 bit"
+LOCAL30="Esci, non fare alcunché"
+LOCAL31="stai utilizzando un sistema a 64 bit adesso.\nI Kernel i686 NON possono essere installat.\n\nSto uscendo..."
+LOCAL32="Se tutto e' andato correttamente il Kernel Liquorix ed i suoi headers sono stati installati! \n\nRiavvia la macchina per applicare le modifiche."
+LOCAL33="Stai usando un sistema a 32 bit adesso.\nIl Kernel a 64 bit NON puù essere installato.\n\nSto uscendo..."
+LOCAL34="Sparky APTus NonFree Remover"
+LOCAL35="Questa e' una lista dei pacchetti Non-Free e/o Restricted installati sul tuo sistema"
+LOCAL36="Li vuoi rimuovere tutti?"
+LOCAL37="Nessun pacchetto e' stato rimosso! \n\nClicca su OK per chiudere la finestra."
+LOCAL38="Sto rimuovendo il kernel"
+LOCAL39="i seguenti kernels sono stati rimossi"
+LOCAL40="C'e' solo un unico kernel installato sul sistema. Non può esserer rimosso!"
+LOCAL41="Il kernel in uso adesso e'"
+LOCAL42="Devo rimuovere questo kernel?"
+LOCAL43="Kernel non rimosso"
+LOCAL44="Sparky APTus Quick Install"
+LOCAL45="Scrivi il nome di un pacchetto che vuoi installare.\nPuoi anche scrivere più nomi separati da uno SPAZIO.\n\nAssicurati che il tuo sistema sia aggiornato \nprima di procedere."
+LOCAL46="Sparky APTus Quick Remove"
+LOCAL47="Scrivi il nome di un pacchetto che vuoi rimuovere dal sistema.\nPuoi anche scrivere più nomi separati da uno SPAZIO.\n\non scordarti di rimuovere tutte le dipendenze dopo la disintallazione, usando l'opzione AUTOREMOVE."
+LOCAL48="Installerà i pacchetti contenenti le traduzioni per la tua lingua.\n\nAssicurati che il tuo sistema sia aggiornato prima di procedere.\n\nPrego, seleziona la tua lingua"
+LOCAL49="Questo controllerà, scaricherà ed installerà i pacchetti di"
+LOCAL50="linguaggio"
+LOCAL51="Clicca su OK per iniziare."
+LOCAL52="Sto scaricando ed installando i pacchetti di"
+LOCAL53="adesso.\n\Attendi, prego..."
+LOCAL54="VirtualBox Guest Utils Remove"
+LOCAL55="Il pacchetto VirtualBox Guest Utils NON e' installato.\n\nUscendo..."
+LOCAL56="Questo rimuoverà i pacchetti di VirtualBox Guest Utils installati sul tuo sistema.\n\nNON rimuoverli se stai usando sparky linux sotto macchina virtuale!!\n\nVuoi procedere con la rimozione?"
+LOCAL57="Stai imbrogliando?\n\nVirtualBox Guest Utils e' ancora installato!\n\nClicca su OK per uscire."
+LOCAL59="Desktop"
+LOCAL60="Sparky Kernel Installer"
+LOCAL61="il kernel Sparky e' già stato ionstallato! \n\nUscendo..."
+LOCAL62="Installa l'ultimo kernel Sparky i686 NON-PAE"
+LOCAL63="Installa l'ultimo kernel Sparky i686 PAE"
+LOCAL64="Installa l'ultimo kernel Sparky a 64 bit"
+LOCAL65="Se tutto e' andato per il meglio, il kernel sparky ed i suoi headers sono stati installati! \n\nRiavvia la tua macchina affinché le modifiche abbiano effetto."
+
+##### .desktop files to be translated too:
+
+### autoclean.desktop
+# Name[it_IT]=Rimuovi i vecchi pacchetti DEB
+# Comment[it_IT]=Rimuove tutte le versioni vecchie dei pacchetti DEB dal sistema
+
+### autoremove.desktop
+# Name[it_IT]=Rimuovi i pacchetti non necessari
+# Comment[it_IT]=Rimuove tutti i pacchetti non necessari dal sistema
+
+### clean.desktop
+# Name[it_IT]=Rimuovi tutti i pacchetti DEB
+# Comment[it_IT]=Rimuovi tutti i pacchetti DEB dal sistema
+
+### fix-apt.desktop
+# Name[it_IT]=Aggiusta i pacchetti danneggiati con APT
+# Comment[it_IT]=Controlla ed aggiusta col comando APT i pacchetti danneggiati o non installati/aggiornati correttamente
+
+### fix-dpkg.desktop
+# Name[it_IT]=Aggiusta i pacchetti danneggiati con DPKG
+# Comment[it_IT]=Controlla ed aggiusta col comando DPKG i pacchetti danneggiati o non installati/aggiornati
+
+### install-deb.desktop
+# Name[it_IT]=Installa o reinstalla pacchetti DEB da un disco locale
+# Comment[it_IT]=Installa o reinstalla pacchetti DEB daun disco locale
+
+### install-kernel-pae.desktop
+# Name[it_IT]=Installa Debian i686-PAE Kernel
+# Comment[it_IT]=Installa il Kernel i686-PAE per Debian
+
+### install-liquorix.desktop
+# Name[it_IT]=Installa Kernel Liquorix
+# Comment[it_IT]=Installa il Kernel Liquorix
+
+### install-locale.desktop
+# Name[it_IT]=Installa pacchetti di localizzazione
+# Comment[it_IT]=Installa i pacchetti contenenti i file di traduzione che mancano al sistema
+
+### quick-install.desktop
+# Name[it_IT]=Installa i pacchetti dalle repository
+# Comment[it_IT]=Installa i pacchetti dalle repository
+
+### kernel.desktop
+# Name[it_IT]=Rimuovi i vecchi kernel
+# Comment[it_IT]=Rimuove i kernel vecchi ed inutilizzati dal sistema
+
+### nonfree-remove.desktop
+# Name[it_IT]=Rimuovi i pacchetti Non-Free
+# Comment[it_IT]=Rimuove i pacchetti "Non-Free" e "Restricted" dal sistema
+
+### quick-remove.desktop
+# Name[it_IT]=Rimuovi un pacchetto dal sistema
+# Comment[it_IT]=Rimuove il pacchetto selezionato dal sistema
+
+### vboxguest-remove.desktop
+# Name[it_IT]=Rimuovi VirtualBox Guest Utils
+# Comment[it_IT]=Rimuove le VirtualBox Guest Utils
+
+### edit-repo-custom.desktop
+# Name[it_IT]=Modifica le repositories personalizzate
+# Comment[it_IT]=Modifica la lista delle repositories
+
+### edit-repo-main.desktop
+# Name[it_IT]=Modifica i repositories principaly
+# Comment[it_IT]=Modifica la lista dei principali repositories
+
+### dist-upgrade.desktop
+# Name[it_IT]=Aggiorna il sistema
+# Comment[it_IT]=Aggiorna tutto il sistema
+
+### update.desktop
+# Name[it_IT]=Aggiorna la lista dei pacchetti
+# Comment[it_IT]=Aggiorna la lista dei pacchetti
+
+### upgrade.desktop
+# Name[it_IT]=Aggiornamento sicuro del sistema
+# Comment[it_IT]=Aggiornamento sicuro del sistema
+
+### sparky-aptus.desktop
+# Name[it_IT]=
+# Comment[it_IT]=Mantieni il tuo sistema aggiornato e pulito, installa e rimuovi i pacchetti
+
+### install-sparky-kernel.desktop
+# Name[it_IT]=Installa il kernel Sparky
+# Comment[it_IT]=Installa l'ultimo kernel Sparky

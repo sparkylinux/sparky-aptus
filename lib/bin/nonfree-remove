@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-aptus"
+if [ "`cat /etc/default/locale | grep de_DE`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep el_GR`" != "" ]; then
+. $DEFLOCDIR/el
+elif [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep ru_RU`" != "" ]; then
+. $DEFLOCDIR/ru
+else
+. $DEFLOCDIR/en
+fi
+
+testroot="`whoami`"
+
+if [ "$testroot" != "root" ]; then
+    /usr/bin/remsu $0 &
+fi
+
+DIALOG500="yad --window-icon=system-software-install --width=500 --height=300 --center"
+DIALOG="yad --window-icon=system-software-install --width=450 --height=200 --center"
+TITLE="--always-print-result --dialog-sep --image=system-software-install --title="
+TEXT="--text="
+OKEXIT="--button=Ok:0 --button=$LOCAL24:1"
+MSGBOX="--button=Ok:0"
+TITLETEXT="APTus"
+
+if [ -f /opt/sparky/sparky-xterm ]; then
+. /opt/sparky/sparky-xterm
+else
+SPARKYXTERM="x-terminal-emulator"
+fi
+
+NONFREE=`vrms -s | cut -d "|" -f 1`
+
+$DIALOG500 $TITLE"$LOCAL34" $OKEXIT $TEXT"$LOCAL35:\n\n$NONFREE \n\n$LOCAL36"
+
+if [ "$?" != "0" ]; then
+
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL37"
+	exit 0
+
+else
+
+	$SPARKYXTERM -e "apt-get remove $NONFREE"
+
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL8"
+	exit 0
+fi

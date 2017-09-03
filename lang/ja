@@ -1,0 +1,157 @@
+# Japanese localization file for Sparky APTus.
+# Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Last update 2017/01/11
+# Translated to Japanese by BALLOON a.k.a. Fu-sen.
+
+LOCAL1="更新"
+LOCAL2="インストール"
+LOCAL3="削除"
+LOCAL4="破損の修復"
+LOCAL5="クリーニング"
+LOCAL6="リボジトリ"
+LOCAL7="完了！ \nDEB パッケージのす古いバージョンがすべて削除されました。 \n\nOK のクリックで終了します。"
+LOCAL8="完了！ \n\nOK のクリックで終了します。"
+LOCAL9="完了！ \nダウンロード DEB パッケージはすべての削除されました。\nシステムはクリーンされました。\n\nOK をクリックして終了します。"
+LOCAL10="編集するリポジトリ一覧ファイルを選択"
+LOCAL11="ローカルドライブから DEB ファイルを選択し、インストールします"
+LOCAL12="何も変更されていません！ \n\nOK のクリックで終了します。"
+LOCAL13="i686-PAE カーネルインストール"
+LOCAL14="64ビットシステムで実行しています！ \nカーネル i686-PAE は、32ビットシステムが対象です。 \n\n終了します..."
+LOCAL15="カーネル i686-PAE はすでにインストールされています！ \n\n終了します..."
+LOCAL16="インターネット接続に失敗しました！\n\nインターネットに接続されていないか、メインのリポジトリサーバがダウンしています。\n\n確認の上、再度行って下さい。"
+LOCAL17="i686-PAE カーネル および32ビットシステム上のヘッダーがインストールされます。 \n実行する前に、お使いのシステムが最新になっている事を確認してください。\n\nインストールしてよろしいですか？"
+LOCAL18="パッケージはインストールされていません！ \n終了します..."
+LOCAL19="i686-PAE カーネルとヘッダをインストールしました！ \nマシンの再起動で反映されます。"
+LOCAL20="何か誤りがあります！ \nインストールを停止しているか、インターネット接続が切断されています。\n確認の上、再度実行して下さい。\n\n終了します..."
+LOCAL21="選択"
+LOCAL22="情報"
+LOCAL23="Liquorix カーネルインストール"
+LOCAL24="終了"
+LOCAL25="Liquorix カーネルはすでにインストールされています！ \n\n終了します..."
+LOCAL26="オプションを選んで下さい:"
+LOCAL27="i686 NON-PAE Liquorix カーネルをインストール"
+LOCAL28="i686-PAE Liquorix カーネルをインストール"
+LOCAL29="64 bit Liquorix カーネルをインストール"
+LOCAL30="終了、何もしない"
+LOCAL31="64ビットシステムを実行しています。\nカーネル i686 をインストールする事はできません。\n\n終了します..."
+LOCAL32="Liquorix カーネルとヘッダをインストールしました！ \n\nマシンの再起動で反映されます。"
+LOCAL33="64ビットシステムを実行しています。\n64 ビットカーネルをインストールする事はできません。\n\n終了します..."
+LOCAL34="Sparky APTus NonFree の削除"
+LOCAL35="これらはシステムにインストールされている非フリー・制限付きパッケージの一覧です。"
+LOCAL36="それらのすべてを削除してよろしいですか？"
+LOCAL37="パッケージは削除されませんでした！ \n\nOK をクリックしてウインドウを閉じます。"
+LOCAL38="カーネルの削除中"
+LOCAL39="次のカーネルは削除されました"
+LOCAL40="このシステムにインストールされている唯一のカーネルです。削除することはできません！"
+LOCAL41="実際の（有効な）カーネル"
+LOCAL42="このカーネルを削除しますか？"
+LOCAL43="Kernel は削除しませんでした"
+LOCAL44="Sparky APTus クイックインストール"
+LOCAL45="インストールしたいパッケージの名前を入力します。\nスペースで区切りいくつかの名前を入力することができます。\n\n開始するために、必ず使用のシステムが\n最新の状態である事を確認して下さい。"
+LOCAL46="Sparky APTus クイック削除"
+LOCAL47="システムから削除したいパッケージの名前を入力します。\nスペースで区切りいくつかの名前を入力することができます。\n\nAUTOREMOVE オプションを使用した後、すべての依存関係を削除します。"
+LOCAL48="言語の不足ロケールパッケージをインストールします。\n\n開始する前に、お使いのシステムが最新である事を確認して下さい。\n\n言語を選択して下さい。"
+LOCAL49="ダウンロード・インストールするパッケージは"
+LOCAL50="言語です。"
+LOCAL51="OK をクリックして開始します。"
+LOCAL52="ダウンロード・インストール中 "
+LOCAL53=" パッケージ\n\nお待ち下さい..."
+LOCAL54="VirtualBox Guest Utils 削除"
+LOCAL55="VirtualBox Guest Utils パッケージはインストールされていません。\n\n終了します..."
+LOCAL56="システムからインストールされている VirtualBox Guest Utils パッケージを削除します。\n\nVirtualBox マシン内で SparkyLinux を実行している場合は、削除しないでください。 \n\nパッケージの削除を行いますか？"
+LOCAL57="えっ？\n\nVirtualBox Guest Utils はまだインストールされています！\n\nOK をクリックして終了します。"
+LOCAL58="日本語フォント・fcitx-mozc パッケージ インストール"
+LOCAL59="デスクトップ"
+LOCAL60="Sparky カーネルインストール"
+LOCAL61="Sparky カーネルはすでにインストールされています！ \n\n終了します..."
+LOCAL62="最新 i686 NON-PAE Sparky カーネルのインストール"
+LOCAL63="最新 i686-PAE Sparky カーネルのインストール"
+LOCAL64="最新 64 bit Sparky カーネルのインストール"
+LOCAL65="すべてがうまくいけば、最新の Sparky カーネルとヘッダがインストールされました！ \n\n反映するためにマシンを再起動してください。"
+
+##### .desktop files to be translated too:
+
+### autoclean.desktop
+# Name[ja_JP]=古い DEB パッケージの削除
+# Comment[ja_JP]=システムから DEB パッケージの古いバージョンをすべて削除します
+
+### autoremove.desktop
+# Name[ja_JP]=不要なパッケージを削除
+# Comment[ja_JP]=システムから不要なパッケージをすべて削除します
+
+### clean.desktop
+# Name[ja_JP]=DEBパッケージをすべて削除
+# Comment[ja_JP]=システムからダウンロードしているDEBパッケージをすべて削除します
+
+### fix-apt.desktop
+# Name[ja_JP]=APT 破損パッケージの修正
+# Comment[ja_JP]=APT でインストール・更新できない壊れたパッケージを確認・修正します
+
+### fix-dpkg.desktop
+# Name[ja_JP]=DPKG 破損パッケージの修正
+# Comment[ja_JP]=DPKGでインストール・更新できない壊れたパッケージを確認・修正します
+
+### install-deb.desktop
+# Name[ja_JP]=ローカルディスク DEB パッケージ インストール・再インストール
+# Comment[ja_JP]=ローカルディスクから DEB パッケージ インストール・再インストールを行います
+
+### install-kernel-pae.desktop
+# Name[ja_JP]=i686-PAE Debian カーネルのインストール
+# Comment[ja_JP]=i686-PAE Debian カーネルをインストールします
+
+### install-liquorix.desktop
+# Name[ja_JP]=Liquorix カーネルのインストール
+# Comment[ja_JP]=Liquorix カーネルをインストールします
+
+### install-locale.desktop
+# Name[ja_JP]=言語パッケージのインストール
+# Comment[ja_JP]=不足している言語パッケージをインストールします
+
+### quick-install.desktop
+# Name[ja_JP]=リボジトリからパッケージをインストール
+# Comment[ja_JP]=リボジトリからパッケージをインストールします
+
+### kernel.desktop
+# Name[ja_JP]=古いシステムカーネルの削除
+# Comment[ja_JP]=有効ではない古いシステムカーネルを削除します
+
+### nonfree-remove.desktop
+# Name[ja_JP]=Non-Free パッケージの削除
+# Comment[ja_JP]=システムから非フリー・制限付きパッケージを削除します
+
+### quick-remove.desktop
+# Name[ja_JP]=システムからパッケージを削除
+# Comment[ja_JP]=選択されたパッケージをシステムから削除します
+
+### vboxguest-remove.desktop
+# Name[ja_JP]=VirtualBox Guest Utils の削除
+# Comment[ja_JP]=VirtualBox Guest Utils を削除します
+
+### edit-repo-custom.desktop
+# Name[ja_JP]=カスタムリボジトリの編集
+# Comment[ja_JP]=カスタムリボジトリリストを編集します
+
+### edit-repo-main.desktop
+# Name[ja_JP]=メインリボジトリの編集
+# Comment[ja_JP]=メインリボジトリリストを編集します
+
+### dist-upgrade.desktop
+# Name[ja_JP]=システムのアップグレード
+# Comment[ja_JP]=完全にシステムをアップグレードします
+
+### update.desktop
+# Name[ja_JP]=パッケージリストの更新
+# Comment[ja_JP]=パッケージリストを更新します
+
+### upgrade.desktop
+# Name[ja_JP]=安全にシステムをアップグレード
+# Comment[ja_JP]=安全にシステムをアップグレードします
+
+### sparky-aptus.desktop
+# Name[ja_JP]=
+# Comment[ja_JP]=システムからパッケージのインストール・更新・削除します
+
+### install-sparky-kernel.desktop
+# Name[ja_JP]=Install Sparky Kernel
+# Comment[ja_JP]=Install the latest Sparky Kernel
