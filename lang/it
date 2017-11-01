@@ -1,7 +1,7 @@
 # File di localizzazione italiano per Sparky APTus.
 # Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 22/10/2015
 # Rilasciato sotto licenza GNU GPL v2
-# Last update 2017/09/02 by Carlo
+# Last update 2017/11/01 by pavroo
 
 LOCAL1="Aggiorna"
 LOCAL2="Installa"
@@ -67,6 +67,7 @@ LOCAL62="Installa l'ultimo kernel Sparky i686 NON-PAE"
 LOCAL63="Installa l'ultimo kernel Sparky i686 PAE"
 LOCAL64="Installa l'ultimo kernel Sparky a 64 bit"
 LOCAL65="Se tutto e' andato per il meglio, il kernel sparky ed i suoi headers sono stati installati! \n\nRiavvia la tua macchina affinché le modifiche abbiano effetto."
+LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 
 ##### .desktop files to be translated too:
 

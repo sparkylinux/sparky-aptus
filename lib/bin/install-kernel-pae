@@ -6,7 +6,7 @@
 # Copyright 2015, 2016, 2017 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 # Licensed under the GPLv2 license see /usr/share/common-licenses/GPL-2
 # Created 2015/04/14 
-# Last update 2017/01/10
+# Last update 2017/11/01
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -47,6 +47,7 @@ OKEXIT=" --button=Ok:0 --button=$LOCAL24:1"
 MSGBOX="--button=Ok:0"
 TITLETEXT="$LOCAL13"
 ARCH=`uname -r | grep "amd64" | awk '{print $1}'`
+ARCHARM="`uname -m | grep arm`"
 TESTPAE=`dpkg-query -l | grep linux-image | grep -v "pae"`
 TESTHEADERSPAE=`dpkg-query -l | grep linux-headers | grep -v "pae"`
 if [ -f /opt/sparky/sparky-xterm ]; then
@@ -55,7 +56,7 @@ else
 SPARKYXTERM="x-terminal-emulator"
 fi
 
-if [ ! "$ARCH" = "" ]; then
+if [ "$ARCH" != "" ] || [ "$ARCHARM" != "" ]; then
 $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL14"
 exit 0
 fi

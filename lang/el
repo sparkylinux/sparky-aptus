@@ -1,6 +1,6 @@
 # Greek localization file for Sparky APTus.
 # Translate to Greek by jidan 2017/01/02
-# Last update 2017/01/08 by pavroo
+# Last update 2017/11/01 by pavroo
 
 LOCAL1="Ενημέρωση"
 LOCAL2="Εγκατάσταση"
@@ -66,6 +66,7 @@ LOCAL62="Εγκαταστήστε τον τελευταίο πυρήνα Sparky 
 LOCAL63="Εγκαταστήστε τον τελευταίο πυρήνα Sparky i686-PAE"
 LOCAL64="Εγκαταστήστε τον τελευταίο πυρήνα Sparky 64 bit"
 LOCAL65="Εάν όλα πήγαν καλά, ο τελευταίος πυρήνας Sparky και οι κεφαλίδες του έχουν εγκατασταθεί! \n\nΚάντε επανεκκίνηση για εφαρμογή των αλλαγών."
+LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 
 ##### .desktop files to be translated too:
 

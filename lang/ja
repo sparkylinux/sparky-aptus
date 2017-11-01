@@ -2,7 +2,7 @@
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Last update 2017/01/11
-# Translated to Japanese by BALLOON a.k.a. Fu-sen.
+# Last update 2017/11/01 by pavroo
 
 LOCAL1="更新"
 LOCAL2="インストール"
@@ -69,6 +69,7 @@ LOCAL62="最新 i686 NON-PAE Sparky カーネルのインストール"
 LOCAL63="最新 i686-PAE Sparky カーネルのインストール"
 LOCAL64="最新 64 bit Sparky カーネルのインストール"
 LOCAL65="すべてがうまくいけば、最新の Sparky カーネルとヘッダがインストールされました！ \n\n反映するためにマシンを再起動してください。"
+LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 
 ##### .desktop files to be translated too:
 

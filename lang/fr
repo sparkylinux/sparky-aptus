@@ -1,7 +1,7 @@
 ﻿# Fichier de localisation française de Sparky APTus.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Dernière mise à jour 2016/06/05
+# Last update 2017/11/01 by pavroo
 
 LOCAL1="Mise à jour"
 LOCAL2="Installer"
@@ -66,6 +66,7 @@ LOCAL62="Installer le dernier noyau Sparky i686 NON-PAE"
 LOCAL63="Installer le dernier noyau Sparky i686-PAEl"
 LOCAL64="Installer le dernier noyau Sparky 64 bits"
 LOCAL65="Si tout s'est bien passé le dernier noyau Sparky et ses en-têtes ont été installés! \n\nRedémarrer l'ordinateur pour prendre en compte les changements."
+LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 
 ##### .desktop files to be translated too:
 

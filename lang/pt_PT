@@ -1,7 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Sparky APTus.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Tuesday 02 February 17:57:55 WET 2016
 # Sob a Licença GNU GPL v2
-# Last update 2016/04/06 by pavroo
+# Last update 2017/11/01 by pavroo
 
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
@@ -67,6 +67,7 @@ LOCAL62="Install the latest i686 NON-PAE Sparky kernel"
 LOCAL63="Install the latest i686-PAE Sparky kernel"
 LOCAL64="Install the latest 64 bit Sparky kernel"
 LOCAL65="If everything went well the latest Sparky kernel and its headers have been installed! \n\nReboot your machine to take effects."
+LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 
 ##### Arquivo a ser traduzido também .desktop
 

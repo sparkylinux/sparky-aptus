@@ -32,6 +32,13 @@ if [ "$testroot" != "root" ]; then
     /usr/bin/remsu $0 &
 fi
 
+ARCHARM="`uname -m | grep arm`"
+if [ "$ARCHARM" != "" ]; then
+	zenity --error --title="Kernel Remover" --text="It works with x86 and x86_64 kernels only... Exiting now..."
+	exit 1
+fi
+
+
 # we need gettext (is loaded in ssft.sh or cloned...)
 if [ -f /usr/bin/gettext.sh ]; then
 	. /usr/bin/gettext.sh || exit 1

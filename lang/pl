@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2016/04/06 by pavroo
+# Last update 2017/11/01 by pavroo
 
 LOCAL1="Aktualizacja"
 LOCAL2="Instalacja"
@@ -68,6 +68,7 @@ LOCAL62="Instalacja najnowszego jądra i686 NON-PAE Sparky"
 LOCAL63="Instalacja najnowszego jądra i686-PAE Sparky"
 LOCAL64="Instalacja najnowszego jądra 64 bit Sparky"
 LOCAL65="Jeśli wszystko poszło dobrze, najnowsze jądro Sparky i jego nagłówki zostały zainstalowane! \n\nUruchom ponownie komputer aby zastosować zmiany."
+LOCAL66="Działa tylko z jądrem x86 i x86_64...\n\nWyjście..."
 
 ##### pliki .desktop, również do przetłumaczenia:
 

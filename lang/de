@@ -1,7 +1,7 @@
 # German localization file for Sparky APTus.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2016/04/06 by pavroo
+# Last update 2017/11/01 by pavroo
 
 LOCAL1="Update"
 LOCAL2="Installieren"
@@ -67,6 +67,7 @@ LOCAL62="Install the latest i686 NON-PAE Sparky kernel"
 LOCAL63="Install the latest i686-PAE Sparky kernel"
 LOCAL64="Install the latest 64 bit Sparky kernel"
 LOCAL65="If everything went well the latest Sparky kernel and its headers have been installed! \n\nReboot your machine to take effects."
+LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 
 ##### .desktop files to be translated too:
 
