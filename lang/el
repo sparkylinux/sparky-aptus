@@ -1,7 +1,6 @@
 # Greek localization file for Sparky APTus.
 # Translate to Greek by jidan 2017/01/02
-# Last update 2017/11/01 by pavroo
-
+# Last update 2017/12/13 by pavroo
 LOCAL1="Ενημέρωση"
 LOCAL2="Εγκατάσταση"
 LOCAL3="Απομάκρυνση"
@@ -41,7 +40,7 @@ LOCAL36="Να διαγραφούν όλα;"
 LOCAL37="Κανένα πακέτο δεν διαγράφτηκε! \n\nΚλικάρετε OK για κλείσιμο."
 LOCAL38="απεγκατάσταση πυρήνα"
 LOCAL39="οι ακόλουθοι πυρήνες έχουν απονακρυνθεί"
-LOCAL40="Υπάρχει μόνο ένας πυρήνας στο σύστημά σας. Δε γίνεται να απεγκατασταθεί!"
+LOCAL40="Υπάρχει μόνο ένας πυρήνας στο σύστημά σας:"
 LOCAL41="Ο ενεργός πυρήνας είναι"
 LOCAL42="Να διαγραφεί αυτός ο πυρήνας;"
 LOCAL43="Ο πυρήνας δεν διαγράφτηκε"
@@ -67,7 +66,8 @@ LOCAL63="Εγκαταστήστε τον τελευταίο πυρήνα Sparky 
 LOCAL64="Εγκαταστήστε τον τελευταίο πυρήνα Sparky 64 bit"
 LOCAL65="Εάν όλα πήγαν καλά, ο τελευταίος πυρήνας Sparky και οι κεφαλίδες του έχουν εγκατασταθεί! \n\nΚάντε επανεκκίνηση για εφαρμογή των αλλαγών."
 LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
-
+LOCAL67="Δε γίνεται να απεγκατασταθεί!"
+LOCAL68="Choose a kernel to remove"
 ##### .desktop files to be translated too:
 
 ### autoclean.desktop

@@ -1,8 +1,7 @@
 # Archivo de localización en español para Sparky APTus.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/24
 # Bajo la licencia GNU GPL v2
-# Last update 2017/11/01 by pavroo
-
+# Last update 2017/12/13 by pavroo
 LOCAL1="Actualizar"
 LOCAL2="Instalar"
 LOCAL3="Eliminar"
@@ -42,7 +41,7 @@ LOCAL36="¿Quiere eliminarlos a todos?"
 LOCAL37="¡No se eliminó ningún paquete! \n\nHacer clic en OK para cerrar la ventana."
 LOCAL38="eliminando el kernel"
 LOCAL39="Se eliminaron los siguientes kernels"
-LOCAL40="En este sistema hay un solo kernel instalado. ¡No se puede eliminarlo!"
+LOCAL40="En este sistema hay un solo kernel instalado:"
 LOCAL41="El kernel actual (activo) es"
 LOCAL42="¿Debería eliminar este kernel?"
 LOCAL43="No se eliminó el kernel"
@@ -68,7 +67,8 @@ LOCAL63="Install the latest i686-PAE Sparky kernel"
 LOCAL64="Install the latest 64 bit Sparky kernel"
 LOCAL65="If everything went well the latest Sparky kernel and its headers have been installed! \n\nReboot your machine to take effects."
 LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
-
+LOCAL67="¡No se puede eliminarlo!"
+LOCAL68="Choose a kernel to remove"
 ##### .desktop files to be translated too:
 
 ### autoclean.desktop

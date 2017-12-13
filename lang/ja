@@ -1,9 +1,7 @@
 # Japanese localization file for Sparky APTus.
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2017/01/11
-# Last update 2017/11/01 by pavroo
-
+# Last update 2017/12/13 by pavroo
 LOCAL1="更新"
 LOCAL2="インストール"
 LOCAL3="削除"
@@ -43,7 +41,7 @@ LOCAL36="それらのすべてを削除してよろしいですか？"
 LOCAL37="パッケージは削除されませんでした！ \n\nOK をクリックしてウインドウを閉じます。"
 LOCAL38="カーネルの削除中"
 LOCAL39="次のカーネルは削除されました"
-LOCAL40="このシステムにインストールされている唯一のカーネルです。削除することはできません！"
+LOCAL40="このシステムにインストールされている唯一のカーネルです:"
 LOCAL41="実際の（有効な）カーネル"
 LOCAL42="このカーネルを削除しますか？"
 LOCAL43="Kernel は削除しませんでした"
@@ -70,7 +68,8 @@ LOCAL63="最新 i686-PAE Sparky カーネルのインストール"
 LOCAL64="最新 64 bit Sparky カーネルのインストール"
 LOCAL65="すべてがうまくいけば、最新の Sparky カーネルとヘッダがインストールされました！ \n\n反映するためにマシンを再起動してください。"
 LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
-
+LOCAL67="削除することはできません！"
+LOCAL68="Choose a kernel to remove"
 ##### .desktop files to be translated too:
 
 ### autoclean.desktop
