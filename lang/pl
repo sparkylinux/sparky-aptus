@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2017/12/13 by pavroo
+# Last update 2017/12/14 by pavroo
 LOCAL1="Aktualizacja"
 LOCAL2="Instalacja"
 LOCAL3="Usuwanie"
@@ -44,7 +44,7 @@ LOCAL38="usuwanie jądra"
 LOCAL39="usnięte jądra"
 LOCAL40="W systemie jest tylko jedno zainstalowane jądro:"
 LOCAL41="Aktualne (aktywne) jądro to"
-LOCAL42="Czy mam usunąć to jądro?"
+LOCAL42="Czy mam usunąć to jądro"
 LOCAL43="Jądro nie zostało usunięte"
 LOCAL44="Sparky APTus Szybka Instalacja"
 LOCAL45="Wpisz nazwę pakietu do instalacji.\nMożesz wprowadzić kilka nazw, oddzielonych od siebie spacją.\n\nUpewnij się, że system Twój jest zaktualizowany, \nzanim rozpoczniesz."
@@ -70,6 +70,7 @@ LOCAL65="Jeśli wszystko poszło dobrze, najnowsze jądro Sparky i jego nagłów
 LOCAL66="Działa tylko z jądrem x86 i x86_64...\n\nWyjście..."
 LOCAL67="NIE może być usunięte!"
 LOCAL68="Wybierz kernel do usunięcia"
+LOCAL69="Usuwanie Starego Jądra"
 ##### pliki .desktop, również do przetłumaczenia:
 
 ### autoclean.desktop

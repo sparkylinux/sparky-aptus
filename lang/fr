@@ -1,7 +1,7 @@
 ﻿# Fichier de localisation française de Sparky APTus.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Last update 2017/12/13 by pavroo
+# Last update 2017/12/14 by pavroo
 LOCAL1="Mise à jour"
 LOCAL2="Installer"
 LOCAL3="Supprimer"
@@ -40,7 +40,7 @@ LOCAL35="Ceci est une liste des paquets Non-libre et de droit Restreint install�
 LOCAL37="Aucun paquet n'a été supprimé! \n\nCliquez sur OK pour fermer la fenêtre."
 LOCAL38="Suppression du noyau"
 LOCAL39="Les noyaux suivants ont été supprimés"
-LOCAL40="Il n'y a qu'un seul noyau installé sur le système:"
+LOCAL40="Il n'y a qu'un seul noyau installé sur le système"
 LOCAL41="Le noyau actuel et actif est"
 LOCAL42="Dois-je supprimer ce noyau?"
 LOCAL43="Noyau non supprimé"
@@ -68,6 +68,7 @@ LOCAL65="Si tout s'est bien passé le dernier noyau Sparky et ses en-têtes ont 
 LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 LOCAL67="Il ne peut être supprimé!"
 LOCAL68="Choose a kernel to remove"
+LOCAL69="Old Kernel Remover"
 ##### .desktop files to be translated too:
 
 ### autoclean.desktop

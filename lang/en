@@ -1,7 +1,7 @@
 # English localization file for Sparky APTus.
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2017/12/13 by pavroo
+# Last update 2017/12/14 by pavroo
 LOCAL1="Update"
 LOCAL2="Install"
 LOCAL3="Remove"
@@ -43,7 +43,7 @@ LOCAL38="removing kernel"
 LOCAL39="the following kernels have been removed"
 LOCAL40="There is only one kernel installed on this system:"
 LOCAL41="The actual (active) kernel is"
-LOCAL42="Should I remove this kernel?"
+LOCAL42="Should I remove this kernel"
 LOCAL43="Kernel not removed"
 LOCAL44="Sparky APTus Quick Install"
 LOCAL45="Type a name of a package you'd like to install.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
@@ -69,6 +69,7 @@ LOCAL65="If everything went well the latest Sparky kernel and its headers have b
 LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 LOCAL67="Cannot be removed!"
 LOCAL68="Choose a kernel to remove"
+LOCAL69="Old Kernel Remover"
 ##### .desktop files to be translated too:
 
 ### autoclean.desktop

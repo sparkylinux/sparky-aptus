@@ -42,7 +42,7 @@ TITLE="--always-print-result --dialog-sep --image=preferences-other --title="
 TEXT="--text="
 OKEXIT="--button=Ok:0 --button=$LOCAL24:1"
 MSGBOX="--button=Ok:0"
-TITLETEXT="Old Kernel Remover"
+TITLETEXT="$LOCAL69"
 MENU="--list --column=No --column=Kernel"
 
 if [ -f /usr/bin/sparky-terminal ]; then
@@ -241,7 +241,7 @@ fi
 REMOVEINITRD=`ls /boot/initrd.img* | grep "$REMOVEKERNEL"`
 
 if [ "$REMOVEKERNEL" != "" ]; then
-	$DIALOG $TITLE"$TITLETEXT" $OKEXIT $TEXT"\nUsunąć kernel: $REMOVEKERNEL ?"
+	$DIALOG $TITLE"$TITLETEXT" $OKEXIT $TEXT"\n$LOCAL42: $REMOVEKERNEL ?"
 	if [ "$?" != "0" ]; then
 		exit 0
 	else

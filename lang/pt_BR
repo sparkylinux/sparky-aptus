@@ -2,7 +2,7 @@
 # Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Sob a licença GNU GPL v2
 # Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/19
-# Last update 2017/12/13 by pavroo
+# Last update 2017/12/14 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remove"
@@ -43,7 +43,7 @@ LOCAL36="Voce gostaria de remover todos os pacotes agora?"
 LOCAL37="Nenhum pacote foi  removido! \n\nClick OK para fechar a janela."
 LOCAL38="removendo o kernel"
 LOCAL39="os seguintes  kernels foram removidos"
-LOCAL40="Existe somente um  kernel instalado neste  sistema:"
+LOCAL40="Existe somente um  kernel instalado neste  sistema"
 LOCAL41="O kernel atual (ativo) é"
 LOCAL42="Será que eu deveria remover este kernel?"
 LOCAL43="Kernel não  removido"
@@ -71,6 +71,7 @@ LOCAL65="If everything went well the latest Sparky kernel and its headers have b
 LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 LOCAL67="Este não pode ser  removido!"
 LOCAL68="Choose a kernel to remove"
+LOCAL69="Old Kernel Remover"
 ##### .desktop files to be translated too:
 
 ### autoclean.desktop

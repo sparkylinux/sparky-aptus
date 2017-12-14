@@ -35,6 +35,7 @@ testroot="`whoami`"
 
 if [ "$testroot" != "root" ]; then
     echo "Must be root...Exiting"
+    exit 1
 fi
 
 # General settings for Yad

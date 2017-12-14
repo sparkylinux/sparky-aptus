@@ -1,7 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Sparky APTus.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Tuesday 02 February 17:57:55 WET 2016
 # Sob a Licença GNU GPL v2
-# Last update 2017/12/13 by pavroo
+# Last update 2017/12/14 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -41,7 +41,7 @@ LOCAL36="Gostaria de remover todos os pacotes?"
 LOCAL37="Nenhum pacote foi removido! \n\nClique em OK para fechar a janela."
 LOCAL38="remover kernel"
 LOCAL39="os seguintes kernels foram removidos"
-LOCAL40="Existe apenas um kernel instalado neste sistema:"
+LOCAL40="Existe apenas um kernel instalado neste sistema"
 LOCAL41="O kernel actual (activo) é"
 LOCAL42="Devo remover este kernel?"
 LOCAL43="Kernel não foi removido"
@@ -69,6 +69,7 @@ LOCAL65="If everything went well the latest Sparky kernel and its headers have b
 LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 LOCAL67="não pode ser removido!"
 LOCAL68="Choose a kernel to remove"
+LOCAL69="Old Kernel Remover"
 ##### Arquivo a ser traduzido também .desktop
 
 ### autoclean.desktop
