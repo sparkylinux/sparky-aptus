@@ -40,12 +40,6 @@ File: pt_PT
 File: ru
     Copyright (C) 2016 Igor Klyushnyov <inklu@yandex.ru>
     License: GPL-2
-    
-File: old-kernel-remover is based on kernel-remover
-    Copyright: 
-    2005-2013, Stefan Lippers-Hollmann <s.l-h@gmx.de>
-    2007-2010, Joaquim Boura <x-un-i@berlios.de>
-    License: GPL-2
 
 License:
 
@@ -84,6 +78,11 @@ License: Creative Commons CC0
 File: bos.png
 Author: Anonymous
 Source: https://openclipart.org/detail/110845/bosnia-and-herzegovina-by-anonymous
+License: Creative Commons CC0
+
+File: br.png
+Author: leandrosciola
+Source: https://openclipart.org/detail/63763/bandeira-do-brasil-flag-brazil
 License: Creative Commons CC0
 
 File: by.png

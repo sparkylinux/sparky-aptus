@@ -3,7 +3,7 @@
 #  Sparky APTus Locale script will install missing language packages
 #  Created by Paweł "pavroo" Pijanowski 2014/05/21
 #  Copyright 2014, 2015, 2016, 2017 under the GNU GPL2 License
-#  Last update 2017/04/28
+#  Last update 2017/12/16
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -232,7 +232,7 @@ case $action in
 	sed -i -e 's/$LANG/PortugueseBR/' /tmp/sparkylocale/sparky-locale-exe
 	sed -i -e 's/calligra-l10n-$COUNTRY/calligra-l10n-ptbr/' /tmp/sparkylocale/sparky-locale-exe
 	sed -i -e 's/$COUNTRY/pt-br/' /tmp/sparkylocale/sparky-locale-exe
-	sed -i -e 's/$IMG/pt/' /tmp/sparkylocale/sparky-locale-exe
+	sed -i -e 's/$IMG/br/' /tmp/sparkylocale/sparky-locale-exe
 	;;
     PortuguesePT*)
 	sed -i -e 's/$LANG/PortuguesePT/' /tmp/sparkylocale/sparky-locale-exe
