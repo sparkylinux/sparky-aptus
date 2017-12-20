@@ -46,7 +46,7 @@ DIR="/usr/lib/sparky-aptus"
 ITEM="--item-width=100"
 TITLE="--always-print-result --dialog-sep --title="
 TITLETEXT="APTus"
-PLUG="--plug=123450"
+PLUG="--plug=1234502"
 HEIGHT="400"
 WIDTH="580"
 TABNUM="--tabnum"
@@ -60,7 +60,7 @@ NOBUTTONS="--no-buttons"
 
 # Key to bind the windows
 KEY="--key"
-YADKEY=123450
+YADKEY=1234502
 
 # Tab 1 Update
 $YAD $PLUG $TABNUM=1 $IMAGEONTOP $ICONS $READDIR=$DIR/update $ITEM $SORT $CENTER &
