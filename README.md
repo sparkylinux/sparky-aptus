@@ -1,7 +1,7 @@
 Sparky APTus
 This tool helps you keep your system up to date and clean, install and remove packages. It is a lightweight gui frontend for APT and DPKG tools.
 
-Copyright (C) 2013-2017 Paweł Pijanowski
+Copyright (C) 2013-2018 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
