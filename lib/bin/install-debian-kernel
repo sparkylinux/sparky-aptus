@@ -1,0 +1,162 @@
+#!/bin/bash
+
+# install-debian-kernel script lets you install the default Debian's Linux kernel
+#
+# Copyright 2018 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
+# Licensed under the GPLv2 license see /usr/share/common-licenses/GPL-2
+# Created 2018/02/18
+# Last update 2018/02/18
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-aptus"
+if [ "`cat /etc/default/locale | grep de_DE`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep el_GR`" != "" ]; then
+. $DEFLOCDIR/el
+elif [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep ru_RU`" != "" ]; then
+. $DEFLOCDIR/ru
+else
+. $DEFLOCDIR/en
+fi
+
+testroot="`whoami`"
+if [ "$testroot" != "root" ]; then
+	/usr/bin/remsu $0 &
+fi
+
+DIALOG="yad --window-icon=prefernces-other --width=450 --height=200 --center"
+TITLE="--always-print-result --dialog-sep --image=preferences-other --title="
+TEXT="--text="
+MENU="--list --column=$LOCAL21 --column=$LOCAL22"
+OKEXIT=" --button=Ok:0 --button=$LOCAL24:1"
+MSGBOX="--button=Ok:0"
+TITLETEXT="$LOCAL70"
+ARCH=`uname -r | grep "amd64"`
+TESTDEBIAN64=`dpkg-query -l | grep linux-image-amd64`
+TESTDEBIAN32=`dpkg-query -l | grep linux-image-686 | grep -v pae`
+TESTDEBIAN32PAE=`dpkg-query -l | grep linux-image-686-pae`
+if [ -f /opt/sparky/sparky-xterm ]; then
+. /opt/sparky/sparky-xterm
+else
+SPARKYXTERM="x-terminal-emulator"
+fi
+
+# check connection
+PINGTEST=$(ping -c 1 sparkylinux.org | grep [0-9])
+
+if [ "$PINGTEST" = "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"\n$LOCAL16"
+	exit 1
+fi
+
+# check arm arch
+ARCHARM="`uname -m | grep arm`"
+if [ "$ARCHARM" != "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"\n$LOCAL66"
+	exit 1
+fi
+
+mainmenu () {
+CHOICES=`$DIALOG $TITLE"$TITLETEXT" $OKEXIT $MENU $TEXT"$LOCAL26" \
+NON_PAE "$LOCAL72" \
+PAE "$LOCAL73" \
+64 "$LOCAL74" \
+Exit "$LOCAL30"`
+
+if [ "$?" = "0" ]; then
+	CHOICE=`echo $CHOICES | cut -d "|" -f 1`
+else
+	exit 0
+fi
+
+if [ "$CHOICE" = "NON_PAE" ]; then
+	nonpaemenu
+elif [ "$CHOICE" = "PAE" ]; then
+	paemenu
+elif [ "$CHOICE" = "64" ]; then
+	amd64menu
+elif [ "$CHOICE" = "Exit" ]; then
+	exit 0
+else
+	exit 0
+fi
+}
+
+nonpaemenu () {
+if [ "$ARCH" != "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL31"
+	mainmenu
+fi
+
+# check is the Debian kernel installed already
+if [ "$TESTDEBIAN32" != "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL71"
+	mainmenu
+fi
+
+# install i686 NON-PAE Debian kernel and headers
+$SPARKYXTERM -e "apt-get update && apt-get install linux-image-686 linux-headers-686"
+
+$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL75"
+
+exit 0
+
+}
+
+paemenu () {
+if [ "$ARCH" != "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL14"
+	mainmenu
+fi
+
+# check is the Debian kernel installed already
+if [ "$TESTDEBIAN32PAE" != "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL71"
+	mainmenu
+fi
+
+# install i686 PAE Debian kernel and headers
+$SPARKYXTERM -e "apt-get update && apt-get install linux-image-686-pae linux-headers-686-pae"
+
+$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL75"
+
+exit 0
+
+}
+
+amd64menu () {
+if [ "$ARCH" = "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL33"
+	mainmenu
+fi
+
+# check is the Debian kernel installed already
+if [ "$TESTDEBIAN64" != "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL71"
+	mainmenu
+fi
+
+# install 64 bit Debian kernel and headers
+$SPARKYXTERM -e "apt-get update && apt-get install linux-image-amd64 linux-headers-amd64"
+
+$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL75"
+
+exit 0
+
+}
+
+mainmenu

@@ -1,7 +1,7 @@
 # Файл русской локализации для Sparky APTus.
 # Copyright 2016 Igor Klyushnyov <inklu@yandex.ru> 2016/01/16
 # Под лицензией GNU GPL v2
-# Last update 2017/12/14 by pavroo
+# Last update 2018/02/18 by pavroo
 LOCAL1="Обновить"
 LOCAL2="Установить"
 LOCAL3="Удалить"
@@ -70,6 +70,12 @@ LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 LOCAL67="Оно не может быть удалено!"
 LOCAL68="Choose a kernel to remove"
 LOCAL69="Old Kernel Remover"
+LOCAL70="Debian Kernel Installer"
+LOCAL71="Debian Kernel is already installed! \n\nExiting now..."
+LOCAL72="Install the latest i686 NON-PAE Debian kernel"
+LOCAL73="Install the latest i686-PAE Debian kernel"
+LOCAL74="Install the latest 64 bit Debian kernel"
+LOCAL75="If everything went well the latest Debian kernel and its headers have been installed! \n\nReboot your machine to take effects."
 ##### .desktop files to be translated too:
 
 ### autoclean.desktop
@@ -96,9 +102,9 @@ LOCAL69="Old Kernel Remover"
 # Name[ru_RU]=Установить/переустановить DEB-пакет с локального диска
 # Comment[ru_RU]=Установить/переустановить DEB-пакет с локального диска
 
-### install-kernel-pae.desktop
-# Name[ru_RU]=Установить ядро Debian i686-PAE
-# Comment[ru_RU]=Установить ядро Debian i686-PAE
+### install-debian-kernel.desktop
+# Name[ru_RU]=Установить ядро Debian
+# Comment[ru_RU]=Установить ядро Debian
 
 ### install-liquorix.desktop
 # Name[ru_RU]=Установить ядро Liquorix

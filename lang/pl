@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2017/12/14 by pavroo
+# Last update 2018/02/18 by pavroo
 LOCAL1="Aktualizacja"
 LOCAL2="Instalacja"
 LOCAL3="Usuwanie"
@@ -71,6 +71,12 @@ LOCAL66="Działa tylko z jądrem x86 i x86_64...\n\nWyjście..."
 LOCAL67="NIE może być usunięte!"
 LOCAL68="Wybierz kernel do usunięcia"
 LOCAL69="Usuwanie Starego Jądra"
+LOCAL70="Instalacja Jądra Debian"
+LOCAL71="Jądro Debian jest już zainstalowane! \n\nZamknij..."
+LOCAL72="Instalacja najnowszego jądra i686 NON-PAE Debian"
+LOCAL73="Instalacja najnowszego jądra i686-PAE Debian"
+LOCAL74="Instalacja najnowszego jądra 64 bit Sparky"
+LOCAL75="Jeśli wszystko poszło dobrze, najnowsze jądro Debian i jego nagłówki zostały zainstalowane! \n\nUruchom ponownie komputer aby zastosować zmiany."
 ##### pliki .desktop, również do przetłumaczenia:
 
 ### autoclean.desktop
@@ -97,9 +103,9 @@ LOCAL69="Usuwanie Starego Jądra"
 # Name[pl_PL]=Instalacja lub reinstalacja pakietu DEB z dysku
 # Comment[pl_PL]=Instalacja lub reinstalacja pakietu DEB z dysku
 
-### install-kernel-pae.desktop
-# Name[pl_PL]=Instalacja jądra Debian i686-PAE
-# Comment[pl_PL]=Instalacja jądra Debian i686-PAE
+### install-debian-kernel.desktop
+# Name[pl_PL]=Instalacja jądra Debian
+# Comment[pl_PL]=Instalacja jądra Debian
 
 ### install-liquorix.desktop
 # Name[pl_PL]=Instalacja jądra Liquorix

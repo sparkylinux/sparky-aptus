@@ -1,7 +1,7 @@
 # Archivo de localización en español para Sparky APTus.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/24
 # Bajo la licencia GNU GPL v2
-# Last update 2017/12/14 by pavroo
+# Last update 2018/02/18 by pavroo
 LOCAL1="Actualizar"
 LOCAL2="Instalar"
 LOCAL3="Eliminar"
@@ -70,6 +70,12 @@ LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
 LOCAL67="¡No se puede eliminarlo!"
 LOCAL68="Choose a kernel to remove"
 LOCAL69="Old Kernel Remover"
+LOCAL70="Debian Kernel Installer"
+LOCAL71="Debian Kernel is already installed! \n\nExiting now..."
+LOCAL72="Install the latest i686 NON-PAE Debian kernel"
+LOCAL73="Install the latest i686-PAE Debian kernel"
+LOCAL74="Install the latest 64 bit Debian kernel"
+LOCAL75="If everything went well the latest Debian kernel and its headers have been installed! \n\nReboot your machine to take effects."
 ##### .desktop files to be translated too:
 
 ### autoclean.desktop
@@ -96,9 +102,9 @@ LOCAL69="Old Kernel Remover"
 # Name[es_AR]=Instalar o reinstalar paquetes DEB de su disco local
 # Comment[es_AR]=Instala o reinstala paquetes DEB de su disco local
 
-### install-kernel-pae.desktop
-# Name[es_AR]=Instalar el kernel Debian i686-PAE
-# Comment[es_AR]=Instala el kernel Debian i686-PAE
+### install-debian-kernel.desktop
+# Name[es_AR]=Instalar el kernel Debian
+# Comment[es_AR]=Instala el kernel Debian
 
 ### install-liquorix.desktop
 # Name[es_AR]=Instalar el kernel Liquorix
