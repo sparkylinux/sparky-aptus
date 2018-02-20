@@ -1,7 +1,7 @@
 # English localization file for Sparky APTus.
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2018/02/18 by pavroo
+# Last update 2018/02/19 by pavroo
 LOCAL1="Update"
 LOCAL2="Install"
 LOCAL3="Remove"
@@ -59,6 +59,7 @@ LOCAL54="VirtualBox Guest Utils Remove"
 LOCAL55="VirtualBox Guest Utils package is NOT installed.\n\nExiting..."
 LOCAL56="This will remove VirtualBox Guest Utils package installed in your system.\n\nDo not remove it if you are running SparkyLinux inside the VirtualBox machine . \n\nWould you like to remove the package anyway?"
 LOCAL57="Cheating?\n\nVirtualBox Guest Utils is still installed!\n\nClick OK to quit."
+LOCAL58="Japanese font - fcitx-mozc package installation"
 LOCAL59="Desktop"
 LOCAL60="Sparky Kernel Installer"
 LOCAL61="Sparky Kernel is already installed! \n\nExiting now..."

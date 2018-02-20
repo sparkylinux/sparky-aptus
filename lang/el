@@ -1,6 +1,6 @@
 # Greek localization file for Sparky APTus.
 # Translate to Greek by jidan 2017/01/02
-# Last update 2018/02/18 by pavroo
+# Last update 2018/02/19 by pavroo
 LOCAL1="Ενημέρωση"
 LOCAL2="Εγκατάσταση"
 LOCAL3="Απομάκρυνση"
@@ -58,6 +58,7 @@ LOCAL54="Απεγκατάσταση VirtualBox Guest Utils"
 LOCAL55="Τα VirtualBox Guest Utils δεν είναι εγκατεστημένα.\n\nΠραγματοποιείται έξοδος..."
 LOCAL56="Αυτό θα απεγκαταστήσει το πακέτο VirtualBox Guest Utils από το σύστημά σας.\n\nΜην το απεγκαταστήσετε εάν τρέχετε το SparkyLinux μέσα στο VirtualBox. \n\nΘέλετε να απεγκατασταθεί όπως και νάχει;"
 LOCAL57="Μας δουλεύεις;\n\nΤα VirtualBox Guest Utils είναι ακόμα εγκατεστημένα!\n\nΚλικάρετε OK για κλείσιμο."
+LOCAL58="Japanese font - fcitx-mozc package installation"
 LOCAL59="Επιφάνεια Εργασίας"
 LOCAL60="Εγκατάσταση του πυρήνα Sparky"
 LOCAL61="Ο πυρήνας Sparky είναι ήδη εγκατεστημένος! \n\nΠραγματοποιείται έξοδος..."

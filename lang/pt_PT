@@ -1,7 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Sparky APTus.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Tuesday 02 February 17:57:55 WET 2016
 # Sob a Licença GNU GPL v2
-# Last update 2018/02/18 by pavroo
+# Last update 2018/02/19 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -59,6 +59,7 @@ LOCAL54="Remover o Cliente VirtualBox"
 LOCAL55="O pacote do Cliente VirtualBox NÃO está instalado\n\nA Sair..."
 LOCAL56="Irá remover o pacote do Cliente VirtualBox que se encontra instalado no sistema.\n\nNão vai remover se estiver a executar o SparkyLinux dentro da máquina VirtualBox. \n\nGostaria de remover o pacote de qualquer forma?"
 LOCAL57="Fraudulento?\n\nO Cliente VirtualBox ainda está instalado no Sistema!\n\nClique em OK para sair."
+LOCAL58="Japanese font - fcitx-mozc package installation"
 LOCAL59="Desktop"
 LOCAL60="Sparky Kernel Installer"
 LOCAL61="Sparky Kernel is already installed! \n\nExiting now..."

@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2018/02/18 by pavroo
+# Last update 2018/02/19 by pavroo
 LOCAL1="Aktualizacja"
 LOCAL2="Instalacja"
 LOCAL3="Usuwanie"
@@ -60,6 +60,7 @@ LOCAL54="Usunięcie VirtualBox Guest Utils"
 LOCAL55="Pakiet VirtualBox Guest Utils NIE jest zainstalowany. \n\nZakończ..."
 LOCAL56="Usuwanie pakietu VirtualBox Guest Utils z Twojego systemu.\n\nNie usuwaj tego pakietu jeśli używasz SparkyLinux w wirtualnej maszynie VirtualBox. \n\nCzy chcesz usunąć ten pakiet teraz?"
 LOCAL57="Oszukujemy?\n\nPakiet VirtualBox Guest Utils jest wciąż zainstalowany!\n\nKliknij OK aby zakończyć."
+LOCAL58="Japońska czcionka - instalacja pakietu fcitx-mozc"
 LOCAL59="Pulpit"
 LOCAL60="Instalacja Jądra Sparky"
 LOCAL61="Jądro Sparky jest już zainstalowane! \n\nZamknij..."

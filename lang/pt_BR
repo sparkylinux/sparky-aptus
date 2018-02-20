@@ -2,7 +2,7 @@
 # Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Sob a licença GNU GPL v2
 # Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/19
-# Last update 2018/02/18 by pavroo
+# Last update 2018/02/19 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remove"
@@ -61,6 +61,7 @@ LOCAL54=" Remover o VirtualBox"
 LOCAL55="O pacote do utilitário VirtualBox   NÃO está instalado.\n\nSaindo..."
 LOCAL56="Isto removerá o pacote utilitário VirtualBox  instalado de seu  sistema.\n\nNão  remova-o se voce está executando o SparkyLinux dentro da máquina VirtualBox agora. \n\nVoce gostaria de  remover o pacote de qualquer jeito?"
 LOCAL57="Ludibriando algo?\n\nO utilitário  VirtualBox  ainda está instalado!\n\nClick OK para sair."
+LOCAL58="Japanese font - fcitx-mozc package installation"
 LOCAL59="Desktop"
 LOCAL60="Sparky Kernel Installer"
 LOCAL61="Sparky Kernel is already installed! \n\nExiting now..."

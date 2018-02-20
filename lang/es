@@ -1,7 +1,7 @@
 # Archivo de localización en español para Sparky APTus.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/24
 # Bajo la licencia GNU GPL v2
-# Last update 2018/02/18 by pavroo
+# Last update 2018/02/19 by pavroo
 LOCAL1="Actualizar"
 LOCAL2="Instalar"
 LOCAL3="Eliminar"
@@ -59,6 +59,7 @@ LOCAL54="Eliminar Utilidades del invitado de VirtualBox"
 LOCAL55="El paquete Utilidades del invitado de VirtualBox NO está instalado.\n\nSalir..."
 LOCAL56="Esto eliminará el paquete Utilidades del invitado de VirtualBox de su sistema.\n\nNo eliminarlo si se está corriendo SparkyLinux dentro de la máquina VirtualBox. \n\n¿Quiere eliminar el paquete de todas formas?"
 LOCAL57="¿Qué?\n\n¡Utilidades del invitado de VirtualBox todavía está instalado!\n\nHaga clic en OK para salir."
+LOCAL58="Japanese font - fcitx-mozc package installation"
 LOCAL59="Desktop"
 LOCAL60="Sparky Kernel Installer"
 LOCAL61="Sparky Kernel is already installed! \n\nExiting now..."

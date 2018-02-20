@@ -1,7 +1,7 @@
 ﻿# Fichier de localisation française de Sparky APTus.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Last update 2018/02/18 by pavroo
+# Last update 2018/02/19 by pavroo
 LOCAL1="Mise à jour"
 LOCAL2="Installer"
 LOCAL3="Supprimer"
@@ -58,6 +58,7 @@ LOCAL54="Suppression des utilitaires d'invité de VirtualBox "
 LOCAL55="le paquet des utilitaires d'invité de VirtualBox n'est pas installé.\n\nSortie..."
 LOCAL56="Ceci va supprimer le paquet des utilitaires d'invité de VirtualBox installés sur votre système.\n\nNe les supprimer pas si vous exécuter SparkyLinux à l'intérieur de l'environnement VirtualBox. \n\nVoulez-vous supprimer quand même le paquet?"
 LOCAL57="Comment?\n\nles utilitaires d'invité de VirtualBox sont toujours installés!\n\nCliquez sur OK pour quitter."
+LOCAL58="Japanese font - fcitx-mozc package installation"
 LOCAL59="Bureau"
 LOCAL60="Installateur du noyau Sparky"
 LOCAL61="Le noyau Sparky est déjà installé! \n\nSortie..."
