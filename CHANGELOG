@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
+  Version 0.3.23 (2018-02-22)
+-------------------------------------------------------------------------------
+  * Added installation of kde & gnome task, myspell & aspell to language installer
+  * Added irish and nepal languages to language installer
+
+-------------------------------------------------------------------------------
   Version 0.3.22 (2018-02-19)
 -------------------------------------------------------------------------------
   * Added pt_br task installation to locale install script
