@@ -27,9 +27,8 @@ else
 fi
 
 testroot="`whoami`"
-
 if [ "$testroot" != "root" ]; then
-    /usr/bin/remsu $0 &
+	/usr/bin/remsu $0 &
 fi
 
 DIALOG500="yad --window-icon=system-software-install --width=500 --height=300 --center"
@@ -39,11 +38,10 @@ TEXT="--text="
 OKEXIT="--button=Ok:0 --button=$LOCAL24:1"
 MSGBOX="--button=Ok:0"
 TITLETEXT="APTus"
-
-if [ -f /opt/sparky/sparky-xterm ]; then
-. /opt/sparky/sparky-xterm
+if [ -f /usr/bin/sparky-terminal ]; then
+	SPARKYXTERM="sparky-terminal"
 else
-SPARKYXTERM="x-terminal-emulator"
+	SPARKYXTERM="x-terminal-emulator"
 fi
 
 NONFREE=`vrms -s | cut -d "|" -f 1`

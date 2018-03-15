@@ -27,7 +27,6 @@ else
 fi
 
 testroot="`whoami`"
-
 if [ "$testroot" != "root" ]; then
 	/usr/bin/remsu $0 &
 fi
@@ -42,10 +41,10 @@ ENTRYTEXT="--entry-text "
 MSGBOX="--button=Ok:0"
 TITLETEXT="APTus"
 
-if [ -f /opt/sparky/sparky-xterm ]; then
-. /opt/sparky/sparky-xterm
+if [ -f /usr/bin/sparky-terminal ]; then
+	SPARKYXTERM="sparky-terminal"
 else
-SPARKYXTERM="x-terminal-emulator"
+	SPARKYXTERM="x-terminal-emulator"
 fi
 
 # check connection
@@ -68,3 +67,4 @@ else
 	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL8"
 	exit 0
 fi
+exit 0

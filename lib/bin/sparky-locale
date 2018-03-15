@@ -3,7 +3,7 @@
 #  Sparky APTus Locale script will install missing language packages
 #  Created by Paweł "pavroo" Pijanowski 2014/05/21
 #  Copyright 2014-2018 under the GNU GPL2 License
-#  Last update 2018/02/22
+#  Last update 2018/03/16
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -32,7 +32,6 @@ else
 fi
 
 testroot="`whoami`"
-
 if [ "$testroot" != "root" ]; then
 	/usr/bin/remsu $0 &
 fi

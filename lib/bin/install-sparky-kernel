@@ -2,11 +2,10 @@
 
 # install-sparky-kernel script lets you install the latest stable,
 # home roasted Linux kernel
-#
 # Copyright 2016 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 # Licensed under the GPLv2 license see /usr/share/common-licenses/GPL-2
 # Created 2016/04/06
-# Last update 2017/12/31
+# Last update 2018/03/16
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -35,9 +34,8 @@ else
 fi
 
 testroot="`whoami`"
-
 if [ "$testroot" != "root" ]; then
-    /usr/bin/remsu $0 &
+	/usr/bin/remsu $0 &
 fi
 
 DIALOG="yad --window-icon=prefernces-other --width=450 --height=200 --center"
@@ -49,10 +47,10 @@ MSGBOX="--button=Ok:0"
 TITLETEXT="$LOCAL60"
 ARCH=`uname -r | grep "amd64" | awk '{print $1}'`
 TESTSPARKY=`dpkg-query -l | grep linux-image-sparky*`
-if [ -f /opt/sparky/sparky-xterm ]; then
-. /opt/sparky/sparky-xterm
+if [ -f /usr/bin/sparky-terminal ]; then
+	SPARKYXTERM="sparky-terminal"
 else
-SPARKYXTERM="x-terminal-emulator"
+	SPARKYXTERM="x-terminal-emulator"
 fi
 
 # check is the Sparky kernel installed already
@@ -84,9 +82,9 @@ PAE "$LOCAL63" \
 Exit "$LOCAL30"`
 
 if [ "$?" = "0" ]; then
-CHOICE=`echo $CHOICES | cut -d "|" -f 1`
+	CHOICE=`echo $CHOICES | cut -d "|" -f 1`
 else
-exit 0
+	exit 0
 fi
 
 if [ "$CHOICE" = "NON_PAE" ]; then

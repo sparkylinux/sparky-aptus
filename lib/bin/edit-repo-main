@@ -3,13 +3,13 @@
 testroot="`whoami`"
 
 if [ "$testroot" != "root" ]; then
-    /usr/bin/remsu $0 &
+	/usr/bin/remsu $0 &
 fi
 
-if [ -f /opt/sparky/sparky-editor ]; then
-. /opt/sparky/sparky-editor
+if [ -f /usr/bin/sparky-editor ]; then
+	SPARKYEDITOR="sparky-editor"
 else
-SPARKYEDITOR="gnome-text-editor"
+	SPARKYEDITOR="gnome-text-editor"
 fi
 
 $SPARKYEDITOR /etc/apt/sources.list
