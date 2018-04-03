@@ -33,7 +33,7 @@ sparky-desktop
 sparky-editor
 sparky-office
 sparky-remsu
-sparky-xterm
+sparky-xterm (>= 0.2.0)
 ssft
 vrms
 wget

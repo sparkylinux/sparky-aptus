@@ -1,7 +1,8 @@
 #!/bin/bash
 
-testroot="`whoami`"
+# Last update 2018/03/28
 
+testroot="`whoami`"
 if [ "$testroot" != "root" ]; then
 	/usr/bin/remsu $0 &
 fi

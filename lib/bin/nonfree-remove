@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Last update 2018/03/29
+
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
 if [ "`cat /etc/default/locale | grep de_DE`" != "" ]; then
@@ -38,10 +40,11 @@ TEXT="--text="
 OKEXIT="--button=Ok:0 --button=$LOCAL24:1"
 MSGBOX="--button=Ok:0"
 TITLETEXT="APTus"
-if [ -f /usr/bin/sparky-terminal ]; then
-	SPARKYXTERM="sparky-terminal"
+if [ -f /usr/bin/sparky-xterm ];then
+	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
-	SPARKYXTERM="x-terminal-emulator"
+	echo "sparky-xterm is missing... Exiting..."
+	exit 1
 fi
 
 NONFREE=`vrms -s | cut -d "|" -f 1`
@@ -49,14 +52,13 @@ NONFREE=`vrms -s | cut -d "|" -f 1`
 $DIALOG500 $TITLE"$LOCAL34" $OKEXIT $TEXT"$LOCAL35:\n\n$NONFREE \n\n$LOCAL36"
 
 if [ "$?" != "0" ]; then
-
 	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL37"
 	exit 0
-
 else
-
-	$SPARKYXTERM -e "apt-get remove $NONFREE"
+	$SPARKYXTERM "apt-get remove $NONFREE"
 
 	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL8"
 	exit 0
 fi
+
+exit 0

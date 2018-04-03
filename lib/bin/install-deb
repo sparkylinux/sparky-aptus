@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#  Last update 2018/03/16 by pavroo
+# Last update 2018/03/29 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -41,11 +41,11 @@ FILESELECTION="--file-selection "
 FILTER="--file-filter"
 MSGBOX="--button=Ok:0"
 TITLETEXT="APTus"
-
-if [ -f /usr/bin/sparky-terminal ]; then
-	SPARKYXTERM="sparky-terminal"
+if [ -f /usr/bin/sparky-xterm ];then
+	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
-	SPARKYXTERM="x-terminal-emulator"
+	echo "sparky-xterm is missing... Exiting..."
+	exit 1
 fi
 
 # check connection
@@ -63,8 +63,10 @@ if [ "$?" != "0" ]; then
 	exit 0
 
 else
-	$SPARKYXTERM -e "gdebi $DEBFILE"
+	$SPARKYXTERM "gdebi $DEBFILE"
 
 	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL8"
 	exit 0
 fi
+
+exit 0

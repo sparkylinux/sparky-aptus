@@ -5,7 +5,7 @@
 # Copyright 2016 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 # Licensed under the GPLv2 license see /usr/share/common-licenses/GPL-2
 # Created 2016/04/06
-# Last update 2018/03/16
+# Last update 2018/03/29
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -47,10 +47,11 @@ MSGBOX="--button=Ok:0"
 TITLETEXT="$LOCAL60"
 ARCH=`uname -r | grep "amd64" | awk '{print $1}'`
 TESTSPARKY=`dpkg-query -l | grep linux-image-sparky*`
-if [ -f /usr/bin/sparky-terminal ]; then
-	SPARKYXTERM="sparky-terminal"
+if [ -f /usr/bin/sparky-xterm ];then
+	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
-	SPARKYXTERM="x-terminal-emulator"
+	echo "sparky-xterm is missing... Exiting..."
+	exit 1
 fi
 
 # check is the Sparky kernel installed already
@@ -117,15 +118,13 @@ deb http://sparkylinux.org/repo/ unstable main
 deb-src http://sparkylinux.org/repo/ unstable main
 FOO
 
-$SPARKYXTERM -e "apt-get update"
+$SPARKYXTERM "apt-get update"
 
 # install i686 NON-PAE Sparky kernel and headers
-$SPARKYXTERM -e "apt-get install linux-image-sparky-686 linux-headers-sparky-686"
+$SPARKYXTERM "apt-get install linux-image-sparky-686 linux-headers-sparky-686"
 
 $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL65"
-
 exit 0
-
 }
 
 paemenu () {
@@ -145,15 +144,13 @@ deb http://sparkylinux.org/repo/ unstable main
 deb-src http://sparkylinux.org/repo/ unstable main
 FOO
 
-$SPARKYXTERM -e "apt-get update"
+$SPARKYXTERM "apt-get update"
 
 # install i686 PAE Sparky kernel and headers
-$SPARKYXTERM -e "apt-get install linux-image-sparky-686-pae linux-headers-sparky-686-pae"
+$SPARKYXTERM "apt-get install linux-image-sparky-686-pae linux-headers-sparky-686-pae"
 
 $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL65"
-
 exit 0
-
 }
 
 amd64menu () {
@@ -173,15 +170,13 @@ deb http://sparkylinux.org/repo/ unstable main
 deb-src http://sparkylinux.org/repo/ unstable main
 FOO
 
-$SPARKYXTERM -e "apt-get update"
+$SPARKYXTERM "apt-get update"
 
 # install 64 bit Sparky kernel and headers
-$SPARKYXTERM -e "apt-get install linux-image-sparky-amd64 linux-headers-sparky-amd64"
+$SPARKYXTERM "apt-get install linux-image-sparky-amd64 linux-headers-sparky-amd64"
 
 $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL65"
-
 exit 0
-
 }
 
 mainmenu

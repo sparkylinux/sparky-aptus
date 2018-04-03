@@ -1,11 +1,10 @@
 #!/bin/bash
 
 # install-liquorix script lets you install the 3th party Liquorix Linux kernel
-#
 # Copyright 2015-2018 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 # Licensed under the GPLv2 license see /usr/share/common-licenses/GPL-2
 # Created 2015/05/18
-# Last update 2018/03/16
+# Last update 2018/03/29
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -34,7 +33,6 @@ else
 fi
 
 testroot="`whoami`"
-
 if [ "$testroot" != "root" ]; then
 	/usr/bin/remsu $0 &
 fi
@@ -48,10 +46,11 @@ MSGBOX="--button=Ok:0"
 TITLETEXT="$LOCAL23"
 ARCH=`uname -r | grep "amd64" | awk '{print $1}'`
 TESTLIQ=`dpkg-query -l | grep linux-image-liquorix*`
-if [ -f /usr/bin/sparky-terminal ]; then
-	SPARKYXTERM="sparky-terminal"
+if [ -f /usr/bin/sparky-xterm ];then
+	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
-	SPARKYXTERM="x-terminal-emulator"
+	echo "sparky-xterm is missing... Exiting..."
+	exit 1
 fi
 
 # check is the Liquorix kernel installed already
@@ -89,64 +88,47 @@ else
 fi
 
 if [ "$CHOICE" = "NON_PAE" ]; then
-nonpaemenu
+	nonpaemenu
 elif [ "$CHOICE" = "PAE" ]; then
-paemenu
+	paemenu
 elif [ "$CHOICE" = "64" ]; then
-64menu
+	amd64menu
 elif [ "$CHOICE" = "Exit" ]; then
-exit 0
+	exit 1
 else
-exit 0
+	exit 1
 fi
 }
 
 nonpaemenu () {
 if [ "$ARCH" != "" ]; then
-$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL31"
-mainmenu
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL31"
+	mainmenu
 fi
 
 # check the Liquorix list
-if [ ! -f /etc/apt/sources.list.d/liquorix.list ]; then
+if [ -f /etc/apt/sources.list.d/liquorix.list ]; then
+	rm -f /etc/apt/sources.list.d/liquorix.list
+fi
+
+# create new list
 cat > /etc/apt/sources.list.d/liquorix.list <<FOO
 # Liquorix kernel
 deb http://liquorix.net/debian sid main
 deb-src http://liquorix.net/debian sid main
-
 FOO
 
 # install Liquorix keyring
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install apt-transport-https -y --force-yes"
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install liquorix-keyring -y --force-yes"
-
-else
-
-rm -f /etc/apt/sources.list.d/liquorix.list
-
-cat > /etc/apt/sources.list.d/liquorix.list <<FOO
-# Liquorix kernel
-deb http://liquorix.net/debian sid main
-deb-src http://liquorix.net/debian sid main
-
-FOO
-
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install apt-transport-https -y --force-yes"
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install liquorix-keyring -y --force-yes"
-
-fi
+$SPARKYXTERM "apt-get update"
+$SPARKYXTERM "apt-get install apt-transport-https -y --force-yes"
+$SPARKYXTERM "apt-get update"
+$SPARKYXTERM "apt-get install liquorix-keyring -y --force-yes"
 
 # install i686 NON-PAE Liquorix kernel
-$SPARKYXTERM -e "apt-get install linux-image-liquorix-686 linux-headers-liquorix-686"
+$SPARKYXTERM "apt-get install linux-image-liquorix-686 linux-headers-liquorix-686"
 
 $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL32"
-
 exit 0
-
 }
 
 paemenu () {
@@ -156,93 +138,59 @@ mainmenu
 fi
 
 # check the Liquorix list
-if [ ! -f /etc/apt/sources.list.d/liquorix.list ]; then
+if [ -f /etc/apt/sources.list.d/liquorix.list ]; then
+	rm -f /etc/apt/sources.list.d/liquorix.list
+fi
+
+# create new list
 cat > /etc/apt/sources.list.d/liquorix.list <<FOO
 # Liquorix kernel
 deb http://liquorix.net/debian sid main
 deb-src http://liquorix.net/debian sid main
-
 FOO
 
 # install Liquorix keyring
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install apt-transport-https -y --force-yes"
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install liquorix-keyring -y --force-yes"
-
-else
-
-rm -f /etc/apt/sources.list.d/liquorix.list
-
-cat > /etc/apt/sources.list.d/liquorix.list <<FOO
-# Liquorix kernel
-deb http://liquorix.net/debian sid main
-deb-src http://liquorix.net/debian sid main
-
-FOO
-
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install apt-transport-https -y --force-yes"
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install liquorix-keyring -y --force-yes"
-
-fi
+$SPARKYXTERM "apt-get update"
+$SPARKYXTERM "apt-get install apt-transport-https -y --force-yes"
+$SPARKYXTERM "apt-get update"
+$SPARKYXTERM "apt-get install liquorix-keyring -y --force-yes"
 
 # install i686 PAE Liquorix kernel
-$SPARKYXTERM -e "apt-get install linux-image-liquorix-686-pae linux-headers-liquorix-686-pae"
+$SPARKYXTERM "apt-get install linux-image-liquorix-686-pae linux-headers-liquorix-686-pae"
 
 $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL32"
-
 exit 0
-
 }
 
-64menu () {
+amd64menu () {
 if [ "$ARCH" = "" ]; then
 $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL33"
 mainmenu
 fi
 
 # check the Liquorix list
-if [ ! -f /etc/apt/sources.list.d/liquorix.list ]; then
+if [ -f /etc/apt/sources.list.d/liquorix.list ]; then
+	rm -f /etc/apt/sources.list.d/liquorix.list
+fi
+
+# create new list
 cat > /etc/apt/sources.list.d/liquorix.list <<FOO
 # Liquorix kernel
 deb http://liquorix.net/debian sid main
 deb-src http://liquorix.net/debian sid main
-
 FOO
 
 # install Liquorix keyring
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install apt-transport-https -y --force-yes"
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install liquorix-keyring -y --force-yes"
-
-else
-
-rm -f /etc/apt/sources.list.d/liquorix.list
-
-cat > /etc/apt/sources.list.d/liquorix.list <<FOO
-# Liquorix kernel
-deb http://liquorix.net/debian sid main
-deb-src http://liquorix.net/debian sid main
-
-FOO
-
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install apt-transport-https -y --force-yes"
-$SPARKYXTERM -e "apt-get update"
-$SPARKYXTERM -e "apt-get install liquorix-keyring -y --force-yes"
-
-fi
+$SPARKYXTERM "apt-get update"
+$SPARKYXTERM "apt-get install apt-transport-https -y --force-yes"
+$SPARKYXTERM "apt-get update"
+$SPARKYXTERM "apt-get install liquorix-keyring -y --force-yes"
 
 # install 64 bit Liquorix kernel
-$SPARKYXTERM -e "apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64"
+$SPARKYXTERM "apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64"
 
 $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL32"
-
 exit 0
-
 }
 
 mainmenu
