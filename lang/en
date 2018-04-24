@@ -1,7 +1,7 @@
 # English localization file for Sparky APTus.
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2018/02/19 by pavroo
+# Last update 2018/04/21 by pavroo
 LOCAL1="Update"
 LOCAL2="Install"
 LOCAL3="Remove"
@@ -77,88 +77,83 @@ LOCAL72="Install the latest i686 NON-PAE Debian kernel"
 LOCAL73="Install the latest i686-PAE Debian kernel"
 LOCAL74="Install the latest 64 bit Debian kernel"
 LOCAL75="If everything went well the latest Debian kernel and its headers have been installed! \n\nReboot your machine to take effects."
+LOCAL76="Upgrade"
+LOCAL77="FullUpgrade"
+LOCAL78="Game"
+LOCAL79="Codecs"
+LOCAL80="Office"
+LOCAL81="System"
+LOCAL82="Web"
+LOCAL83="Accessories"
+LOCAL84="APTus lets you install popular applications.\nIt is recommended to update package list, before starting installation."
+LOCAL85="Reinstall"
+LOCAL86="Installer"
+LOCAL87="Installation completed."
+LOCAL88="Get informations about the application via command:"
+LOCAL89="This package is already installed."
+LOCAL90="What would you like to do now?"
+LOCAL91="Should I install the package you have chosen?"
 ##### .desktop files to be translated too:
-
 ### autoclean.desktop
 # Name[en_US]=Remove old DEB packages
 # Comment[en_US]=Remove all old versions of DEB packages from the system
-
 ### autoremove.desktop
 # Name[en_US]=Remove unnecessary packages
 # Comment[en_US]=Remove all unnecessary packages from the system
-
 ### clean.desktop
 # Name[en_US]=Remove all DEB packages
 # Comment[en_US]=Remove all downloaded DEB packages from the system
-
 ### fix-apt.desktop
 # Name[en_US]=Fix broken packages by APT
 # Comment[en_US]=Check and fix by APT broken packages not installed/upgraded correctly
-
 ### fix-dpkg.desktop
 # Name[en_US]=Fix broken packages by DPKG
 # Comment[en_US]=Check and fix by DPKG broken packages not installed/upgraded correctly
-
 ### install-deb.desktop
 # Name[en_US]=Install or reinstall DEB package from a local disk
 # Comment[en_US]=Install or reinstall DEB package from a local disk
-
 ### install-debian-kernel.desktop
 # Name[en_US]=Install Debian Kernel
 # Comment[en_US]=Install Debian Kernel
-
 ### install-liquorix.desktop
 # Name[en_US]=Install Liquorix Kernel
 # Comment[en_US]=Install Liquorix Kernel
-
 ### install-locale.desktop
 # Name[en_US]=Install language packages
 # Comment[en_US]=Install missing language packages
-
 ### quick-install.desktop
 # Name[en_US]=Install packages from repository
 # Comment[en_US]=Install packages from repository
-
 ### kernel.desktop
 # Name[en_US]=Remove old system kernel
 # Comment[en_US]=Remove old, non-active system kernel
-
 ### nonfree-remove.desktop
 # Name[en_US]=Remove Non-Free packages
 # Comment[en_US]=Remove Non-Free and Restricted packages from the system
-
 ### quick-remove.desktop
 # Name[en_US]=Remove package from system
 # Comment[en_US]=Remove selected package from the system
-
 ### vboxguest-remove.desktop
 # Name[en_US]=Remove VirtualBox Guest Utils
 # Comment[en_US]=Remove VirtualBox Guest Utils
-
 ### edit-repo-custom.desktop
 # Name[en_US]=Edit custom repositories
 # Comment[en_US]=Edit custom repository lists
-
 ### edit-repo-main.desktop
 # Name[en_US]=Edit main repository
 # Comment[en_US]=Edit main repository list
-
 ### dist-upgrade.desktop
 # Name[en_US]=Upgrade the system
 # Comment[en_US]=Fully upgrade the system
-
 ### update.desktop
 # Name[en_US]=Refresh package list
 # Comment[en_US]=Update package list
-
 ### upgrade.desktop
 # Name[en_US]=Safely upgrade the system
 # Comment[en_US]=Safely upgrade the system
-
 ### sparky-aptus.desktop
 # Name[en_US]=
 # Comment[en_US]=Keep your system up to date and clean, install and remove packages
-
 ### install-sparky-kernel.desktop
 # Name[en_US]=Install Sparky Kernel
 # Comment[en_US]=Install the latest Sparky Kernel

@@ -2,7 +2,7 @@
 # Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Sob a licença GNU GPL v2
 # Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/19
-# Last update 2018/02/19 by pavroo
+# Last update 2018/04/21 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remove"
@@ -79,88 +79,83 @@ LOCAL72="Install the latest i686 NON-PAE Debian kernel"
 LOCAL73="Install the latest i686-PAE Debian kernel"
 LOCAL74="Install the latest 64 bit Debian kernel"
 LOCAL75="If everything went well the latest Debian kernel and its headers have been installed! \n\nReboot your machine to take effects."
+LOCAL76="Upgrade"
+LOCAL77="FullUpgrade"
+LOCAL78="Game"
+LOCAL79="Codecs"
+LOCAL80="Office"
+LOCAL81="System"
+LOCAL82="Web"
+LOCAL83="Accessories"
+LOCAL84="APTus lets you install popular applications.\nIt is recommended to update package list, before starting installation."
+LOCAL85="Reinstall"
+LOCAL86="Installer"
+LOCAL87="Installation completed."
+LOCAL88="Get informations about the application via command:"
+LOCAL89="This package is already installed."
+LOCAL90="What would you like to do now?"
+LOCAL91="Should I install the package you have chosen?"
 ##### .desktop files to be translated too:
-
 ### autoclean.desktop
 # Name[pt_BR]=Remover pacotes DEB antigos
 # Comment[pt_BR]=Remover todas as versões antigas de pacotes DEB do  sistema
-
 ### autoremove.desktop
 # Name[pt_BR]=Remover   pacotes desnecessários
 # Comment[pt_BR]=Remove todos pacotes desnecessários do sistema
-
 ### clean.desktop
 # Name[pt_BR]=Remover todos pacotes DEB
 # Comment[pt_BR]=Remover todos  pacotes DEB baixados (feito download) de  seu sistema
-
 ### fix-apt.desktop
 # Name[pt_BR]=Consertar os pacotes quebrados  com o APT
 # Comment[pt_BR]=Verificar e consertar os pacotes quebrados que não foram instalados/atualizados corretamente com o APT
-
 ### fix-dpkg.desktop
 # Name[pt_BR]=Consertar os pacotes quebrados  com o DPKG
 # Comment[pt_BR]=Verificar e consertar os pacotes quebrados que não foram instalados/atualizados corretamente com o DPKG 
-
 ### Instalar-deb.desktop
 # Name[pt_BR]=Instalar/reinstalar pacote DEB de um disco local
 # Comment[pt_BR]=Instalar/reinstalar pacote DEB de um disco local
-
 ### Instalar-debian-kernel.desktop
 # Name[pt_BR]=Instalar o Kernel Debian 
 # Comment[pt_BR]=Instalar o Kernel Debian 
-
 ### Instalar-liquorix.desktop
 # Name[pt_BR]=Instalar o Kernel Liquorix 
 # Comment[pt_BR]=Instalar o Kernel Liquorix 
-
 ### Instalar-locale.desktop
 # Name[pt_BR]=Instalar os pacotes de linguagens
 # Comment[pt_BR]=Instalar os pacotes de linguagens que estão faltando
-
 ### quick-Instalar.desktop
 # Name[pt_BR]=Instalar pacotes do repositório
 # Comment[pt_BR]=Instalar pacotes do repositório
-
 ### kernel.desktop
 # Name[pt_BR]=Remover o kernel do sistema antigo
 # Comment[pt_BR]=Remover um kernel antigo, ou um kernel não-ativo no sistema
-
 ### nonfree-remove.desktop
 # Name[pt_BR]=Remover pacotes Não-Livres 
 # Comment[pt_BR]=Remover pacotes  Não-Livres e Restritos do sistema
-
 ### quick-remove.desktop
 # Name[pt_BR]=Remover um pacote do sistema
 # Comment[pt_BR]=Remover um pacote  selecionado do sistema
-
 ### vboxguest-remove.desktop
 # Name[pt_BR]=Remover o Utilitário Hospedeiro VirtualBox 
 # Comment[pt_BR]=Remover o Utilitário Hospedeiro VirtualBox 
-
 ### edit-repo-custom.desktop
 # Name[pt_BR]=Editar repositórios customizados
 # Comment[pt_BR]=Editar as listas de repositórios customizados
-
 ### edit-repo-main.desktop
 # Name[pt_BR]=Editar repositório principal
 # Comment[pt_BR]=Editar a lista principal do repositório
-
 ### dist-upgrade.desktop
 # Name[pt_BR]=Atualizar completamente (Upgrade) o sistema
 # Comment[pt_BR]=Atualizar integralmente (Upgrade) o sistema
-
 ### Atualizar.desktop
 # Name[pt_BR]=Refrescar (refresh) a lista de  pacotes
 # Comment[pt_BR]=Atualizar a lista de pacote
-
 ### upgrade.desktop
 # Name[pt_BR]=Atualizar com segurança o sistema
 # Comment[pt_BR]=Atualizar com segurança o sistema
-
 ### sparky-aptus.desktop
 # Name[pt_BR]=
 # Comment[pt_BR]=Mantenha o seu sistema atualizado e limpo, instale e  remove pacotes
-
 ### install-sparky-kernel.desktop
 # Name[pt_BR]=Install Sparky Kernel
 # Comment[pt_BR]=Install the latest Sparky Kernel

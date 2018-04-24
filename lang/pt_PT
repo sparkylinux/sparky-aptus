@@ -1,7 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Sparky APTus.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Tuesday 02 February 17:57:55 WET 2016
 # Sob a Licença GNU GPL v2
-# Last update 2018/02/19 by pavroo
+# Last update 2018/04/21 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -77,88 +77,83 @@ LOCAL72="Install the latest i686 NON-PAE Debian kernel"
 LOCAL73="Install the latest i686-PAE Debian kernel"
 LOCAL74="Install the latest 64 bit Debian kernel"
 LOCAL75="If everything went well the latest Debian kernel and its headers have been installed! \n\nReboot your machine to take effects."
+LOCAL76="Upgrade"
+LOCAL77="FullUpgrade"
+LOCAL78="Game"
+LOCAL79="Codecs"
+LOCAL80="Office"
+LOCAL81="System"
+LOCAL82="Web"
+LOCAL83="Accessories"
+LOCAL84="APTus lets you install popular applications.\nIt is recommended to update package list, before starting installation."
+LOCAL85="Reinstall"
+LOCAL86="Installer"
+LOCAL87="Installation completed."
+LOCAL88="Get informations about the application via command:"
+LOCAL89="This package is already installed."
+LOCAL90="What would you like to do now?"
+LOCAL91="Should I install the package you have chosen?"
 ##### Arquivo a ser traduzido também .desktop
-
 ### autoclean.desktop
 # Name[pt_PT]=Remover pacotes DEB antigos
 # Comment[pt_PT]=Remova todas as versões antigas dos pacotes DEB do sistema
-
 ### autoremove.desktop
 # Name[pt_PT]=Remove os pacotes desnecessários
 # Comment[pt_PT]=Remove todos os pacotes desnecessários do sistema
-
 ### clean.desktop
 # Name[pt_PT]=Remove todos os pacotes DEB
 # Comment[pt_PT]=Remove todos os pacotes DEB baixados do sistema
-
 ### fix-apt.desktop
 # Name[pt_PT]=Corrigir pacotes danificados por o APT
 # Comment[pt_PT]=Verifica e corrige os pacotes danificados que foram instalados / atualizados corretamente pelo APT
-
 ### fix-dpkg.desktop
 # Name[pt_PT]=Corrigir pacotes danificados por o DPKG
 # Comment[pt_PT]=Verifica e corrige os pacotes danificados que foram instalados / atualizados corretamente pelo DPKG
-
 ### install-deb.desktop
 # Name[pt_PT]=Instalar ou reinstalar o pacote DEB de um disco local
 # Comment[pt_PT]=Instalar ou reinstalar o pacote DEB de um disco local
-
 ### install-debian-kernel.desktop
 # Name[pt_PT]=Instale o Debian Kernel
 # Comment[pt_PT]=Para Instalar o Debian Kernel
-
 ### install-liquorix.desktop
 # Name[pt_PT]=Instale o Liquorix Kernel
 # Comment[pt_PT]=Para Instalar Liquorix Kernel
-
 ### install-locale.desktop
 # Name[pt_PT]=Instalar os pacotes de idiomas
 # Comment[pt_PT]=Instala os pacotes de idiomas em falta
-
 ### quick-install.desktop
 # Name[pt_PT]=Instalar os pacotes do repositório
 # Comment[pt_PT]=Instala os pacotes do repositório
-
 ### kernel.desktop
 # Name[pt_PT]=Remove o kernel do sistema antigo
 # Comment[pt_PT]=Remove o antigo kernel do sistema inativo
-
 ### nonfree-remove.desktop
 # Name[pt_PT]=Remove o pacotes que não são gratuitos
 # Comment[pt_PT]=Remove o pacotes que não são gratuitos e restritos do sistema
-
 ### quick-remove.desktop
 # Name[pt_PT]=Remove o pacote de sistema
 # Comment[pt_PT]=Remove o pacote selecionado do sistema
-
 ### vboxguest-remove.desktop
 # Name[pt_PT]=Remove o Cliente VirtualBox
 # Comment[pt_PT]=Remove o Cliente VirtualBox
-
 ### edit-repo-custom.desktop
 # Name[pt_PT]=Editar repositórios personalizados
 # Comment[pt_PT]=Editar listas personalizadas de repositórios
-
 ### edit-repo-main.desktop
 # Name[pt_PT]=Editar Repositorio principal
 # Comment[pt_PT]=Editar lista de repositórios principal
-
 ### dist-upgrade.desktop
 # Name[pt_PT]=Atualizar o sistema
 # Comment[pt_PT]=Atualiza completamente o sistema
-
 ### update.desktop
 # Name[pt_PT]=Çista de pacotes de atualização
 # Comment[pt_PT]=Lista de pacote de atualização
-
 ### upgrade.desktop
 # Name[pt_PT]=Atualiza o sistema com segurança
 # Comment[pt_PT]=Atualiza o sistema com segurança
-
 ### sparky-aptus.desktop
 # Name[pt_PT]=
 # Comment[pt_PT]=Mantenha seu sistema atualizado e limpo, instale/remova pacotes
-
 ### install-sparky-kernel.desktop
 # Name[pt_PT]=Install Sparky Kernel
 # Comment[pt_PT]=Install the latest Sparky Kernel

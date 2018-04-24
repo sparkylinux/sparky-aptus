@@ -1,7 +1,7 @@
 # Archivo de localización en español para Sparky APTus.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/24
 # Bajo la licencia GNU GPL v2
-# Last update 2018/02/19 by pavroo
+# Last update 2018/04/21 by pavroo
 LOCAL1="Actualizar"
 LOCAL2="Instalar"
 LOCAL3="Eliminar"
@@ -77,88 +77,83 @@ LOCAL72="Install the latest i686 NON-PAE Debian kernel"
 LOCAL73="Install the latest i686-PAE Debian kernel"
 LOCAL74="Install the latest 64 bit Debian kernel"
 LOCAL75="If everything went well the latest Debian kernel and its headers have been installed! \n\nReboot your machine to take effects."
+LOCAL76="Upgrade"
+LOCAL77="FullUpgrade"
+LOCAL78="Game"
+LOCAL79="Codecs"
+LOCAL80="Office"
+LOCAL81="System"
+LOCAL82="Web"
+LOCAL83="Accessories"
+LOCAL84="APTus lets you install popular applications.\nIt is recommended to update package list, before starting installation."
+LOCAL85="Reinstall"
+LOCAL86="Installer"
+LOCAL87="Installation completed."
+LOCAL88="Get informations about the application via command:"
+LOCAL89="This package is already installed."
+LOCAL90="What would you like to do now?"
+LOCAL91="Should I install the package you have chosen?"
 ##### .desktop files to be translated too:
-
 ### autoclean.desktop
 # Name[es_AR]=Eliminar todos los paquetes DEB viejos
 # Comment[es_AR]=Elimina de su sistema todas las versiones viejas de paquetes DEB 
-
 ### autoremove.desktop
 # Name[es_AR]=Eliminar los paquetes innecesarios
 # Comment[es_AR]=Elimina de su sistema todos los paquetes innecesarios 
-
 ### clean.desktop
 # Name[es_AR]=Eliminar todos los paquetes DEB
 # Comment[es_AR]=Elimina de su sistema todos los paquetes DEB descargados 
-
 ### fix-apt.desktop
 # Name[es_AR]=Reparar paquetes rotos mediante APT
 # Comment[es_AR]=Verifica y repara mediante APT los paquetes rotos no instalados/actualizados correctamente
-
 ### fix-dpkg.desktop
 # Name[es_AR]=Reparar paquetes rotos mediante DPKG
 # Comment[es_AR]=Verifica y repara mediante DPKG los paquetes rotos no instalados/actualizados correctamente
-
 ### install-deb.desktop
 # Name[es_AR]=Instalar o reinstalar paquetes DEB de su disco local
 # Comment[es_AR]=Instala o reinstala paquetes DEB de su disco local
-
 ### install-debian-kernel.desktop
 # Name[es_AR]=Instalar el kernel Debian
 # Comment[es_AR]=Instala el kernel Debian
-
 ### install-liquorix.desktop
 # Name[es_AR]=Instalar el kernel Liquorix
 # Comment[es_AR]=Instala el kernel Liquorix
-
 ### install-locale.desktop
 # Name[es_AR]=Instalar paquetes de idiomas
 # Comment[es_AR]=Instala los paquetes de idiomas faltantes
-
 ### quick-install.desktop
 # Name[es_AR]=Instalar paquetes desde el repositorio
 # Comment[es_AR]=Instala paquetes desde el repositorio
-
 ### kernel.desktop
 # Name[es_AR]=Eliminar kernels viejos del sistema
 # Comment[es_AR]=Elimina kernels del sistema viejos e inactivos
-
 ### nonfree-remove.desktop
 # Name[es_AR]=Eliminar los paquetes Non-Free 
 # Comment[es_AR]=Elimina de su sistema los paquetes Non-Free y Restricted 
-
 ### quick-remove.desktop
 # Name[es_AR]=Eliminar paquetes de su sistema
 # Comment[es_AR]=Elimina paquetes seleccionados de su sistema
-
 ### vboxguest-remove.desktop
 # Name[es_AR]=Eliminar Utilidades del invitado de VirtualBox
 # Comment[es_AR]=Elimina Utilidades del invitado de VirtualBox
-
 ### edit-repo-custom.desktop
 # Name[es_AR]=Editar la lista de repositorios personalizados
 # Comment[es_AR]=Edita la lista de repositorios personalizados
-
 ### install-sparky-kernel.desktop
 # Name[se_AR]=Install Sparky Kernel
 # Comment[es_AR]=Install the latest Sparky Kernel
-
 ### edit-repo-main.desktop
 # Name[es_AR]=Editar la lista del repositorio principal
 # Comment[es_AR]=Edita la lista del repositorio principal
-
 ### dist-upgrade.desktop
 # Name[es_AR]=Actualizar el sistema
 # Comment[es_AR]=Actualiza completamente el sistema
-
 ### update.desktop
 # Name[es_AR]=Actualizar la lista de paquetes
 # Comment[es_AR]=Actualiza la lista de paquetes
-
 ### upgrade.desktop
 # Name[es_AR]=Actualizar su sistema en forma segura
 # Comment[es_AR]=Actualiza su sistema en forma segura
-
 ### sparky-aptus.desktop
 # Name[es_AR]=
 # Comment[es_AR]=Mantiene su sistema actualizado y limpia, instala y elimina paquetes

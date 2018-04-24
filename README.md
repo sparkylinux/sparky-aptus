@@ -40,13 +40,9 @@ wget
 yad
 zenity
 
-Conflicts:
------------
-sparky-aptus (<< 0.2.11)
-
-Replaces:
------------
-sparky-aptus (<< 0.2.11)
+Recommends:
+--------------
+vmplayer-installer
 
 Suggests:
 -----------

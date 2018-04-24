@@ -1,6 +1,6 @@
 # Greek localization file for Sparky APTus.
 # Translate to Greek by jidan 2017/01/02
-# Last update 2018/02/19 by pavroo
+# Last update 2018/04/21 by pavroo
 LOCAL1="Ενημέρωση"
 LOCAL2="Εγκατάσταση"
 LOCAL3="Απομάκρυνση"
@@ -76,88 +76,83 @@ LOCAL72="Εγκαταστήστε τον τελευταίο πυρήνα Debian 
 LOCAL73="Εγκαταστήστε τον τελευταίο πυρήνα Debian i686-PAE"
 LOCAL74="Εγκαταστήστε τον τελευταίο πυρήνα Debian 64 bit"
 LOCAL75="Εάν όλα πήγαν καλά, ο τελευταίος πυρήνας Debian και οι κεφαλίδες του έχουν εγκατασταθεί! \n\nΚάντε επανεκκίνηση για εφαρμογή των αλλαγών."
+LOCAL76="Upgrade"
+LOCAL77="FullUpgrade"
+LOCAL78="Game"
+LOCAL79="Codecs"
+LOCAL80="Office"
+LOCAL81="System"
+LOCAL82="Web"
+LOCAL83="Accessories"
+LOCAL84="APTus lets you install popular applications.\nIt is recommended to update package list, before starting installation."
+LOCAL85="Reinstall"
+LOCAL86="Installer"
+LOCAL87="Installation completed."
+LOCAL88="Get informations about the application via command:"
+LOCAL89="This package is already installed."
+LOCAL90="What would you like to do now?"
+LOCAL91="Should I install the package you have chosen?"
 ##### .desktop files to be translated too:
-
 ### autoclean.desktop
 # Name[el_GR]=Διαγραφή παλιότερων πακέτων DEB
 # Comment[el_GR]=Διαγραφή όλων των παλαιότερων αρχείων DEB από το σύστημα
-
 ### autoremove.desktop
 # Name[el_GR]=Διαγραφή αχρήστων πακέτων
 # Comment[el_GR]=Διαγραφή όλων των άχρηστων πακέτων από το σύστημα
-
 ### clean.desktop
 # Name[el_GR]=Διαγραφή όλων των πακέτων DEB
 # Comment[el_GR]=Διαγραφή όλων των μεταφορτωμένων πακέτων DEB από το σύστημα
-
 ### fix-apt.desktop
 # Name[el_GR]=Επιδιόρθωση κατεστραμμένων πακέτων με την εντολή APT
 # Comment[el_GR]=Έλεγχος και διόρθωση κατεστραμμένων πακέτων που δεν εγκαταστάθηκαν/ενημερώθηκαν σωστά, με την εντολή APT
-
 ### fix-dpkg.desktop
 # Name[el_GR]=Επιδιόρθωση κατεστραμμένων πακέτων με την εντολή DPKG
 # Comment[el_GR]=Έλεγχος και διόρθωση κατεστραμμένων πακέτων που δεν εγκαταστάθηκαν/ενημερώθηκαν σωστά, με την εντολή DPKG
-
 ### install-deb.desktop
 # Name[el_GR]=Εγκατάσταση/επανεγκατάσταση πακέτου DEB από τοπικό δίσκο
 # Comment[el_GR]=Εγκατάσταση/επανεγκατάσταση πακέτου DEB από τοπικό δίσκο
-
 ### install-debian-kernel.desktop
 # Name[el_GR]=Εγκατάσταση του πυρήνα Debian
 # Comment[el_GR]=Εγκατάσταση του πυρήνα Debian
-
 ### install-liquorix.desktop
 # Name[el_GR]=Εγκατάσταση του πυρήνα Liquorix
 # Comment[el_GR]=Εγκατάσταση του πυρήνα Liquorix
-
 ### install-locale.desktop
 # Name[el_GR]=Εγκατάσταση πακέτων γλώσσας
 # Comment[el_GR]=Εγκατάσταση απολεσθέντων πακέτων γλώσσας
-
 ### quick-install.desktop
 # Name[el_GR]=Εγκατάσταση από αποθετήριο
 # Comment[el_GR]=Εγκατάσταση από αποθετήριο
-
 ### kernel.desktop
 # Name[el_GR]=Διαγραφή των παλιότερων πυρήνων του συστήματος
 # Comment[el_GR]=Διαγραφή των παλιότερωνν ανενεργών πυρήνων του συστήματος
-
 ### nonfree-remove.desktop
 # Name[el_GR]=Απεγκατάσταση των πακέτων Non-Free
 # Comment[el_GR]=Απεγκατάσταση των πακέτων Non-Free και Restricted από το σύστημα
-
 ### quick-remove.desktop
 # Name[el_GR]=Απεγκατάσταση πακέτου από το σύστημα
 # Comment[el_GR]=Απεγκατάσταση επιλεγμένου πακέτου από το σύστημα
-
 ### vboxguest-remove.desktop
 # Name[el_GR]=Απεγκατάσταση πακέτου VirtualBox Guest Utils
 # Comment[el_GR]=Απεγκατάσταση πακέτου VirtualBox Guest Utils
-
 ### edit-repo-custom.desktop
 # Name[el_GR]=Επεξεργασία δευτερευόντων αποθετηρίων
 # Comment[el_GR]=Επεξεργασία λιστών δευτερευόντων αποθετηρίων
-
 ### edit-repo-main.desktop
 # Name[el_GR]=Επεξεργασία βασικού αποθετηρίου
 # Comment[el_GR]=Επεξεργασία λίστας βασικού αποθετηρίου
-
 ### dist-upgrade.desktop
 # Name[el_GR]=Ενημέρωση συστήματος
 # Comment[el_GR]=Πλήρης ενημέρωση συστήματος
-
 ### update.desktop
 # Name[el_GR]=Ανανέωση της λίστας πακέτων
 # Comment[el_GR]=Ανανέωση της λίστας πακέτων
-
 ### upgrade.desktop
 # Name[el_GR]=Ασφαλής ενημέρωση συστήματος
 # Comment[el_GR]=Ασφαλής ενημέρωση συστήματος
-
 ### sparky-aptus.desktop
 # Name[el_GR]=
 # Comment[el_GR]=Διατηρήστε το σύστημά σας ενημερωμένο και εγκαταστήστε, απεγκαταστήστε ή καθαρίστε πακέτα λογισμικού
-
 ### install-sparky-kernel.desktop
 # Name[el_GR]=Εγκατάσταση του πυρήνα Sparky
 # Comment[el_GR]=Εγκατάσταση του τελευταίου πυρήνα Sparky

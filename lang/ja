@@ -1,7 +1,7 @@
 # Japanese localization file for Sparky APTus.
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2018/02/19 by pavroo
+# Last update 2018/04/21 by pavroo
 LOCAL1="更新"
 LOCAL2="インストール"
 LOCAL3="削除"
@@ -77,88 +77,83 @@ LOCAL72="最新 i686 NON-PAE Debian カーネルのインストール"
 LOCAL73="最新 i686-PAE Debian カーネルのインストール"
 LOCAL74="最新 64 bit Debian カーネルのインストール"
 LOCAL75="すべてがうまくいけば、最新の Debian カーネルとヘッダがインストールされました！ \n\n反映するためにマシンを再起動してください。"
+LOCAL76="Upgrade"
+LOCAL77="FullUpgrade"
+LOCAL78="Game"
+LOCAL79="Codecs"
+LOCAL80="Office"
+LOCAL81="System"
+LOCAL82="Web"
+LOCAL83="Accessories"
+LOCAL84="APTus lets you install popular applications.\nIt is recommended to update package list, before starting installation."
+LOCAL85="Reinstall"
+LOCAL86="Installer"
+LOCAL87="Installation completed."
+LOCAL88="Get informations about the application via command:"
+LOCAL89="This package is already installed."
+LOCAL90="What would you like to do now?"
+LOCAL91="Should I install the package you have chosen?"
 ##### .desktop files to be translated too:
-
 ### autoclean.desktop
 # Name[ja_JP]=古い DEB パッケージの削除
 # Comment[ja_JP]=システムから DEB パッケージの古いバージョンをすべて削除します
-
 ### autoremove.desktop
 # Name[ja_JP]=不要なパッケージを削除
 # Comment[ja_JP]=システムから不要なパッケージをすべて削除します
-
 ### clean.desktop
 # Name[ja_JP]=DEBパッケージをすべて削除
 # Comment[ja_JP]=システムからダウンロードしているDEBパッケージをすべて削除します
-
 ### fix-apt.desktop
 # Name[ja_JP]=APT 破損パッケージの修正
 # Comment[ja_JP]=APT でインストール・更新できない壊れたパッケージを確認・修正します
-
 ### fix-dpkg.desktop
 # Name[ja_JP]=DPKG 破損パッケージの修正
 # Comment[ja_JP]=DPKGでインストール・更新できない壊れたパッケージを確認・修正します
-
 ### install-deb.desktop
 # Name[ja_JP]=ローカルディスク DEB パッケージ インストール・再インストール
 # Comment[ja_JP]=ローカルディスクから DEB パッケージ インストール・再インストールを行います
-
 ### install-debian-kernel.desktop
 # Name[ja_JP]=Debian カーネルのインストール
 # Comment[ja_JP]=Debian カーネルをインストールします
-
 ### install-liquorix.desktop
 # Name[ja_JP]=Liquorix カーネルのインストール
 # Comment[ja_JP]=Liquorix カーネルをインストールします
-
 ### install-locale.desktop
 # Name[ja_JP]=言語パッケージのインストール
 # Comment[ja_JP]=不足している言語パッケージをインストールします
-
 ### quick-install.desktop
 # Name[ja_JP]=リボジトリからパッケージをインストール
 # Comment[ja_JP]=リボジトリからパッケージをインストールします
-
 ### kernel.desktop
 # Name[ja_JP]=古いシステムカーネルの削除
 # Comment[ja_JP]=有効ではない古いシステムカーネルを削除します
-
 ### nonfree-remove.desktop
 # Name[ja_JP]=Non-Free パッケージの削除
 # Comment[ja_JP]=システムから非フリー・制限付きパッケージを削除します
-
 ### quick-remove.desktop
 # Name[ja_JP]=システムからパッケージを削除
 # Comment[ja_JP]=選択されたパッケージをシステムから削除します
-
 ### vboxguest-remove.desktop
 # Name[ja_JP]=VirtualBox Guest Utils の削除
 # Comment[ja_JP]=VirtualBox Guest Utils を削除します
-
 ### edit-repo-custom.desktop
 # Name[ja_JP]=カスタムリボジトリの編集
 # Comment[ja_JP]=カスタムリボジトリリストを編集します
-
 ### edit-repo-main.desktop
 # Name[ja_JP]=メインリボジトリの編集
 # Comment[ja_JP]=メインリボジトリリストを編集します
-
 ### dist-upgrade.desktop
 # Name[ja_JP]=システムのアップグレード
 # Comment[ja_JP]=完全にシステムをアップグレードします
-
 ### update.desktop
 # Name[ja_JP]=パッケージリストの更新
 # Comment[ja_JP]=パッケージリストを更新します
-
 ### upgrade.desktop
 # Name[ja_JP]=安全にシステムをアップグレード
 # Comment[ja_JP]=安全にシステムをアップグレードします
-
 ### sparky-aptus.desktop
 # Name[ja_JP]=
 # Comment[ja_JP]=システムからパッケージのインストール・更新・削除します
-
 ### install-sparky-kernel.desktop
 # Name[ja_JP]=Install Sparky Kernel
 # Comment[ja_JP]=Install the latest Sparky Kernel

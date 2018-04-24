@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=NVIDIA Settings
+Comment=Configure the NVIDIA graphics driver
+Exec=/usr/lib/sparky-aptus/bin/install-nvidia
+Icon=nvidia
+Terminal=false
+Type=Application
+Categories=System;

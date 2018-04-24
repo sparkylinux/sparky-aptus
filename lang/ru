@@ -1,7 +1,7 @@
 # Файл русской локализации для Sparky APTus.
 # Copyright 2016 Igor Klyushnyov <inklu@yandex.ru> 2016/01/16
 # Под лицензией GNU GPL v2
-# Last update 2018/02/19 by pavroo
+# Last update 2018/04/21 by pavroo
 LOCAL1="Обновить"
 LOCAL2="Установить"
 LOCAL3="Удалить"
@@ -77,88 +77,83 @@ LOCAL72="Install the latest i686 NON-PAE Debian kernel"
 LOCAL73="Install the latest i686-PAE Debian kernel"
 LOCAL74="Install the latest 64 bit Debian kernel"
 LOCAL75="If everything went well the latest Debian kernel and its headers have been installed! \n\nReboot your machine to take effects."
+LOCAL76="Upgrade"
+LOCAL77="FullUpgrade"
+LOCAL78="Game"
+LOCAL79="Codecs"
+LOCAL80="Office"
+LOCAL81="System"
+LOCAL82="Web"
+LOCAL83="Accessories"
+LOCAL84="APTus lets you install popular applications.\nIt is recommended to update package list, before starting installation."
+LOCAL85="Reinstall"
+LOCAL86="Installer"
+LOCAL87="Installation completed."
+LOCAL88="Get informations about the application via command:"
+LOCAL89="This package is already installed."
+LOCAL90="What would you like to do now?"
+LOCAL91="Should I install the package you have chosen?"
 ##### .desktop files to be translated too:
-
 ### autoclean.desktop
 # Name[ru_RU]=Удалить старые DEB-пакеты
 # Comment[ru_RU]=Удалить все старые версии DEB-пакетов из системы
-
 ### autoremove.desktop
 # Name[ru_RU]=Удалить ненужные пакеты
 # Comment[ru_RU]=Удалить все ненужные пакеты из системы
-
 ### clean.desktop
 # Name[ru_RU]=Удалить все DEB-пакеты
 # Comment[ru_RU]=Удалить все скачанные DEB-пакеты из системы
-
 ### fix-apt.desktop
 # Name[ru_RU]=Исправить сломанные пакеты с помощью APT
 # Comment[ru_RU]=Проверить и исправить с помощью APT сломанные пакеты, некорректно установленные/обновлённые
-
 ### fix-dpkg.desktop
 # Name[ru_RU]=Исправить сломанные пакеты с помощью DPKG
 # Comment[ru_RU]=Проверить и исправить с помощью DPKG сломанные пакеты, некорректно установленные/обновлённые
-
 ### install-deb.desktop
 # Name[ru_RU]=Установить/переустановить DEB-пакет с локального диска
 # Comment[ru_RU]=Установить/переустановить DEB-пакет с локального диска
-
 ### install-debian-kernel.desktop
 # Name[ru_RU]=Установить ядро Debian
 # Comment[ru_RU]=Установить ядро Debian
-
 ### install-liquorix.desktop
 # Name[ru_RU]=Установить ядро Liquorix
 # Comment[ru_RU]=Установить ядро Liquorix
-
 ### install-locale.desktop
 # Name[ru_RU]=Установить языковые пакеты
 # Comment[ru_RU]=Установить отсутствующие языковые пакеты
-
 ### quick-install.desktop
 # Name[ru_RU]=Установить пакеты из репозитория
 # Comment[ru_RU]=Установить пакеты из репозитория
-
 ### kernel.desktop
 # Name[ru_RU]=Удалить старое системное ядро
 # Comment[ru_RU]=Удалить старое неактивное системное ядро
-
 ### nonfree-remove.desktop
 # Name[ru_RU]=Удалить несвободные пакеты
 # Comment[ru_RU]=Удалить несвободные и ограниченные пакеты из системы
-
 ### quick-remove.desktop
 # Name[ru_RU]=Удалить пакет из системы
 # Comment[ru_RU]=Удалить выбранный пакет из системы
-
 ### vboxguest-remove.desktop
 # Name[ru_RU]=Удалить VirtualBox Guest Utils
 # Comment[ru_RU]=Удалить VirtualBox Guest Utils
-
 ### edit-repo-custom.desktop
 # Name[ru_RU]=Редактировать пользовательские репозитории
 # Comment[ru_RU]=Редактировать списки пользовательских репозиториев
-
 ### edit-repo-main.desktop
 # Name[ru_RU]=Редактировать главный репозиторий
 # Comment[ru_RU]=Редактировать список главного репозитория
-
 ### dist-upgrade.desktop
 # Name[ru_RU]=Обновить систему
 # Comment[ru_RU]=Полностью обновить систему
-
 ### update.desktop
 # Name[ru_RU]=Обновить список пакетов
 # Comment[ru_RU]=Обновить список пакетов
-
 ### upgrade.desktop
 # Name[ru_RU]=Безопасно обновить систему
 # Comment[ru_RU]=Безопасно обновить систему
-
 ### sparky-aptus.desktop
 # Name[ru_RU]=
 # Comment[ru_RU]=Поддержка системы в актуальном состоянии, чистка, установка и удаление пакетов
-
 ### install-sparky-kernel.desktop
 # Name[ru_RU]=Install Sparky Kernel
 # Comment[ru_RU]=Install the latest Sparky Kernel

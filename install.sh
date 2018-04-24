@@ -23,7 +23,7 @@ if [ "$1" = "uninstall" ]; then
 	rm -rf /usr/share/icons/sparky/flags
 	rm -rf /usr/share/sparky/sparky-aptus
 else
-	cp bin/sparky-aptus /usr/bin/
+	cp bin/* /usr/bin/
 	if [ ! -d /usr/lib/sparky-aptus ]; then
 		mkdir -p /usr/lib/sparky-aptus
 	fi

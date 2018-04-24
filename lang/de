@@ -1,7 +1,7 @@
 # German localization file for Sparky APTus.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2018/02/19 by pavroo
+# Last update 2018/04/21 by pavroo
 LOCAL1="Update"
 LOCAL2="Installieren"
 LOCAL3="Entfernen"
@@ -77,92 +77,86 @@ LOCAL72="Install the latest i686 NON-PAE Debian kernel"
 LOCAL73="Install the latest i686-PAE Debian kernel"
 LOCAL74="Install the latest 64 bit Debian kernel"
 LOCAL75="If everything went well the latest Debian kernel and its headers have been installed! \n\nReboot your machine to take effects."
+LOCAL76="Upgrade"
+LOCAL77="FullUpgrade"
+LOCAL78="Game"
+LOCAL79="Codecs"
+LOCAL80="Office"
+LOCAL81="System"
+LOCAL82="Web"
+LOCAL83="Accessories"
+LOCAL84="APTus lets you install popular applications.\nIt is recommended to update package list, before starting installation."
+LOCAL85="Reinstall"
+LOCAL86="Installer"
+LOCAL87="Installation completed."
+LOCAL88="Get informations about the application via command:"
+LOCAL89="This package is already installed."
+LOCAL90="What would you like to do now?"
+LOCAL91="Should I install the package you have chosen?"
 ##### .desktop files to be translated too:
-
 ### autoclean.desktop
 # Name[de_DE]=Entferne alte DEB-Pakete
 # Comment[de_DE]=Entfernt alle alten DEB-Pakete von dem System
-
 ### autoremove.desktop
 # Name[de_DE]=Entferne unnötige Pakete
 # Comment[de_DE]=Entfernt alle nicht mehr benötigten Pakete von dem System
-
 ### clean.desktop
 # Name[de_DE]=Entferne alle DEB Pakete
 # Comment[de_DE]=Entfernt alle runtergeladene DEB-Pakete von dem System
-
 ### fix-apt.desktop
 # Name[de_DE]=Repariere von APT beschädigte Pakete
 # Comment[de_DE]=Prüft und repariert Pakete, die von APT nicht korrekt installiert/aktualisiert wurden
-
 ### fix-dpkg.desktop
 # Name[de_DE]=Repariere von DPKG beschädigte Pakete
 # Comment[de_DE]=Prüft und repariert Pakete, die von DPKG nicht korrekt installiert/aktualisiert wurden
-
 ### install-deb.desktop
 # Name[de_DE]=Installiere oder reinstalliere DEB package aus einer lokalen Quelle
 # Comment[de_DE]=Installiert bzw. installiert ein DEB Paket erneut
-
 ### install-debian-kernel.desktop
 # Name[de_DE]=Installiere Debian Kernel
 # Comment[de_DE]=Installiert den Debian Kernel
-
 ### install-liquorix.desktop
 # Name[de_DE]=Installiere Liquorix Kernel
 # Comment[de_DE]=Installiert den Liquorix Kernel
-
 ### install-locale.desktop
 # Name[de_DE]=Installiere Sprachpakete
 # Comment[de_DE]=Installiert fehlende Sprachpakete
-
 ### quick-install.desktop
 # Name[de_DE]=Installiere Pakete aus den Repository
 # Comment[de_DE]=Installiert Pakete aus den Repository
-
 ### kernel.desktop
 # Name[de_DE]=Entferne alte System Kernel
 # Comment[de_DE]=Entfernt alte, nicht aktive System Kernel
-
 ### nonfree-remove.desktop
 # Name[de_DE]=Entferne die Non-Free Pakete
 # Comment[de_DE]=Entfernt die Non-Free und Restricted Pakete von dem System
-
 ### quick-remove.desktop
 # Name[de_DE]=Entferne Pakete von dem System
 # Comment[de_DE]=Entfernt ausgewählte Pakete von dem System
-
 ### vboxguest-remove.desktop
 # Name[de_DE]=Entferne die VirtualBox Guest Utils
 # Comment[de_DE]=Entfernt die VirtualBox Guest Utils
-
 ### edit-repo-custom.desktop
 # Name[de_DE]=Editieren der Benutzer Repositories
 # Comment[de_DE]=Anpassen der Benutzer Repository Liste
-
 ### edit-repo-main.desktop
 # Name[de_DE]=Editiere die Main Repositories
 # Comment[de_DE]=Anpassen der Main Repository Liste
-
 ### dist-upgrade.desktop
 # Name[de_DE]=Upgrade das System
 # Comment[de_DE]=Startet das Upgrade für das komplette System 
-
 ### update.desktop
 # Name[de_DE]=Aktualisiere die Paket Liste
 # Comment[de_DE]=Bringt die Paket Liste auf den neusten Stand
-
 ### upgrade.desktop
 # Name[de_DE]=System sicher upgraden
 # Comment[de_DE]=System sicher upgraden
-
 ### sparky-aptus.desktop
 # Name[de_DE]=
 # Comment[de_DE]=Hält das System aktuell und sauber, installiert und entfernt Pakete
-
 ### install-sparky-kernel.desktop
 # Name[de_DE]=Installiere Sparky Kernel
 # Comment[de_DE]=Installiert den Sparky Kernel
-
 ### install-sparky-kernel.desktop
 # Name[de_DE]=Install Sparky Kernel
 # Comment[de_DE]=Install the latest Sparky Kernel

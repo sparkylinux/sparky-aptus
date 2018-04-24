@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2018/02/19 by pavroo
+# Last update 2018/04/21 by pavroo
 LOCAL1="Aktualizacja"
 LOCAL2="Instalacja"
 LOCAL3="Usuwanie"
@@ -78,88 +78,83 @@ LOCAL72="Instalacja najnowszego jądra i686 NON-PAE Debian"
 LOCAL73="Instalacja najnowszego jądra i686-PAE Debian"
 LOCAL74="Instalacja najnowszego jądra 64 bit Sparky"
 LOCAL75="Jeśli wszystko poszło dobrze, najnowsze jądro Debian i jego nagłówki zostały zainstalowane! \n\nUruchom ponownie komputer aby zastosować zmiany."
+LOCAL76="Aktualizacja"
+LOCAL77="PełnaAktualizacja"
+LOCAL78="Gry"
+LOCAL79="Kodeki"
+LOCAL80="Biuro"
+LOCAL81="System"
+LOCAL82="Sieć"
+LOCAL83="Akcesoria"
+LOCAL84="APTus umożliwia instalację popularnych aplikacji.\nZalecane jest zaktualizowanie listy pakietów, przed rozpoczęciem instalacji."
+LOCAL85="Reinstalacja"
+LOCAL86="Instalator"
+LOCAL87="Instalacja zakończona."
+LOCAL88="Uzyskaj informacje na temat aplikacji, za pomocą polecenia:"
+LOCAL89="Ten pakiet jest już zainstalowany."
+LOCAL90="Co chcesz teraz zrobić?"
+LOCAL91="Czy mam zainstalować pakiet, który wybrałeś?"
 ##### pliki .desktop, również do przetłumaczenia:
-
 ### autoclean.desktop
 # Name[pl_PL]=Usuń stare pakiety DEB
 # Comment[pl_PL]=Usuń wszystkie stare pakiety DEB z systemu
-
 ### autoremove.desktop
 # Name[pl_PL]=Usuń niepotrzebne pakiety
 # Comment[pl_PL]=Usuń niepotrzebne pakiety z systemu
-
 ### clean.desktop
 # Name[pl_PL]=Usuń wszystkie pakiety DEB
 # Comment[pl_PL]=Usuń z systemu wszystkie pobrane pakiety DEB
-
 ### fix-apt.desktop
 # Name[pl_PL]=Napraw uszkodzone pakiety za pomocą APT
 # Comment[pl_PL]=Sprawdź i napraw uszkodzone pakiety za pomocą APT
-
 ### fix-dpkg.desktop
 # Name[pl_PL]=Napraw uszkodzone pakiety za pomocą DPKG
 # Comment[pl_PL]=Sprawdź i napraw uszkodzone pakiety za pomocą DPKG
-
 ### install-deb.desktop
 # Name[pl_PL]=Instalacja lub reinstalacja pakietu DEB z dysku
 # Comment[pl_PL]=Instalacja lub reinstalacja pakietu DEB z dysku
-
 ### install-debian-kernel.desktop
 # Name[pl_PL]=Instalacja jądra Debian
 # Comment[pl_PL]=Instalacja jądra Debian
-
 ### install-liquorix.desktop
 # Name[pl_PL]=Instalacja jądra Liquorix
 # Comment[pl_PL]=Instalacja jądra Liquorix
-
 ### install-locale.desktop
 # Name[pl_PL]=Instalacja pakietów językowych
 # Comment[pl_PL]=Instalacja brakujących pakietów językowych
-
 ### quick-install.desktop
 # Name[pl_PL]=Instalacja pakietów z repozytorium
 # Comment[pl_PL]=Instalacja pakietów z repozytorium
-
 ### kernel.desktop
 # Name[pl_PL]=Usuń stare jądro systemu
 # Comment[pl_PL]=Usuń stare, nieaktywne jądro systemu
-
 ### nonfree-remove.desktop
 # Name[pl_PL]=Usuń pakiety niewolne
 # Comment[pl_PL]=Usuń z systemu pakiety Non-Free oraz Restricted
-
 ### quick-remove.desktop
 # Name[pl_PL]=Usuń pakiet
 # Comment[pl_PL]=Usunięcie wybranego pakietu z systemu
-
 ### vboxguest-remove.desktop
 # Name[pl_PL]=Usuń VirtualBox Guest Utils
 # Comment[pl_PL]=Usuń VirtualBox Guest Utils
-
 ### edit-repo-custom.desktop
 # Name[pl_PL]=Edycja dodatkowych repozytoriów
 # Comment[pl_PL]=Edycja listy dodatkowych repozytoriów
-
 ### edit-repo-main.desktop
 # Name[pl_PL]=Edycja głównych repozytoriów
 # Comment[pl_PL]=Edycja listy głównych repozytoriów
-
 ### dist-upgrade.desktop
 # Name[pl_PL]=Pełna aktualizacja systemu
 # Comment[pl_PL]=Pełna aktualizacja systemu
-
 ### update.desktop
 # Name[pl_PL]=Aktualizacja listy pakietów
 # Comment[pl_PL]=Aktualizacja listy pakietów
-
 ### upgrade.desktop
 # Name[pl_PL]=Bezpieczna aktualizacja systemu
 # Comment[pl_PL]=Bezpieczna aktualizacja systemu
-
 ### sparky-aptus.desktop
 # Name[pl_PL]=
 # Comment[pl_PL]=Utrzymuj system zaktualizowany i czysty, instaluj i usuwaj pakiety
-
 ### install-sparky-kernel.desktop
 # Name[pl_PL]=Instalacja jądra Sparky
 # Comment[pl_PL]=Instalacja najnowszego jądra Sparky
