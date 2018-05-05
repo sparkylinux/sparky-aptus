@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Clonezilla
+Comment=A partition and disk imaging/cloning program
+Comment[pl]=Program do tworzenia kopii zapasowych partycji/dysku
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools clonezilla
+Icon=applications-development
+Type=Application
+Categories=Applications;System;

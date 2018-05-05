@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Vulkan Utils
 Comment=This package provides utilities for Vulkan, including vulkaninfo
-Exec=/usr/lib/sparky-aptus/bin/install-vulkan
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools vulkan-utils
 Icon=preferences-system
 Terminal=false
 Type=Application

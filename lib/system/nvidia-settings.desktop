@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=NVIDIA Settings
 Comment=Configure the NVIDIA graphics driver
-Exec=/usr/lib/sparky-aptus/bin/install-nvidia
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools nvidia-settings
 Icon=nvidia
 Terminal=false
 Type=Application

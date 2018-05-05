@@ -29,24 +29,21 @@ grep
 gawk
 iputils-ping
 sparky-apt
+sparky-aptus-extra (>= 0.2.0)
+sparky-aptus-gamer (>= 0.2.0)
+sparky-codecs (>= 0.2.0)
 sparky-desktop
 sparky-editor
-sparky-office
-sparky-remsu
+sparky-office (>= 0.2.0)
+sparky-remsu (>= 0.2.3)
+sparky-webbrowser-installer (>= 20180424)
 sparky-xterm (>= 0.2.0)
 ssft
+vmplayer-installer
 vrms
 wget
 yad
 zenity
-
-Recommends:
---------------
-vmplayer-installer
-
-Suggests:
------------
-sparky-codecs
 
 Install:
 -------------

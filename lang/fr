@@ -1,7 +1,7 @@
 ﻿# Fichier de localisation française de Sparky APTus.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Last update 2018/04/21 by pavroo
+# Last update 2018/05/04 by pavroo
 LOCAL1="Mise à jour"
 LOCAL2="Installer"
 LOCAL3="Supprimer"
@@ -92,6 +92,15 @@ LOCAL88="Get informations about the application via command:"
 LOCAL89="This package is already installed."
 LOCAL90="What would you like to do now?"
 LOCAL91="Should I install the package you have chosen?"
+LOCAL92="Audio"
+LOCAL93="Video"
+LOCAL94="IM"
+LOCAL95="Email"
+LOCAL96="RSS"
+LOCAL97="FileTransfer"
+LOCAL98="Graphics"
+LOCAL99="Security"
+LOCAL100="This package is not available for your system version."
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[fr_FR]=Supprimer les anciens paquets DEB

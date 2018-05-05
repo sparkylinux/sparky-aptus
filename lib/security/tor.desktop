@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=TOR
+Comment=A connection-based low-latency anonymous communication system
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools tor
+Icon=tor
+Type=Application
+Categories=Applications;System;

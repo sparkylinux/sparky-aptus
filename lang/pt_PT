@@ -1,7 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Sparky APTus.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Tuesday 02 February 17:57:55 WET 2016
 # Sob a Licença GNU GPL v2
-# Last update 2018/04/21 by pavroo
+# Last update 2018/05/04 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -93,6 +93,15 @@ LOCAL88="Get informations about the application via command:"
 LOCAL89="This package is already installed."
 LOCAL90="What would you like to do now?"
 LOCAL91="Should I install the package you have chosen?"
+LOCAL92="Audio"
+LOCAL93="Video"
+LOCAL94="IM"
+LOCAL95="Email"
+LOCAL96="RSS"
+LOCAL97="FileTransfer"
+LOCAL98="Graphics"
+LOCAL99="Security"
+LOCAL100="This package is not available for your system version."
 ##### Arquivo a ser traduzido também .desktop
 ### autoclean.desktop
 # Name[pt_PT]=Remover pacotes DEB antigos
