@@ -1,5 +1,5 @@
 Sparky APTus
-This tool helps you keep your system up to date and clean, install and remove packages. It is a lightweight gui frontend for APT and DPKG tools.
+This tool helps you keep your system up to date and clean, install and remove packages. It is a lightweight gui frontend to APT and DPKG tools.
 
 Copyright (C) 2013-2018 Paweł Pijanowski and others, see copyright file
 
@@ -20,6 +20,7 @@ Dependencies:
 -------------
 apt
 coreutils
+curl
 dctrl-tools
 dialog
 dpkg
