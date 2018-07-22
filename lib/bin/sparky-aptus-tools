@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2018/07/11 by pavroo
+# Last update 2018/07/22 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -108,11 +108,24 @@ case $1 in
   clonezilla)
 	PACKAGE="clonezilla"
      ;;
+  debi-tool)
+	PACKAGE="debi-tool"
+     ;;
+  etcher)
+	if [ "$ARCHARM" != "" ]; then
+		$DIALOG $TEXT"\n$LOCAL100\n\n$LOCAL24" $TITLE"$TITLETEXT" $MSGBOX
+		exit 1
+	fi
+	PACKAGE="etcher-electron"
+     ;;
   flatpak)
 	PACKAGE="flatpak"
      ;;
   luckybackup)
 	PACKAGE="luckybackup"
+     ;;
+  mintstick)
+	PACKAGE="mintstick"
      ;;
   netdata)
 	PACKAGE="netdata"
@@ -146,6 +159,9 @@ case $1 in
      ;;
   webmin)
 	PACKAGE="webmin"
+     ;;
+  woeusb)
+	PACKAGE="woeusb"
      ;;
 esac
 
