@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2018/08/05 by pavroo
+# Last update 2018/09/13 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -54,6 +54,7 @@ fi
 INSTALL="apt-get install"
 REINSTALL="apt-get install --reinstall"
 UNINSTALL="apt-get purge"
+UPDATE="apt-get update"
 ARCH64="`uname -m | grep x86_64`"
 ARCH32="`uname -m | grep 686`"
 ARCHARM="`uname -m | grep arm`"
@@ -165,42 +166,106 @@ case $1 in
      ;;
 esac
 
-CHECKPACKAGE="/usr/share/doc/$PACKAGE"
+if [ "$1" = "virtualbox" ]; then
+	CHECKPACKAGE="/usr/bin/$PACKAGE"
+else
+	CHECKPACKAGE="/usr/share/doc/$PACKAGE"
+fi
 
-# install, reinstall or remove package
-if [ -d "$CHECKPACKAGE" ]; then
-	$DIALOG $TEXT"\n$LOCAL89\n$LOCAL90" $TITLE"$TITLETEXT" $BUTTONREMOVE $BUTTONREINSTALL $BUTTONEXIT
-	ret=$?
-	if [[ $ret -eq 3 ]]; then
-		$SPARKYXTERM "$UNINSTALL $PACKAGE"
-	elif [[ $ret -eq 4 ]]; then
-		if [ "$PINGTEST" = "" ]; then
-			$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL16 \n\n$LOCAL24"
-			exit 1
-		fi
-		$SPARKYXTERM "$REINSTALL $PACKAGE"
-	else
-		exit 1
-	fi
-elif [ ! -d "$CHECKPACKAGE" ]; then
-	$DIALOG $TEXT"\n$LOCAL91" $TITLE"$TITLETEXT" $BUTTONINSTALL $BUTTONEXIT
-	if [ "$?" = "0" ]; then
-		if [ "$PINGTEST" = "" ]; then
-			$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL16 \n\n$LOCAL24"
-			exit 1
-		fi
-		$SPARKYXTERM "$INSTALL $PACKAGE"
-		if [ ! -d "$CHECKPACKAGE" ]; then
-			$DIALOG $TEXT"\n$LOCAL20" $TITLE"$TITLETEXT" $MSGBOX
-			exit 1
+# install, reinstall or remove virtualbox
+if [ "$1" = "virtualbox" ]; then
+
+	CHECKSERVERDEB=`apt-cache policy $PACKAGE | head -n3 | tail -n1 | grep [0-9]`
+
+	if [ -f "$CHECKPACKAGE" ]; then
+		$DIALOG $TEXT"\n$LOCAL89\n$LOCAL90" $TITLE"$TITLETEXT" $BUTTONREMOVE $BUTTONREINSTALL $BUTTONEXIT
+		ret=$?
+		if [[ $ret -eq 3 ]]; then
+			$SPARKYXTERM "$UNINSTALL $PACKAGE*"
+		elif [[ $ret -eq 4 ]]; then
+			if [ "$PINGTEST" = "" ]; then
+				$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL16 \n\n$LOCAL24"
+				exit 1
+			fi
+			# check is deb available in the repository
+			if [ "$CHECKSERVERDEB" = "" ]; then
+				if [ -f /etc/apt/sources.list.d/debian-stable-backports.list ]; then
+					rm -f /etc/apt/sources.list.d/debian-stable-backports.list
+				fi
+				echo "deb http://ftp.debian.org/debian/ stable-backports main contrib non-free" >> /etc/apt/sources.list.d/debian-stable-backports.list
+				$SPARKYXTERM "$UPDATE"
+			fi
+			$SPARKYXTERM "$REINSTALL $PACKAGE"
 		else
-			$DIALOG $TEXT"\n$LOCAL87\n\n$LOCAL24" $TITLE"$TITLETEXT" $MSGBOX
 			exit 1
 		fi
+	elif [ ! -f "$CHECKPACKAGE" ]; then
+		$DIALOG $TEXT"\n$LOCAL91" $TITLE"$TITLETEXT" $BUTTONINSTALL $BUTTONEXIT
+		if [ "$?" = "0" ]; then
+			if [ "$PINGTEST" = "" ]; then
+				$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL16 \n\n$LOCAL24"
+				exit 1
+			fi
+			# check is deb available in the repository
+			if [ "$CHECKSERVERDEB" = "" ]; then
+				if [ -f /etc/apt/sources.list.d/debian-stable-backports.list ]; then
+					rm -f /etc/apt/sources.list.d/debian-stable-backports.list
+				fi
+				echo "deb http://ftp.debian.org/debian/ stable-backports main contrib non-free" >> /etc/apt/sources.list.d/debian-stable-backports.list
+				$SPARKYXTERM "$UPDATE"
+			fi
+			$SPARKYXTERM "$INSTALL $PACKAGE"
+			if [ ! -f "$CHECKPACKAGE" ]; then
+				$DIALOG $TEXT"\n$LOCAL20" $TITLE"$TITLETEXT" $MSGBOX
+				exit 1
+			else
+				$DIALOG $TEXT"\n$LOCAL87\n\n$LOCAL24" $TITLE"$TITLETEXT" $MSGBOX
+				exit 1
+			fi
 
-	elif [ "$?" != "0" ]; then
-		exit 1
+		elif [ "$?" != "0" ]; then
+			exit 1
+		fi
 	fi
+
+# install, reinstall or remove anything else
+else
+
+	if [ -d "$CHECKPACKAGE" ]; then
+		$DIALOG $TEXT"\n$LOCAL89\n$LOCAL90" $TITLE"$TITLETEXT" $BUTTONREMOVE $BUTTONREINSTALL $BUTTONEXIT
+		ret=$?
+		if [[ $ret -eq 3 ]]; then
+			$SPARKYXTERM "$UNINSTALL $PACKAGE"
+		elif [[ $ret -eq 4 ]]; then
+			if [ "$PINGTEST" = "" ]; then
+				$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL16 \n\n$LOCAL24"
+				exit 1
+			fi
+			$SPARKYXTERM "$REINSTALL $PACKAGE"
+		else
+			exit 1
+		fi
+	elif [ ! -d "$CHECKPACKAGE" ]; then
+		$DIALOG $TEXT"\n$LOCAL91" $TITLE"$TITLETEXT" $BUTTONINSTALL $BUTTONEXIT
+		if [ "$?" = "0" ]; then
+			if [ "$PINGTEST" = "" ]; then
+				$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL16 \n\n$LOCAL24"
+				exit 1
+			fi
+			$SPARKYXTERM "$INSTALL $PACKAGE"
+			if [ ! -d "$CHECKPACKAGE" ]; then
+				$DIALOG $TEXT"\n$LOCAL20" $TITLE"$TITLETEXT" $MSGBOX
+				exit 1
+			else
+				$DIALOG $TEXT"\n$LOCAL87\n\n$LOCAL24" $TITLE"$TITLETEXT" $MSGBOX
+				exit 1
+			fi
+
+		elif [ "$?" != "0" ]; then
+			exit 1
+		fi
+	fi
+
 fi
 
 exit 0
