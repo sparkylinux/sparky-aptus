@@ -18,6 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Dependencies:
 -------------
+adduser
 apt
 coreutils
 curl
@@ -31,7 +32,6 @@ gawk
 iputils-ping
 sparky-apt
 sparky-aptus-extra (>= 0.2.0)
-sparky-aptus-gamer (>= 0.2.0)
 sparky-codecs (>= 0.2.0)
 sparky-desktop
 sparky-editor
@@ -45,6 +45,10 @@ vrms
 wget
 yad
 zenity
+
+Recommends:
+-------------
+sparky-aptus-gamer (>= 0.2.0)
 
 Install:
 -------------

@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
+  Version 0.4.10 (2018-10-03)
+-------------------------------------------------------------------------------
+  * Added user 1000 to vboxuser group of virtualbox installation
+  * Updated French locale
+  * Separated Game module if not installed, required by Daniel
+
+-------------------------------------------------------------------------------
   Version 0.4.9 (2018-09-13)
 -------------------------------------------------------------------------------
   * Fixed VirtualBox installation on Stretch

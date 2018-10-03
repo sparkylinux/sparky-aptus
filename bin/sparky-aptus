@@ -3,7 +3,7 @@
 # Sparky APTus is a simply GUI frontend for APT-GET and DPKG
 # Created by Paweł "pavroo" Pijanowski 2013/08/31
 # Copyright 2013-2018 under the GNU GPL2 License
-# Last updated 2018/08/08
+# Last updated 2018/10/03
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -65,12 +65,6 @@ KEY="--key"
 YADKEY=$$
 PLUG="--plug=$YADKEY"
 
-#BUTTONUPDATE="--button=$LOCAL1:0"
-#BUTTONUPGRADE=" --button=$LOCAL76:3"
-#BUTTONFULLUPGRADE=" --button=$LOCAL77:4"
-#BUTTONEXIT="--button=$LOCAL24:1"
-#BUTTONS="--buttons-layout=center"
-
 ### Accessories, Codecs, Audio, Video, Desktop, Game, Office, Graphics, Web, IM, Email, RSS, FileTransfer, Security, System
 # Tab 1 Accessories
 $YAD $PLUG $TABNUM=1 $IMAGEONTOP $ICONS $READDIR=$DIR/accessories $ITEM $SORT $CENTER &
@@ -87,7 +81,9 @@ else
 	$YAD $PLUG $TABNUM=5 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop $ITEM $SORT $CENTER &
 fi
 # Tab 6 Game
-$YAD $PLUG $TABNUM=6 $IMAGEONTOP $ICONS $READDIR=$DIR/game $ITEM $SORT $CENTER &
+if [ -f "$DIR/game/wine.desktop" ]; then
+	$YAD $PLUG $TABNUM=6 $IMAGEONTOP $ICONS $READDIR=$DIR/game $ITEM $SORT $CENTER &
+fi
 # Tab 7 Office
 $YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/office $ITEM $SORT $CENTER &
 # Tab 8 Graphics
@@ -108,37 +104,10 @@ $YAD $PLUG $TABNUM=14 $IMAGEONTOP $ICONS $READDIR=$DIR/security $ITEM $SORT $CEN
 $YAD $PLUG $TABNUM=15 $IMAGEONTOP $ICONS $READDIR=$DIR/system $ITEM $SORT $CENTER &
 
 # Read yad window with tabs
-$YAD $CENTER $NOTEBOOK $KEY=$YADKEY $TAB="$LOCAL83" $TAB="$LOCAL79" $TAB="$LOCAL92" $TAB="$LOCAL93" $TAB="$LOCAL59" $TAB="$LOCAL78" $TAB="$LOCAL80" $TAB="$LOCAL98" $TAB="$LOCAL82" $TAB="$LOCAL94" $TAB="$LOCAL95" $TAB="$LOCAL96" $TAB="$LOCAL97" $TAB="$LOCAL99" $TAB="$LOCAL81" $TABPOSITION $TITLE"$TITLETEXT" --height=$HEIGHT --width=$WIDTH $NOBUTTONS $WINDOWICON
-
-# $TEXT"\n$LOCAL84" $BUTTONUPDATE $BUTTONUPGRADE $BUTTONFULLUPGRADE $BUTTONEXIT $BUTTONUPDATE $BUTTONEXIT $BUTTONS
-#ret=$?
-
-#if [[ $ret -eq 2 ]]; then
-#	/usr/lib/sparky-aptus/bin/sparky-update
-#	/usr/bin/sparky-aptus
-#fi
-
-#if [[ $ret -eq 3 ]]; then
-#	/usr/lib/sparky-aptus/bin/sparky-upgrade
-#	/usr/bin/sparky-aptus
-#fi
-
-#if [[ $ret -eq 4 ]]; then
-#	/usr/lib/sparky-aptus/bin/sparky-upgrade-full
-#	/usr/bin/sparky-aptus
-#else
-#	exit 0
-#fi
-
-#if [[ $ret -eq 5 ]]; then
-#	exit 1
-#fi
-
-#if [ "$?" = "1" ]; then
-	#/usr/lib/sparky-aptus/bin/update
-	#/usr/bin/sparky-aptus
-#else
-#	exit 1
-#fi
+if [ -f "$DIR/game/wine.desktop" ]; then
+	$YAD $CENTER $NOTEBOOK $KEY=$YADKEY $TAB="$LOCAL83" $TAB="$LOCAL79" $TAB="$LOCAL92" $TAB="$LOCAL93" $TAB="$LOCAL59" $TAB="$LOCAL78" $TAB="$LOCAL80" $TAB="$LOCAL98" $TAB="$LOCAL82" $TAB="$LOCAL94" $TAB="$LOCAL95" $TAB="$LOCAL96" $TAB="$LOCAL97" $TAB="$LOCAL99" $TAB="$LOCAL81" $TABPOSITION $TITLE"$TITLETEXT" --height=$HEIGHT --width=$WIDTH $NOBUTTONS $WINDOWICON
+else
+	$YAD $CENTER $NOTEBOOK $KEY=$YADKEY $TAB="$LOCAL83" $TAB="$LOCAL79" $TAB="$LOCAL92" $TAB="$LOCAL93" $TAB="$LOCAL59" $TAB="$LOCAL80" $TAB="$LOCAL98" $TAB="$LOCAL82" $TAB="$LOCAL94" $TAB="$LOCAL95" $TAB="$LOCAL96" $TAB="$LOCAL97" $TAB="$LOCAL99" $TAB="$LOCAL81" $TABPOSITION $TITLE"$TITLETEXT" --height=$HEIGHT --width=$WIDTH $NOBUTTONS $WINDOWICON
+fi
 
 exit 0

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2018/09/13 by pavroo
+# Last update 2018/09/14 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -215,6 +215,10 @@ if [ "$1" = "virtualbox" ]; then
 				$SPARKYXTERM "$UPDATE"
 			fi
 			$SPARKYXTERM "$INSTALL $PACKAGE"
+			USER1000=`cat /etc/passwd | grep 1000 | awk -F: '{ print $1 }'`
+			if [ "$USER1000" != " " ]; then 
+				adduser $USER1000 vboxusers
+			fi
 			if [ ! -f "$CHECKPACKAGE" ]; then
 				$DIALOG $TEXT"\n$LOCAL20" $TITLE"$TITLETEXT" $MSGBOX
 				exit 1
