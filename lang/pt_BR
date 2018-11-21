@@ -3,7 +3,7 @@
 # Sob a licença GNU GPL v2
 # Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/19
 # Corrigido por Elton Fabrício Ferreira "eltonfabricio10" <eltonfabricio10@gmail.com> 2018/07/04
-# Last update 2018/08/05 by pavroo
+# Last update 2018/11/21 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -104,6 +104,8 @@ LOCAL97="Transferência"
 LOCAL98="Gráficos"
 LOCAL99="Segurança"
 LOCAL100="Esse pacote não está disponível para a versão do seu sistema."
+LOCAL101="Pesquisa do Sparky APTus Quick"
+LOCAL102="Digite uma palavra chave que você deseja pesquisar.\nVocê pode digitar alguns nomes separados por tecla de espaço.\n\nCertifique-se de que seu sistema está atualizado\nantes de iniciar isso."
 ##### .desktop arquivos a serem traduzidos também:
 ### autoclean.desktop
 # Name[pt_BR]=Remover pacotes DEB antigos
@@ -168,3 +170,6 @@ LOCAL100="Esse pacote não está disponível para a versão do seu sistema."
 ### install-sparky-kernel.desktop
 # Name[pt_BR]=Instalar o Sparky Kernel
 # Comment[pt_BR]=Instalar o mais recente kernel Sparky
+### quick-list.desktop
+# Name[pt_BR]=Pesquisar pacotes do repositório
+# Comment[pt_BR]=Pesquisa os pacotes do repositório

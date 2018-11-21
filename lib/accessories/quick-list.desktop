@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Search packages from repository
+Name[pl]=Wyszukaj pakiety w repozytoriach
+Name[pt_BR]=Pesquisar pacotes do repositório
+Comment=Search packages from repository
+Comment[pl]=Wyszukaj pakiety w repozytoriach
+Comment[pt_BR]=Pesquisa os pacotes do repositório
+Exec=/usr/lib/sparky-aptus/bin/quick-list
+Icon=search
+Terminal=false
+Type=Application
+Categories=System;

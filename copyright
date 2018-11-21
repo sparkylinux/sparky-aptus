@@ -47,6 +47,10 @@ File: ru
     Copyright (C) 2016 Igor Klyushnyov <inklu@yandex.ru>
     License: GPL-2
 
+File: quick-list*
+    Copyright (C) 2018 Elton Fabricio Ferreira & pavroo
+    License: GPL-2
+
 License:
 
     This package is free software; you can redistribute it and/or modify
@@ -323,5 +327,5 @@ The following shall not be protected by copyright:
 3. works of folklore,
 4. communications concerning events and facts that have an informational character.
 
-The Debian packaging is (C) 2013, 2014, 2015, 2016, 2017 Paweł Pijanowski <pavroo@onet.eu> and
+The Debian packaging is (C) 2013-2018 Paweł Pijanowski <pavroo@onet.eu> and
 is licensed under the GPL, see above.

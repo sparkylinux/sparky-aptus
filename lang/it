@@ -1,7 +1,7 @@
 # File di localizzazione italiano per Sparky APTus.
 # Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 22/10/2015
 # Rilasciato sotto licenza GNU GPL v2
-# Last update 2018/05/04 by pavroo
+# Last update 2018/11/21 by pavroo
 LOCAL1="Aggiorna"
 LOCAL2="Installa"
 LOCAL3="Rimuovi"
@@ -102,6 +102,8 @@ LOCAL97="FileTransfer"
 LOCAL98="Grafica"
 LOCAL99="Sicurezza"
 LOCAL100="Questo paccehtto non e' disponibile per la tua versione del sistema."
+LOCAL101="Sparky APTus Quick Search"
+LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[it_IT]=Rimuovi i vecchi pacchetti DEB
@@ -166,3 +168,6 @@ LOCAL100="Questo paccehtto non e' disponibile per la tua versione del sistema."
 ### install-sparky-kernel.desktop
 # Name[it_IT]=Installa il kernel Sparky
 # Comment[it_IT]=Installa l'ultimo kernel Sparky
+### quick-list.desktop
+# Name[it_IT]=Search packages from repository
+# Comment[it_IT]=Search packages from repository

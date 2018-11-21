@@ -49,6 +49,7 @@ zenity
 Recommends:
 -------------
 sparky-aptus-gamer (>= 0.2.0)
+xterm (for quick-list)
 
 Install:
 -------------

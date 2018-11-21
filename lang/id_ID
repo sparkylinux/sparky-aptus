@@ -1,7 +1,7 @@
 # Indonesian localization file for Sparky APTus.
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2018/07/11 by pavroo
+# Last update 2018/11/21 by pavroo
 # Translated to Indonesian by les kompie
 LOCAL1="Update"
 LOCAL2="Instal"
@@ -103,6 +103,8 @@ LOCAL97="Transfer File"
 LOCAL98="Grafis"
 LOCAL99="Sekuriti"
 LOCAL100="Paket ini tidak tersedia untuk versi sistem anda."
+LOCAL101="Sparky APTus Quick Search"
+LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[id_ID]=Hapus paket lama DEB
@@ -167,3 +169,6 @@ LOCAL100="Paket ini tidak tersedia untuk versi sistem anda."
 ### install-sparky-kernel.desktop
 # Name[id_ID]=Instal Kernel Sparky
 # Comment[id_ID]=Menginstal kernel Sparky terbaru
+### quick-list.desktop
+# Name[id_ID]=Search packages from repository
+# Comment[id_ID]=Search packages from repository

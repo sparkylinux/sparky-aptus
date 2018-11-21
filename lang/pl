@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2018/05/04 by pavroo
+# Last update 2018/11/21 by pavroo
 LOCAL1="Aktualizacja"
 LOCAL2="Instalacja"
 LOCAL3="Usuwanie"
@@ -103,6 +103,8 @@ LOCAL97="TransferPlików"
 LOCAL98="Grafika"
 LOCAL99="Bezpieczeństwo"
 LOCAL100="Ten pakiet nie jest dostępny dla wersji twojego systemu."
+LOCAL101="Sparky APTus Szybkie Wyszukiwanie"
+LOCAL102="Wpisz nazwę pakietu, który chcesz znaleźć.\nMożesz wpisać kilka nazw oddzielonych SPACJĄ.\n\nUpewnij się, że system jest zaktualizowany\nzanim rozpoczniesz."
 ##### pliki .desktop, również do przetłumaczenia:
 ### autoclean.desktop
 # Name[pl_PL]=Usuń stare pakiety DEB
@@ -167,3 +169,6 @@ LOCAL100="Ten pakiet nie jest dostępny dla wersji twojego systemu."
 ### install-sparky-kernel.desktop
 # Name[pl_PL]=Instalacja jądra Sparky
 # Comment[pl_PL]=Instalacja najnowszego jądra Sparky
+### quick-list.desktop
+# Name[pl_PL]=Wyszukaj pakiety w repozytoriach
+# Comment[pl_PL]=Wyszukaj pakiety w repozytoriach

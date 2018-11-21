@@ -1,6 +1,6 @@
 # Greek localization file for Sparky APTus.
 # Translate to Greek by jidan 2017/01/02
-# Last update 2018/05/04 by pavroo
+# Last update 2018/11/21 by pavroo
 LOCAL1="Ενημέρωση"
 LOCAL2="Εγκατάσταση"
 LOCAL3="Απομάκρυνση"
@@ -101,6 +101,8 @@ LOCAL97="FileTransfer"
 LOCAL98="Graphics"
 LOCAL99="Security"
 LOCAL100="This package is not available for your system version."
+LOCAL101="Sparky APTus Quick Search"
+LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[el_GR]=Διαγραφή παλιότερων πακέτων DEB
@@ -165,3 +167,6 @@ LOCAL100="This package is not available for your system version."
 ### install-sparky-kernel.desktop
 # Name[el_GR]=Εγκατάσταση του πυρήνα Sparky
 # Comment[el_GR]=Εγκατάσταση του τελευταίου πυρήνα Sparky
+### quick-list.desktop
+# Name[el_GR]=Search packages from repository
+# Comment[el_GR]=Search packages from repository
