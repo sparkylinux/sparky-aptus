@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Docker
+Comment=Linux container runtime
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools docker
+Icon=applications-development
+Type=Application
+Categories=Applications;System;

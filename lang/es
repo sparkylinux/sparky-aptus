@@ -1,7 +1,7 @@
 # Archivo de localización en español para Sparky APTus.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/24
 # Bajo la licencia GNU GPL v2
-# Last update 2018/11/21 by pavroo
+# Last update 2019/01/14 by pavroo
 LOCAL1="Actualizar"
 LOCAL2="Instalar"
 LOCAL3="Eliminar"
@@ -104,6 +104,8 @@ LOCAL99="Security"
 LOCAL100="This package is not available for your system version."
 LOCAL101="Sparky APTus Quick Search"
 LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
+LOCAL103="No vailid user found, so can't remove the user cache."
+LOCAL104="Have I remove all cache from home directory of user"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[es_AR]=Eliminar todos los paquetes DEB viejos

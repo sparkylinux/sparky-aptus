@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Clean User Cache
+Name[pl]=Usuń Cache Użytkownika
+Comment=Remove cache from user home directory
+Comment[pl]=Usuń cache z katalogu domowego użytkownika
+Exec=/usr/lib/sparky-aptus/bin/cache-cleaner
+Icon=application-x-trash
+Terminal=false
+Type=Application
+Categories=System;

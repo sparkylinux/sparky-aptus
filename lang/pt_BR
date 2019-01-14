@@ -3,7 +3,7 @@
 # Sob a licença GNU GPL v2
 # Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/19
 # Corrigido por Elton Fabrício Ferreira "eltonfabricio10" <eltonfabricio10@gmail.com> 2018/07/04
-# Last update 2018/11/21 by pavroo
+# Last update 2019/01/14 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -106,6 +106,8 @@ LOCAL99="Segurança"
 LOCAL100="Esse pacote não está disponível para a versão do seu sistema."
 LOCAL101="Pesquisa do Sparky APTus Quick"
 LOCAL102="Digite uma palavra chave que você deseja pesquisar.\nVocê pode digitar alguns nomes separados por tecla de espaço.\n\nCertifique-se de que seu sistema está atualizado\nantes de iniciar isso."
+LOCAL103="No vailid user found, so can't remove the user cache."
+LOCAL104="Have I remove all cache from home directory of user"
 ##### .desktop arquivos a serem traduzidos também:
 ### autoclean.desktop
 # Name[pt_BR]=Remover pacotes DEB antigos
