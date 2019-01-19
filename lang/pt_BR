@@ -106,8 +106,8 @@ LOCAL99="Segurança"
 LOCAL100="Esse pacote não está disponível para a versão do seu sistema."
 LOCAL101="Pesquisa do Sparky APTus Quick"
 LOCAL102="Digite uma palavra chave que você deseja pesquisar.\nVocê pode digitar alguns nomes separados por tecla de espaço.\n\nCertifique-se de que seu sistema está atualizado\nantes de iniciar isso."
-LOCAL103="No vailid user found, so can't remove the user cache."
-LOCAL104="Have I remove all cache from home directory of user"
+LOCAL103="Nenhum usuário válido foi encontrado, portanto, não é possível remover o cache do usuário."
+LOCAL104="Deseja remover todo o cache do diretório home do usuário"
 ##### .desktop arquivos a serem traduzidos também:
 ### autoclean.desktop
 # Name[pt_BR]=Remover pacotes DEB antigos
@@ -175,3 +175,6 @@ LOCAL104="Have I remove all cache from home directory of user"
 ### quick-list.desktop
 # Name[pt_BR]=Pesquisar pacotes do repositório
 # Comment[pt_BR]=Pesquisa os pacotes do repositório
+###cache-cleaner.desktop
+# Name[pt_BR]=Remover Cache do Usuário
+# Comment[pt_BR]=Remove os cache do diretório home do usuário
