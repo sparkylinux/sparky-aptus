@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=GitKraken
+Comment=Unleash your repo
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools gitkraken
+Icon=app
+Type=Application
+Categories=Applications;System;
