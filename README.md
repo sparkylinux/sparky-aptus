@@ -31,7 +31,7 @@ grep
 gawk
 iputils-ping
 sparky-apt
-sparky-aptus-extra (>= 0.2.0)
+sparky-aptus-extra (>= 0.2.14)
 sparky-codecs (>= 0.2.0)
 sparky-desktop
 sparky-editor

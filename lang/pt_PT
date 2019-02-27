@@ -1,7 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Sparky APTus.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Tuesday 02 February 17:57:55 WET 2016
 # Sob a Licença GNU GPL v2
-# Last update 2019/01/14 by pavroo
+# Last update 2019/02/27 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -93,8 +93,8 @@ LOCAL88="Get informations about the application via command:"
 LOCAL89="This package is already installed."
 LOCAL90="What would you like to do now?"
 LOCAL91="Should I install the package you have chosen?"
-LOCAL92="Audio"
-LOCAL93="Video"
+LOCAL92="AudioPlayer"
+LOCAL93="VideoPlayer"
 LOCAL94="IM"
 LOCAL95="Email"
 LOCAL96="RSS"
@@ -106,6 +106,8 @@ LOCAL101="Sparky APTus Quick Search"
 LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
 LOCAL103="No vailid user found, so can't remove the user cache."
 LOCAL104="Have I remove all cache from home directory of user"
+LOCAL105="AudioTool"
+LOCAL106="VideoTool"
 ##### Arquivo a ser traduzido também .desktop
 ### autoclean.desktop
 # Name[pt_PT]=Remover pacotes DEB antigos

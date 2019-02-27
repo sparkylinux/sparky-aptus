@@ -1,7 +1,7 @@
 # Japanese localization file for Sparky APTus.
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2019/01/14 by pavroo
+# Last update 2019/02/27 by pavroo
 LOCAL1="更新"
 LOCAL2="インストール"
 LOCAL3="削除"
@@ -93,8 +93,8 @@ LOCAL88="Get informations about the application via command:"
 LOCAL89="This package is already installed."
 LOCAL90="What would you like to do now?"
 LOCAL91="Should I install the package you have chosen?"
-LOCAL92="Audio"
-LOCAL93="Video"
+LOCAL92="AudioPlayer"
+LOCAL93="VideoPlayer"
 LOCAL94="IM"
 LOCAL95="Email"
 LOCAL96="RSS"
@@ -106,6 +106,8 @@ LOCAL101="Sparky APTus Quick Search"
 LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
 LOCAL103="No vailid user found, so can't remove the user cache."
 LOCAL104="Have I remove all cache from home directory of user"
+LOCAL105="AudioTool"
+LOCAL106="VideoTool"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[ja_JP]=古い DEB パッケージの削除

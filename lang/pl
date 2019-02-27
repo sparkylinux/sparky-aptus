@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2019/01/14 by pavroo
+# Last update 2019/02/27 by pavroo
 LOCAL1="Aktualizacja"
 LOCAL2="Instalacja"
 LOCAL3="Usuwanie"
@@ -94,8 +94,8 @@ LOCAL88="Uzyskaj informacje na temat aplikacji, za pomocą polecenia:"
 LOCAL89="Ten pakiet jest już zainstalowany."
 LOCAL90="Co chcesz teraz zrobić?"
 LOCAL91="Czy mam zainstalować pakiet, który wybrałeś?"
-LOCAL92="Audio"
-LOCAL93="Wideo"
+LOCAL92="AudioPlayer"
+LOCAL93="WideoPlayer"
 LOCAL94="IM"
 LOCAL95="Email"
 LOCAL96="RSS"
@@ -107,6 +107,8 @@ LOCAL101="Sparky APTus Szybkie Wyszukiwanie"
 LOCAL102="Wpisz nazwę pakietu, który chcesz znaleźć.\nMożesz wpisać kilka nazw oddzielonych SPACJĄ.\n\nUpewnij się, że system jest zaktualizowany\nzanim rozpoczniesz."
 LOCAL103="Nie znaleziono właściwego użytkownika, więc cache nie może być usunięty."
 LOCAL104="Czy mam usunąć cały cache z katalogu domowego użytkownika"
+LOCAL105="AudioTool"
+LOCAL106="VideoTool"
 ##### pliki .desktop, również do przetłumaczenia:
 ### autoclean.desktop
 # Name[pl_PL]=Usuń stare pakiety DEB

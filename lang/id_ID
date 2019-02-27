@@ -2,7 +2,7 @@
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Indonesian by les kompie
-# Last update 2019/01/14 by pavroo
+# Last update 2019/02/27 by pavroo
 LOCAL1="Update"
 LOCAL2="Instal"
 LOCAL3="Hapus"
@@ -94,8 +94,8 @@ LOCAL88="Baca informasi tentang aplikasi, dengan perintah:"
 LOCAL89="Paket ini sudah ter-instal."
 LOCAL90="Apa yang mau anda lakukan sekarang?"
 LOCAL91="Apakah saya harus menginstal paket yang anda pilih?"
-LOCAL92="Audio"
-LOCAL93="Video"
+LOCAL92="AudioPlayer"
+LOCAL93="VideoPlayer"
 LOCAL94="IM"
 LOCAL95="Email"
 LOCAL96="RSS"
@@ -107,6 +107,8 @@ LOCAL101="Sparky APTus Quick Search"
 LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
 LOCAL103="No vailid user found, so can't remove the user cache."
 LOCAL104="Have I remove all cache from home directory of user"
+LOCAL105="AudioTool"
+LOCAL106="VideoTool"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[id_ID]=Hapus paket lama DEB

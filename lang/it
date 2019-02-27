@@ -1,7 +1,7 @@
 # File di localizzazione italiano per Sparky APTus.
 # Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 22/10/2015
 # Rilasciato sotto licenza GNU GPL v2
-# Last update 2019/01/14 by pavroo
+# Last update 2019/02/27 by pavroo
 LOCAL1="Aggiorna"
 LOCAL2="Installa"
 LOCAL3="Rimuovi"
@@ -93,8 +93,8 @@ LOCAL88="Procurati informazioni sullìapplicazione attraverso il seguente comand
 LOCAL89="Questo pacchetto e' gia' installato."
 LOCAL90="Che vuoi fare adesso?"
 LOCAL91="Devo installare il pacchetto che hai scelto?"
-LOCAL92="Audio"
-LOCAL93="Video"
+LOCAL92="AudioPlayer"
+LOCAL93="VideoPlayer"
 LOCAL94="IM"
 LOCAL95="Email"
 LOCAL96="RSS"
@@ -106,6 +106,8 @@ LOCAL101="Sparky APTus Quick Search"
 LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
 LOCAL103="No vailid user found, so can't remove the user cache."
 LOCAL104="Have I remove all cache from home directory of user"
+LOCAL105="AudioTool"
+LOCAL106="VideoTool"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[it_IT]=Rimuovi i vecchi pacchetti DEB

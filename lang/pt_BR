@@ -3,7 +3,7 @@
 # Sob a licença GNU GPL v2
 # Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/19
 # Corrigido por Elton Fabrício Ferreira "eltonfabricio10" <eltonfabricio10@gmail.com> 2018/07/04
-# Last update 2019/01/14 by pavroo
+# Last update 2019/02/27 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -95,8 +95,8 @@ LOCAL88="Obter informações sobre o aplicativo por meio do comando:"
 LOCAL89="Esse pacote já está instalado."
 LOCAL90="O que você gostaria de fazer agora?"
 LOCAL91="Gostaria de instalar o pacote que você escolheu?"
-LOCAL92="Áudio"
-LOCAL93="Vídeo"
+LOCAL92="ÁudioPlayer"
+LOCAL93="VídeoPlayer"
 LOCAL94="IM"
 LOCAL95="E-mail"
 LOCAL96="RSS"
@@ -108,6 +108,8 @@ LOCAL101="Pesquisa do Sparky APTus Quick"
 LOCAL102="Digite uma palavra chave que você deseja pesquisar.\nVocê pode digitar alguns nomes separados por tecla de espaço.\n\nCertifique-se de que seu sistema está atualizado\nantes de iniciar isso."
 LOCAL103="Nenhum usuário válido foi encontrado, portanto, não é possível remover o cache do usuário."
 LOCAL104="Deseja remover todo o cache do diretório home do usuário"
+LOCAL105="AudioTool"
+LOCAL106="VideoTool"
 ##### .desktop arquivos a serem traduzidos também:
 ### autoclean.desktop
 # Name[pt_BR]=Remover pacotes DEB antigos
