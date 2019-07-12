@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2019/04/17 by pavroo
+# Last update 2019/07/12 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -178,7 +178,11 @@ case $1 in
 	PACKAGE="timeshift"
      ;;
   virtualbox)
-	PACKAGE="virtualbox"
+	if [ "$ARCH64" = "" ]; then
+		$DIALOG $TEXT"\n$LOCAL100\n\n$LOCAL24" $TITLE"$TITLETEXT" $MSGBOX
+		exit 1
+	fi
+	PACKAGE="virtualbox-6.0"
      ;;
   vulkan-utils)
 	PACKAGE="vulkan-utils"
@@ -192,7 +196,7 @@ case $1 in
 esac
 
 if [ "$1" = "virtualbox" ]; then
-	CHECKPACKAGE="/usr/bin/$PACKAGE"
+	CHECKPACKAGE="/usr/bin/virtualbox"
 else
 	CHECKPACKAGE="/usr/share/doc/$PACKAGE"
 fi
@@ -217,7 +221,7 @@ if [ "$1" = "virtualbox" ]; then
 				if [ -f /etc/apt/sources.list.d/debian-stable-backports.list ]; then
 					rm -f /etc/apt/sources.list.d/debian-stable-backports.list
 				fi
-				echo "deb http://ftp.debian.org/debian/ stable-backports main contrib non-free" >> /etc/apt/sources.list.d/debian-stable-backports.list
+				#echo "deb http://ftp.debian.org/debian/ stable-backports main contrib non-free" >> /etc/apt/sources.list.d/debian-stable-backports.list
 				$SPARKYXTERM "$UPDATE"
 			fi
 			$SPARKYXTERM "$REINSTALL $PACKAGE"
@@ -236,7 +240,7 @@ if [ "$1" = "virtualbox" ]; then
 				if [ -f /etc/apt/sources.list.d/debian-stable-backports.list ]; then
 					rm -f /etc/apt/sources.list.d/debian-stable-backports.list
 				fi
-				echo "deb http://ftp.debian.org/debian/ stable-backports main contrib non-free" >> /etc/apt/sources.list.d/debian-stable-backports.list
+				#echo "deb http://ftp.debian.org/debian/ stable-backports main contrib non-free" >> /etc/apt/sources.list.d/debian-stable-backports.list
 				$SPARKYXTERM "$UPDATE"
 			fi
 			$SPARKYXTERM "$INSTALL $PACKAGE"
