@@ -1,0 +1,224 @@
+# Hungarian localization file for Sparky APTus. (Translated by Nemomen).
+# Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Last update 2019/02/27 by pavroo
+LOCAL1="Frissítés"
+LOCAL2="Telepítés"
+LOCAL3="Eltávolítás"
+LOCAL4="Javítsa a töröttet! (Fix Broken)"
+LOCAL5="Tisztítás"
+LOCAL6="Tároló (Repository)"
+LOCAL7="Kész!
+A DEB csomagok összes korábbi változata eltávolítva.
+Kattintson OK-t a kilépéshez!"
+LOCAL8="Kész!
+Kattintson OK-t a kilépéshez!"
+LOCAL9="Kész!
+Az összes letöltött DEB csomag eltávolítva.
+Most tiszta a rendszere.
+Kattintson OK-t a kilépéshez!"
+LOCAL10="Válassza ki a tárolólistáról a fájlt, amelyiket javítani kívánja!"
+LOCAL11="Válassza ki a telepítendő DEB fájlt a helyi lemezről!"
+LOCAL12="Semmi sem cserélődött!
+Kattintson OK-t a kilépéshez!"
+LOCAL13="i686-PAE Kernel Telepítő"
+LOCAL14="64-bites rendszert használ!
+A Kernel i686-PAE csak 32 bites rendszerre használható.
+Kilépés most..."
+LOCAL15="A Kernel i686-PAE már telepítve!
+Kilépés most..."
+LOCAL16="
+Az Internet kapcsolati teszt sikertelen!
+Lehet, hogy Ön NEM kapcsolódik az Internet-hálózatra vagy a fő tárolószerver nem érhető el. Ellenőrizze és próbálja újra!”
+LOCAL17="Ez telepíteni fogja az i686-PAE kernelt és annak fejállományát 32 bites rendszeren.
+Biztosítsa, hogy a rendszere naprakész legyen, mielőtt ezt elindítja!
+Kívánja most telepíteni?"
+LOCAL18="Nem került telepítésre csomag!
+Kilépés most..."
+LOCAL19="Az i686-PAE kernel és annak fejállománya telepítésre került! Indítsa újra (reboot) gépét a változások érvénybe lépéséhez!"
+LOCAL20="Valami hibás!
+Talán leállította a telepítést vagy megszakadt az Internet kapcsolata.
+Ellenőrizze, és próbálja újra.
+Kilépés..."
+LOCAL21="Jelöljön! Válasszon! Pick"
+LOCAL22="Információ"
+LOCAL23="Liquorix Kernel Telepítő"
+LOCAL24="Kilépés"
+LOCAL25="A Liquorix Kernel már telepítve van!
+Kilépés most..."
+LOCAL26="Kérjük, válasszon opciót!"
+LOCAL27="Telepítse azi686 NON-PAE Liquorix kernelt!
+LOCAL28="Telepítse az i686-PAE Liquorix kernelt!"
+LOCAL29="Telepítse a 64 bites Liquorix kernelt!”
+LOCAL30="Kilép, ne tegyen semmit"
+LOCAL31="Most 64-bites rendszert használ!
+A Kernel i686 NEM telepíthető!
+Kilépés most..."
+LOCAL32="Ha minden rendben ment, a Liquorix kernel és annak fejállománya telepítésre került!
+Indítsa újra (reboot) gépét a változások érvénybe lépéséhez!"
+LOCAL33="Most 32-bites rendszert használ!
+A Kernel 64-bites NEM telepíthető!
+Kilépés most..."
+LOCAL34="Sparky APTus NonFree Eltávolító (Remover)"
+LOCAL35="Ez a rendszerére telepített Nem-Szabad és Korlátozott (Non-Free and Restricted) csomagok listája"
+LOCAL36="El kívánja az összest távolítani?"
+LOCAL37="Nem került csomag eltávolításra!
+Kattintson OK-t az ablak bezárásához!"
+LOCAL38="kernel visszavonása/eltávolítása"
+LOCAL39="a következő kernelek eltávolításra kerültek"
+LOCAL40="Csak egyetlen kernel van telepítve ezen a rendszeren"
+LOCAL41="Az aktuális (aktív) kernel:"
+LOCAL42="Eltávolíthatom ezt a kernelt?"
+LOCAL43="A Kernel nem került eltávolításra"
+LOCAL44="Sparky APTus Gyors-telepítő (Quick Install)"
+LOCAL45="Gépelje be a telepíteni kívánt csomag nevét!
+Néhány, SORKÖZZEL (SPACE) elválasztott nevet tud begépelni.
+Győződjön meg róla, hogy a rendszere naprakész
+mielőtt azt elindítja!
+LOCAL46="Sparky APTus Gyors Eltávolító (Quick Remove)"
+LOCAL47="Gépelje be a rendszeréből eltávolítani kívánt csomag nevét!
+Néhány, SORKÖZZEL (SPACE) elválasztott nevet tud begépelni.
+Ezután el kell távolítsa az összes függőséget az AUTOREMOVE opcióval."
+LOCAL48="telepíteni fogja az Ön nyelvéhez tartozó hiányzó csomagokat.
+Győződjön meg róla, hogy a rendszere naprakész mielőtt indít!
+Válassza ki a saját nyelvét!"
+LOCAL49="Ez ellenőrizni, letölteni és telepíteni fogja a (következő) csomagokat:"
+LOCAL50="nyelv"
+LOCAL51="Kattintson OK-t a kezdéshez!"
+LOCAL52="Letöltés és telepítés"
+LOCAL53="csomagok most.
+Kérjük, várjon..."
+LOCAL54="VirtualBox Vendég Segédeszközök Eltávolítása (VirtualBox Guest Utils Remove)"
+LOCAL55="VirtualBox Vendég Segédeszközök (VirtualBox Guest Utils) NINCS telepítve.
+Kilépés..."
+LOCAL56="Ez eltávolítja a rendszerére telepített VirtualBox Vendég Segédeszközök (VirtualBox Guest Utils) csomagot.
+Ne távolítsa el, ha Ön a SparkyLinuxot VirtualBox gépen futtatja!
+Mindenképpen el kívánja távolítani a csomagot?
+LOCAL57="Csalás?
+A ´VirtualBox Vendég Segédeszközök´ (VirtualBox Guest Utils) még telepítés alatt áll!
+Kattintson OK-t a kilépéshez!
+LOCAL58="Japán betűk - fcitx-mozc csomag telepítése"
+LOCAL59="Asztal"
+LOCAL60="Sparky Kernel Telepítő (Installer)"
+LOCAL61="A Sparky Kernel már telepítve!
+Kilépés most..."
+LOCAL62="Telepítse a legutolsó i686 NON-PAE Sparky kernelt!"
+LOCAL63="Telepítse a legutolsó i686-PAE Sparky kernelt!"
+LOCAL64="Telepítse a legutolsó 64 bites Sparky kernelt!"
+LOCAL65="Ha minden rendben ment, az i686-PAE kernel és annak fejállománya telepítésre került!
+Indítsa újra (reboot) gépét a változások érvénybe lépéséhez!"
+LOCAL66="Ez csak x86 és x86_64 kernelekkel működik…
+Kilépés most..."
+LOCAL67="Nem távolítható el!"
+LOCAL68="Válassza ki az eltávolítandó kernelt!"
+LOCAL69="Régi Kernel Eltávolító (Old Kernel Remover)"
+LOCAL70="Debian Kernel Telepítő (Installer)"
+LOCAL71="A Debian Kernel már telepítve van!
+Kilépés most..."
+LOCAL72="Telepítse a legutolsó i686 NON-PAE Debian kernelt!"
+LOCAL73="Telepítse a legutolsó i686-PAE Debian kernelt!"
+LOCAL74="Telepítse a legutolsó 64 bites Debian kernelt!"
+LOCAL75="Ha minden rendben ment, a legutolsó Debian kernel és annak fejállománya telepítésre került!
+Indítsa újra (reboot) gépét a változások érvénybe lépéséhez!"
+LOCAL76="Frissítés (Upgrade)"
+LOCAL77="TeljesFrissítés (FullUpgrade)"
+LOCAL78="Játék (Game)"
+LOCAL79="Digitális médiafájl tömörítők, kódekek (Codecs)"
+LOCAL80="Iroda (Office)"
+LOCAL81="Rendszer (System)"
+LOCAL82="Világháló (Web)"
+LOCAL83="Tartozékok/kiegészítők (Accessories)"
+LOCAL84="Az APTus lehetővé teszi Önnek népszerű alkalmazások telepítését
+Ajánlott a csomaglista naprakésszé tétele, mielőtt a telepítést megkezdi!"
+LOCAL85="Újratelepítés (Reinstall)"
+LOCAL86="Telepítő (Installer)"
+LOCAL87="Telepítés befejezve."
+LOCAL88="Információk az alkalmazásról parancssorral megkaphatók a:"
+LOCAL89="Ez a csomag már telepítve van."
+LOCAL90="Mit kíván most tenni?"
+LOCAL91="Telepíthetem az Ön által kiválasztott csomagot?"
+LOCAL92="Hanglejátszó (AudioPlayer)"
+LOCAL93="Videolejátszó (VideoPlayer)"
+LOCAL94="IM"
+LOCAL95="E-levél (Email)"
+LOCAL96="RSS"
+LOCAL97="FájlTovábbítás (FileTransfer)"
+LOCAL98="Grafika"
+LOCAL99="Biztonság"
+LOCAL100="Ez a csomag nem érhető el az Ön rendszer változatához (verziójához)."
+LOCAL101="Sparky APTus Gyors-kereső (Quick Search)"
+LOCAL102="Gépelje be a keresni kívánt kulcsszót
+SZÓKÖZZEL tudja elválasztani több szó esetén azokat.
+Győződjön meg róla, hogy rendszere naprakész
+mielőtt elindítja azt!"
+LOCAL103="Nincs érvényes felhasználó gyorsítótár, így nem távolítható el a felhasználó gyorsítótára.”
+LOCAL104="Eltávolítsak mind gyorsítótárat a felhasználó ´home´ könyvtárából?
+LOCAL105="Hangeszköz (AudioTool)"
+LOCAL106="VideoEszköz (VideoTool)"
+##### .desktop files to be translated too:
+### autoclean.desktop
+# Name[en_US]=Remove old DEB packages
+# Comment[en_US]=Remove all old versions of DEB packages from the system
+### autoremove.desktop
+# Name[en_US]=Remove unnecessary packages
+# Comment[en_US]=Remove all unnecessary packages from the system
+### clean.desktop
+# Name[en_US]=Remove all DEB packages
+# Comment[en_US]=Remove all downloaded DEB packages from the system
+### fix-apt.desktop
+# Name[en_US]=Fix broken packages by APT
+# Comment[en_US]=Check and fix by APT broken packages not installed/upgraded correctly
+### fix-dpkg.desktop
+# Name[en_US]=Fix broken packages by DPKG
+# Comment[en_US]=Check and fix by DPKG broken packages not installed/upgraded correctly
+### install-deb.desktop
+# Name[en_US]=Install or reinstall DEB package from a local disk
+# Comment[en_US]=Install or reinstall DEB package from a local disk
+### install-debian-kernel.desktop
+# Name[en_US]=Install Debian Kernel
+# Comment[en_US]=Install Debian Kernel
+### install-liquorix.desktop
+# Name[en_US]=Install Liquorix Kernel
+# Comment[en_US]=Install Liquorix Kernel
+### install-locale.desktop
+# Name[en_US]=Install language packages
+# Comment[en_US]=Install missing language packages
+### quick-install.desktop
+# Name[en_US]=Install packages from repository
+# Comment[en_US]=Install packages from repository
+### kernel.desktop
+# Name[en_US]=Remove old system kernel
+# Comment[en_US]=Remove old, non-active system kernel
+### nonfree-remove.desktop
+# Name[en_US]=Remove Non-Free packages
+# Comment[en_US]=Remove Non-Free and Restricted packages from the system
+### quick-remove.desktop
+# Name[en_US]=Remove package from system
+# Comment[en_US]=Remove selected package from the system
+### vboxguest-remove.desktop
+# Name[en_US]=Remove VirtualBox Guest Utils
+# Comment[en_US]=Remove VirtualBox Guest Utils
+### edit-repo-custom.desktop
+# Name[en_US]=Edit custom repositories
+# Comment[en_US]=Edit custom repository lists
+### edit-repo-main.desktop
+# Name[en_US]=Edit main repository
+# Comment[en_US]=Edit main repository list
+### dist-upgrade.desktop
+# Name[en_US]=Upgrade the system
+# Comment[en_US]=Fully upgrade the system
+### update.desktop
+# Name[en_US]=Refresh package list
+# Comment[en_US]=Update package list
+### upgrade.desktop
+# Name[en_US]=Safely upgrade the system
+# Comment[en_US]=Safely upgrade the system
+### sparky-aptus.desktop
+# Name[en_US]=
+# Comment[en_US]=Keep your system up to date and clean, install and remove packages
+### install-sparky-kernel.desktop
+# Name[en_US]=Install Sparky Kernel
+# Comment[en_US]=Install the latest Sparky Kernel
+### quick-list.desktop
+# Name[en_US]=Search packages from repository
+# Comment[en_US]=Search packages from repository

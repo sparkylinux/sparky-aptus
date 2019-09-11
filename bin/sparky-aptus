@@ -3,7 +3,7 @@
 # Sparky APTus is a simply GUI frontend for APT-GET and DPKG
 # Created by Paweł "pavroo" Pijanowski 2013/08/31
 # Copyright 2013-2019 under the GNU GPL2 License
-# Last updated 2019/08/14
+# Last updated 2019/09/11
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -15,6 +15,8 @@ elif [ "`cat /etc/default/locale | grep es`" != "" ]; then
 . $DEFLOCDIR/es
 elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+. $DEFLOCDIR/hu
 elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
 elif [ "`cat /etc/default/locale | grep it`" != "" ]; then

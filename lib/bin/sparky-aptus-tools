@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2019/07/12 by pavroo
+# Last update 2019/09/11 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -12,6 +12,8 @@ elif [ "`cat /etc/default/locale | grep es`" != "" ]; then
 . $DEFLOCDIR/es
 elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
 . $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+. $DEFLOCDIR/hu
 elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
 elif [ "`cat /etc/default/locale | grep it`" != "" ]; then
@@ -102,6 +104,13 @@ case $1 in
 	PACKAGE="zulucrypt-gui"
      ;;
 #####system##################################################
+  anydesk)
+	if [ "$ARCHARM" != "" ]; then
+		$DIALOG $TEXT"\n$LOCAL100\n\n$LOCAL24" $TITLE"$TITLETEXT" $MSGBOX
+		exit 1
+	fi
+	PACKAGE="anydesk"
+     ;;
   aqemu)
 	PACKAGE="aqemu"
      ;;
@@ -197,6 +206,8 @@ esac
 
 if [ "$1" = "virtualbox" ]; then
 	CHECKPACKAGE="/usr/bin/virtualbox"
+elif [ "$1" = "anydesk" ]; then
+	CHECKPACKAGE="/usr/share/anydesk"
 else
 	CHECKPACKAGE="/usr/share/doc/$PACKAGE"
 fi
