@@ -1,8 +1,14 @@
 [Desktop Entry]
 Name=Search packages from repository
+Name[el]=Αναζήτηση πακέτων από τα αποθετήρια
+Name[it]=Cerca i pacchetti nei repositories
+Name[ja]=リポジトリからパッケージを検索
 Name[pl]=Wyszukaj pakiety w repozytoriach
 Name[pt_BR]=Pesquisar pacotes do repositório
 Comment=Search packages from repository
+Comment[el]=Αναζήτηση πακέτων από τα αποθετήρια
+Comment[it]=Cerca i pacchetti nei repositories
+Comment[ja]=リポジトリからパッケージを検索します
 Comment[pl]=Wyszukaj pakiety w repozytoriach
 Comment[pt_BR]=Pesquisa os pacotes do repositório
 Exec=/usr/lib/sparky-aptus/bin/quick-list
