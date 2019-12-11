@@ -3,7 +3,7 @@
 # Sparky APTus is a simply GUI frontend for APT-GET and DPKG
 # Created by Paweł "pavroo" Pijanowski 2013/08/31
 # Copyright 2013-2019 under the GNU GPL2 License
-# Last updated 2019/09/11
+# Last updated 2019/12/11
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -43,7 +43,7 @@ fi
 
 # General settings for Yad
 YAD="yad"
-WINDOWICON="--window-icon=system-software-install"
+WINDOWICON="--window-icon=system-software-installer"
 READDIR="--read-dir"
 DIR="/usr/lib/sparky-aptus"
 ITEM="--item-width=60"
@@ -54,7 +54,7 @@ HEIGHT="600"
 WIDTH="870"
 TABNUM="--tabnum"
 TABPOSITION="--tab-pos=left"
-IMAGE="--image=system-software-install"
+IMAGE="--image=system-software-installer"
 IMAGEONTOP="--image-on-top"
 ICONS="--icons"
 SORT="--sort-by-name"

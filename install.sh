@@ -31,7 +31,7 @@ else
 	if [ ! -d /usr/lib/sparkycenter/software ]; then
 		mkdir -p /usr/lib/sparkycenter/software
 	fi
-	cp sparkycenter/sparky-aptus.desktop /usr/lib/sparkycenter/software/
+	cp share/sparky-aptus.desktop /usr/lib/sparkycenter/software/
 	cp share/sparky-aptus.desktop /usr/share/applications/
 	cp share/sparky-aptus /usr/share/menu/
 	if [ ! -d /usr/share/icons/sparky/flags/48 ]; then

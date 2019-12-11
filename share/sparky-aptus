@@ -1,1 +1,1 @@
-?package(sparky-aptus):needs="X11" section="Applications/System"        title="APTus" command="remsu /usr/bin/sparky-aptus" icon="system-software-install"
+?package(sparky-aptus):needs="X11" section="Applications/System"        title="APTus" command="remsu /usr/bin/sparky-aptus" icon="system-software-installer"

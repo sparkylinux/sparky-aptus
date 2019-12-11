@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2019/09/11 by pavroo
+# Last update 2019/12/11 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -38,8 +38,8 @@ if [ "$TESTROOT" != "root" ]; then
 	exit 1
 fi
 
-DIALOG="yad --window-icon=system-software-install --width=450 --height=200 --center"
-TITLE="--always-print-result --dialog-sep --image=system-software-install --title="
+DIALOG="yad --window-icon=system-software-installer --width=450 --height=200 --center"
+TITLE="--always-print-result --dialog-sep --image=system-software-installer --title="
 TEXT="--text="
 MSGBOX="--button=Ok:0"
 TITLETEXT="APTus"
