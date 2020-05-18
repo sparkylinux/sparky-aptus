@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # install-liquorix script lets you install the 3th party Liquorix Linux kernel
-# Copyright 2015-2019 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
+# Copyright 2015-2020 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 # Licensed under the GPLv2 license see /usr/share/common-licenses/GPL-2
 # Created 2015/05/18
-# Last update 2019/09/11
+# Last update 2020/05/18
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -32,13 +32,16 @@ elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
 . $DEFLOCDIR/pt_PT
 elif [ "`cat /etc/default/locale | grep ru`" != "" ]; then
 . $DEFLOCDIR/ru
+elif [ "`cat /etc/default/locale | grep zh_CN`" != "" ]; then
+. $DEFLOCDIR/zh_CN
 else
 . $DEFLOCDIR/en
 fi
 
 testroot="`whoami`"
 if [ "$testroot" != "root" ]; then
-	/usr/bin/remsu $0 &
+	echo " Must be root... Exiting"
+	exit 1
 fi
 
 DIALOG="yad --window-icon=prefernces-other --width=450 --height=200 --center"
