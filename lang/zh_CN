@@ -169,7 +169,7 @@ LOCAL106="视频工具"
 # Comment[zh_CN]=安全地升级系统
 ### sparky-aptus.desktop
 # Name[zh_CN]=
-# Comment[zh_CN]=保持您的系统是最新且干净，安装或卸载软件包
+# Comment[zh_CN]=保持您的系统最新且干净，安装或卸载软件包
 ### install-sparky-kernel.desktop
 # Name[zh_CN]=安装 Sparky Kernel
 # Comment[zh_CN]=安装最新的 Sparky Kernel
