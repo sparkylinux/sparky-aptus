@@ -1,7 +1,8 @@
-# English localization file for Sparky APTus.
+# Chinese(Simplified) localization file for Sparky APTus.
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2019/02/27 by pavroo
+# English localization file was updated 2019/02/27 by pavroo
+# Last update 2020/05/29 by xingjiapeng
 LOCAL1="升级"
 LOCAL2="安装"
 LOCAL3="卸载"
@@ -10,18 +11,18 @@ LOCAL5="清除缓存"
 LOCAL6="软件包"
 LOCAL7="完成！ \n所有的旧版本 DEB 包已经被移除。\n\n点击 OK 退出。"
 LOCAL8="完成！ \n\n点击 OK 退出。"
-LOCAL9="完成！ \n所有之前下载的 DEB 软件包缓存已经被清楚。 \n你的系统已很干净。\n\n点击 OK 退出。"
-LOCAL10="选择一个你希望编辑的软件包列表"
+LOCAL9="完成！ \n所有之前下载的 DEB 软件包缓存已经被清楚。 \n您的系统已很干净。\n\n点击 OK 退出。"
+LOCAL10="选择一个您希望编辑的软件包列表"
 LOCAL11="从本地选择一个要安装的 DEB 文件"
 LOCAL12="没有发生改变！ \n\n点击 OK 退出。"
 LOCAL13="i686-PAE 内核安装器"
-LOCAL14="你现在正在运行一个 64 位的系统！ \n内核 i686-PAE 只针对 32 位系统。 \n\n现在退出……"
+LOCAL14="您现在正在运行一个 64 位的系统！ \n内核 i686-PAE 只针对 32 位系统。 \n\n现在退出……"
 LOCAL15="内核 i686-PAE 已经安装！ \n\n现在退出……"
-LOCAL16="网络连接测试失败！\n\n也也许你没有连接到互联网或者主软件仓库服务器不在线。\n\n请检查并重试。"
-LOCAL17="本应用程序将在 32 位系统上安装 i686-PAE 内核与其 headers。 \n请在开始前确保你的系统已最新。\n\n你想要现在开始安装吗？"
+LOCAL16="网络连接测试失败！\n\n也也许您没有连接到互联网或者主软件仓库服务器不在线。\n\n请检查并重试。"
+LOCAL17="本应用程序将在 32 位系统上安装 i686-PAE 内核与其 headers。 \n请在开始前确保您的系统已最新。\n\n您想要现在开始安装吗？"
 LOCAL18="没有安装任何软件包！ \n现在退出……"
 LOCAL19="i686-PAE 内核与其 headers 已经安装了！ \n请重启使它们生效。"
-LOCAL20="出错了！ \n也许因为你终止了安装，也可能因为网络断开。\n请检查并重试。 \n\n退出……"
+LOCAL20="出错了！ \n也许因为您终止了安装，也可能因为网络断开。\n请检查并重试。 \n\n退出……"
 LOCAL21="Pick"
 LOCAL22="信息"
 LOCAL23="Liquorix 内核安装器"
@@ -32,146 +33,146 @@ LOCAL27="安装 i686 NON-PAE Liquorix 内核"
 LOCAL28="安装 i686-PAE Liquorix 内核"
 LOCAL29="安装 64 bit Liquorix 内核"
 LOCAL30="退出，不做任何事"
-LOCAL31="你现在正在运行一个 64 位的系统！\n内核 i686 无法安装。\n\n现在退出……"
-LOCAL32="如果一切正常，Liquorix 内核与其 headers 就已经被安装了！ \n\n请重启使它们生效。"
-LOCAL33="你现在正在运行一个 32 位的系统！\n64 位内核无法安装。\n\n现在退出……"
+LOCAL31="您现在正在运行一个 64 位的系统！\n内核 i686 无法安装。\n\n现在退出……"
+LOCAL32="如果一切正常，Liquorix 内核与其 headers 就已经安装好了！ \n\n请重启使它们生效。"
+LOCAL33="您现在正在运行一个 32 位的系统！\n64 位内核无法安装。\n\n现在退出……"
 LOCAL34="Sparky APTus 专有部件卸载器"
-LOCAL35="This is a list of Non-Free and Restricted packages installed in your system"
-LOCAL36="Would you like to remove all of them?"
-LOCAL37="No package has been removed! \n\nClick OK to close the window."
-LOCAL38="removing kernel"
-LOCAL39="the following kernels have been removed"
-LOCAL40="There is only one kernel installed on this system:"
-LOCAL41="The actual (active) kernel is"
-LOCAL42="Should I remove this kernel"
-LOCAL43="Kernel not removed"
-LOCAL44="Sparky APTus Quick Install"
-LOCAL45="Type a name of a package you'd like to install.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
-LOCAL46="Sparky APTus Quick Remove"
-LOCAL47="Type a name of package you'd like to remove from the system.\nYou can type a few names separated by SPACE key.\n\nYou have to remove all dependencies after that using AUTOREMOVE option."
-LOCAL48="will install missing locale packages of your language.\n\nMake sure your system is up-to-date before you start.\n\nPlease select your language"
-LOCAL49="This will check, download and install packages of "
-LOCAL50="language"
-LOCAL51="Click OK to start."
-LOCAL52="Downloading and installing"
-LOCAL53="packages now.\n\Please wait..."
-LOCAL54="VirtualBox Guest Utils Remove"
-LOCAL55="VirtualBox Guest Utils package is NOT installed.\n\nExiting..."
-LOCAL56="This will remove VirtualBox Guest Utils package installed in your system.\n\nDo not remove it if you are running SparkyLinux inside the VirtualBox machine . \n\nWould you like to remove the package anyway?"
-LOCAL57="Cheating?\n\nVirtualBox Guest Utils is still installed!\n\nClick OK to quit."
-LOCAL58="Japanese font - fcitx-mozc package installation"
-LOCAL59="Desktop"
-LOCAL60="Sparky Kernel Installer"
-LOCAL61="Sparky Kernel is already installed! \n\nExiting now..."
-LOCAL62="Install the latest i686 NON-PAE Sparky kernel"
-LOCAL63="Install the latest i686-PAE Sparky kernel"
-LOCAL64="Install the latest 64 bit Sparky kernel"
-LOCAL65="If everything went well the latest Sparky kernel and its headers have been installed! \n\nReboot your machine to take effects."
-LOCAL66="It works with x86 and x86_64 kernels only...\n\nExiting now..."
-LOCAL67="Cannot be removed!"
-LOCAL68="Choose a kernel to remove"
-LOCAL69="Old Kernel Remover"
-LOCAL70="Debian Kernel Installer"
-LOCAL71="Debian Kernel is already installed! \n\nExiting now..."
-LOCAL72="Install the latest i686 NON-PAE Debian kernel"
-LOCAL73="Install the latest i686-PAE Debian kernel"
-LOCAL74="Install the latest 64 bit Debian kernel"
-LOCAL75="If everything went well the latest Debian kernel and its headers have been installed! \n\nReboot your machine to take effects."
-LOCAL76="Upgrade"
-LOCAL77="FullUpgrade"
-LOCAL78="Game"
-LOCAL79="Codecs"
-LOCAL80="Office"
-LOCAL81="System"
-LOCAL82="Web"
-LOCAL83="Accessories"
-LOCAL84="APTus lets you install popular applications.\nIt is recommended to update package list, before starting installation."
-LOCAL85="Reinstall"
-LOCAL86="Installer"
-LOCAL87="Installation completed."
-LOCAL88="Get informations about the application via command:"
-LOCAL89="This package is already installed."
-LOCAL90="What would you like to do now?"
-LOCAL91="Should I install the package you have chosen?"
-LOCAL92="AudioPlayer"
-LOCAL93="VideoPlayer"
-LOCAL94="IM"
-LOCAL95="Email"
+LOCAL35="这是您的系统中安装的非只有和受限制的软件包的列表。"
+LOCAL36="您想要全部卸载他们吗？"
+LOCAL37="没有软件包被卸载！ \n\n点击 OK 一关闭窗口。"
+LOCAL38="卸载内核"
+LOCAL39="一下内核将被卸载"
+LOCAL40="这个系统上只安装了一个内核："
+LOCAL41="目前（正在运行的）内核是"
+LOCAL42="需要卸载该内核吗"
+LOCAL43="内核不会被卸载"
+LOCAL44="Sparky APTus 快速安装"
+LOCAL45="请键入您想从您安装的软件包的名字。\n您可以键入是个以空格隔开的软件包名。\n\n请在此之前确保您的系统\n已是最新。"
+LOCAL46="Sparky APTus 快速卸载"
+LOCAL47="请键入您想从您的系统中卸载的软件包的名字\nn您可以键入是个以空格隔开的软件包名。\n\n您可以使用 AUTOREMOVE 选项以一处所有的依赖。"
+LOCAL48="将会安装您的语言的一些缺失的本地化软件包。\n\n请在开始前确保您的系统已是最新。\n\n请选择您的语言\n（简体中文在倒数第二位）"
+LOCAL49="本程序将检查、下载并安装"
+LOCAL50="的软件包"
+LOCAL51="点击 OK 开始。"
+LOCAL52="下载、安装中"
+LOCAL53="软件包中\n\请稍等……"
+LOCAL54="VirtualBox Guest Utils 卸载"
+LOCAL55="VirtualBox Guest Utils 软件包并未安装。\n\n退出中……"
+LOCAL56="本程序将卸安装在您系统中的 VirtualBox Guest Utils 软件包\n\n如果您正在 VirtualBox 中运行 SparkyLinux，请不要卸载它。 \n\n您想要卸载该软件包吗？"
+LOCAL57="开玩笑呢？\n\nVirtualBox Guest Utils 还正在安装！\n\n点击 OK 退出。"
+LOCAL58="日文字体 - fcitx-mozc 软件包安装"
+LOCAL59="桌面"
+LOCAL60="Sparky Kernel 安装器"
+LOCAL61="Sparky Kernel 已经安装！ \n\n退出中……"
+LOCAL62="安装最新的 i686 NON-PAE Sparky kernel"
+LOCAL63="安装最新的 i686-PAE Sparky kernel"
+LOCAL64="安装最新的 64 位 Sparky kernel"
+LOCAL65="如果一切正常，最新的 Sparky kernel 与其 headers 就已经安装好了！ \n\n请重启使它们生效。"
+LOCAL66="它只适用于 x86 和 x86_64 内核……\n\n退出中……"
+LOCAL67="无法卸载！"
+LOCAL68="请选择一个要卸载的内核"
+LOCAL69="老旧内核卸载器"
+LOCAL70="Debian Kernel 安装器"
+LOCAL71="Debian Kernel 已经安装！ \n\n退出中……"
+LOCAL72="安装最新的 i686 NON-PAE Debian kernel"
+LOCAL73="安装最新的 i686-PAE Debian kernel"
+LOCAL74="安装最新的 64 位 Debian kernel"
+LOCAL75="如果一切正常，最新的 Debian kernel 与其 headers 就已经安装好了！ \n\n请重启使它们生效。"
+LOCAL76="升级"
+LOCAL77="升级（自动处理依赖关系）"
+LOCAL78="游戏"
+LOCAL79="解码"
+LOCAL80="办公"
+LOCAL81="系统"
+LOCAL82="网络"
+LOCAL83="附件"
+LOCAL84="APTus 可以让您安装一些常用的应用程序。\n建议在开始安装之前更新包列表。 "
+LOCAL85="重新安装"
+LOCAL86="安装器"
+LOCAL87="安装完成。"
+LOCAL88="通过命令了解该应用程序的信息："
+LOCAL89="该软件包已被安装。"
+LOCAL90="您现在想做什么？"
+LOCAL91="现在安装您所选择的软件包吗？"
+LOCAL92="音频播放"
+LOCAL93="视频播放"
+LOCAL94="聊天"
+LOCAL95="邮件"
 LOCAL96="RSS"
-LOCAL97="FileTransfer"
-LOCAL98="Graphics"
-LOCAL99="Security"
-LOCAL100="This package is not available for your system version."
-LOCAL101="Sparky APTus Quick Search"
-LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
-LOCAL103="No vailid user found, so can't remove the user cache."
-LOCAL104="Have I remove all cache from home directory of user"
-LOCAL105="AudioTool"
-LOCAL106="VideoTool"
+LOCAL97="文件传输"
+LOCAL98="图像"
+LOCAL99="安全"
+LOCAL100="该软件包不能安装在您的系统上。"
+LOCAL101="Sparky APTus 快速搜索"
+LOCAL102="请输入您想搜索的文字。\n您可以输入数个以空格隔开的名称。\n\n请在开始前 \n确保您的系统已最新。"
+LOCAL103="没有找到有效用户，故无法删除用户缓存。"
+LOCAL104="我是否删除了用户主目录中的所有缓存"
+LOCAL105="音频工具"
+LOCAL106="视频工具"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
-# Name[en_US]=Remove old DEB packages
-# Comment[en_US]=Remove all old versions of DEB packages from the system
+# Name[zh_CN]=卸载旧 DEB 软件包
+# Comment[zh_CN]=从系统中卸载所有旧版本的 DEB 软件包
 ### autoremove.desktop
-# Name[en_US]=Remove unnecessary packages
-# Comment[en_US]=Remove all unnecessary packages from the system
+# Name[zh_CN]=卸载不再需要的的软件包
+# Comment[zh_CN]=从系统中卸载所有不再需要的软件包
 ### clean.desktop
-# Name[en_US]=Remove all DEB packages
-# Comment[en_US]=Remove all downloaded DEB packages from the system
+# Name[zh_CN]=清除所有 DEB 包
+# Comment[zh_CN]=清除所有下载下来的 DEB 软件包
 ### fix-apt.desktop
-# Name[en_US]=Fix broken packages by APT
-# Comment[en_US]=Check and fix by APT broken packages not installed/upgraded correctly
+# Name[zh_CN]=使用 APT 修复破损软件包
+# Comment[zh_CN]=使用 APT 检查并修复没有被正确安装的破损的软件包
 ### fix-dpkg.desktop
-# Name[en_US]=Fix broken packages by DPKG
-# Comment[en_US]=Check and fix by DPKG broken packages not installed/upgraded correctly
+# Name[zh_CN]=使用 DPKG 修复破损软件包
+# Comment[zh_CN]=使用 DPKG 检查并修复没有被正确安装的破损的软件包
 ### install-deb.desktop
-# Name[en_US]=Install or reinstall DEB package from a local disk
-# Comment[en_US]=Install or reinstall DEB package from a local disk
+# Name[zh_CN]=在本地磁盘上安装或卸载 DEB 包
+# Comment[zh_CN]=在本地磁盘上安装或卸载 DEB 包
 ### install-debian-kernel.desktop
-# Name[en_US]=Install Debian Kernel
-# Comment[en_US]=Install Debian Kernel
+# Name[zh_CN]=安装 Debian Kernel
+# Comment[zh_CN]=安装 Debian Kernel
 ### install-liquorix.desktop
-# Name[en_US]=Install Liquorix Kernel
-# Comment[en_US]=Install Liquorix Kernel
+# Name[zh_CN]=安装 Liquorix Kernel
+# Comment[zh_CN]=安装 Liquorix Kernel
 ### install-locale.desktop
-# Name[en_US]=Install language packages
-# Comment[en_US]=Install missing language packages
+# Name[zh_CN]=安装语言包
+# Comment[zh_CN]=安装缺失的语言包
 ### quick-install.desktop
-# Name[en_US]=Install packages from repository
-# Comment[en_US]=Install packages from repository
+# Name[zh_CN]=从软件源中安装软件包
+# Comment[zh_CN]=从软件源中安装软件包
 ### kernel.desktop
-# Name[en_US]=Remove old system kernel
-# Comment[en_US]=Remove old, non-active system kernel
+# Name[zh_CN]=卸载旧的系统内核
+# Comment[zh_CN]=卸载旧的、没有在使用的系统内核
 ### nonfree-remove.desktop
-# Name[en_US]=Remove Non-Free packages
-# Comment[en_US]=Remove Non-Free and Restricted packages from the system
+# Name[zh_CN]=卸载专有软件包
+# Comment[zh_CN]=从系统中卸载专有或受限的软件包
 ### quick-remove.desktop
-# Name[en_US]=Remove package from system
-# Comment[en_US]=Remove selected package from the system
+# Name[zh_CN]=从系统中卸载软件包
+# Comment[zh_CN]=从系统中卸载选中的软件包
 ### vboxguest-remove.desktop
-# Name[en_US]=Remove VirtualBox Guest Utils
-# Comment[en_US]=Remove VirtualBox Guest Utils
+# Name[zh_CN]=卸载 VirtualBox Guest Utils
+# Comment[zh_CN]=卸载 VirtualBox Guest Utils
 ### edit-repo-custom.desktop
-# Name[en_US]=Edit custom repositories
-# Comment[en_US]=Edit custom repository lists
+# Name[zh_CN]=编辑自定义软件源列表
+# Comment[zh_CN]=编辑自定义软件源列表
 ### edit-repo-main.desktop
-# Name[en_US]=Edit main repository
-# Comment[en_US]=Edit main repository list
+# Name[zh_CN]=编辑主要软件源
+# Comment[zh_CN]=编辑主要软件源列表
 ### dist-upgrade.desktop
-# Name[en_US]=Upgrade the system
-# Comment[en_US]=Fully upgrade the system
+# Name[zh_CN]=升级系统
+# Comment[zh_CN]=完整地升级系统
 ### update.desktop
-# Name[en_US]=Refresh package list
-# Comment[en_US]=Update package list
+# Name[zh_CN]=刷新软件包列表
+# Comment[zh_CN]=更新软件包列表
 ### upgrade.desktop
-# Name[en_US]=Safely upgrade the system
-# Comment[en_US]=Safely upgrade the system
+# Name[zh_CN]=安全地升级系统
+# Comment[zh_CN]=安全地升级系统
 ### sparky-aptus.desktop
-# Name[en_US]=
-# Comment[en_US]=Keep your system up to date and clean, install and remove packages
+# Name[zh_CN]=
+# Comment[zh_CN]=保持您的系统最新且干净，安装或卸载软件包
 ### install-sparky-kernel.desktop
-# Name[en_US]=Install Sparky Kernel
-# Comment[en_US]=Install the latest Sparky Kernel
+# Name[zh_CN]=安装 Sparky Kernel
+# Comment[zh_CN]=安装最新的 Sparky Kernel
 ### quick-list.desktop
-# Name[en_US]=Search packages from repository
-# Comment[en_US]=Search packages from repository
+# Name[zh_CN]=从软件源中搜索软件包
+# Comment[zh_CN]=从软件源中搜索软件包
