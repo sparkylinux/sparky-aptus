@@ -1,35 +1,35 @@
 #!/bin/bash
 
 # This file is based on pavroo APTus script and changed by Elton Fabrício Ferreira "eltonfabricio10" 
-# Last update 2020/05/18 by pavroo
+# Last update 2020/05/30 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
-if [ "`cat /etc/default/locale | grep de`" != "" ]; then
+if [ "`cat /etc/default/locale | grep LANG=de`" != "" ]; then
 . $DEFLOCDIR/de
-elif [ "`cat /etc/default/locale | grep el`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=el`" != "" ]; then
 . $DEFLOCDIR/el
-elif [ "`cat /etc/default/locale | grep es`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=es`" != "" ]; then
 . $DEFLOCDIR/es
-elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=fr`" != "" ]; then
 . $DEFLOCDIR/fr
-elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=hu`" != "" ]; then
 . $DEFLOCDIR/hu
-elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
-elif [ "`cat /etc/default/locale | grep it`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=it`" != "" ]; then
 . $DEFLOCDIR/it
-elif [ "`cat /etc/default/locale | grep ja`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=ja`" != "" ]; then
 . $DEFLOCDIR/ja
-elif [ "`cat /etc/default/locale | grep pl`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=pl`" != "" ]; then
 . $DEFLOCDIR/pl
-elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=pt_BR`" != "" ]; then
 . $DEFLOCDIR/pt_BR
-elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=pt_PT`" != "" ]; then
 . $DEFLOCDIR/pt_PT
-elif [ "`cat /etc/default/locale | grep ru`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=ru`" != "" ]; then
 . $DEFLOCDIR/ru
-elif [ "`cat /etc/default/locale | grep zh_CN`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=zh_CN`" != "" ]; then
 . $DEFLOCDIR/zh_CN
 else
 . $DEFLOCDIR/en
@@ -49,7 +49,9 @@ ENTRY="--entry "
 ENTRYTEXT="--entry-text "
 MSGBOX="--button=Ok:0"
 TITLETEXT="APTus"
-if [ -f /usr/bin/xterm ]; then
+if [ -f /usr/bin/spterm ]; then
+	SPARKYXTERM="spterm -e"
+elif [ -f /usr/bin/xterm ]; then
 	SPARKYXTERM="xterm -fa 'Monospace' -fs 12 -e"
 elif [ -f /etc/alternatives/x-terminal-emulator ]; then
 	SPARKYXTERM="x-terminal-emulator -e"

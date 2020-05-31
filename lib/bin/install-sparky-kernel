@@ -5,35 +5,35 @@
 # Copyright 2016-2020 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 # Licensed under the GPLv2 license see /usr/share/common-licenses/GPL-2
 # Created 2016/04/06
-# Last update 2020/05/18
+# Last update 2020/05/30
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
-if [ "`cat /etc/default/locale | grep de`" != "" ]; then
+if [ "`cat /etc/default/locale | grep LANG=de`" != "" ]; then
 . $DEFLOCDIR/de
-elif [ "`cat /etc/default/locale | grep el`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=el`" != "" ]; then
 . $DEFLOCDIR/el
-elif [ "`cat /etc/default/locale | grep es`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=es`" != "" ]; then
 . $DEFLOCDIR/es
-elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=fr`" != "" ]; then
 . $DEFLOCDIR/fr
-elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=hu`" != "" ]; then
 . $DEFLOCDIR/hu
-elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
-elif [ "`cat /etc/default/locale | grep it`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=it`" != "" ]; then
 . $DEFLOCDIR/it
-elif [ "`cat /etc/default/locale | grep ja`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=ja`" != "" ]; then
 . $DEFLOCDIR/ja
-elif [ "`cat /etc/default/locale | grep pl`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=pl`" != "" ]; then
 . $DEFLOCDIR/pl
-elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=pt_BR`" != "" ]; then
 . $DEFLOCDIR/pt_BR
-elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=pt_PT`" != "" ]; then
 . $DEFLOCDIR/pt_PT
-elif [ "`cat /etc/default/locale | grep ru`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=ru`" != "" ]; then
 . $DEFLOCDIR/ru
-elif [ "`cat /etc/default/locale | grep zh_CN`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=zh_CN`" != "" ]; then
 . $DEFLOCDIR/zh_CN
 else
 . $DEFLOCDIR/en
@@ -54,7 +54,7 @@ MSGBOX="--button=Ok:0"
 TITLETEXT="$LOCAL60"
 ARCH=`uname -r | grep "amd64" | awk '{print $1}'`
 TESTSPARKY=`dpkg-query -l | grep linux-image-sparky*`
-if [ -f /usr/bin/sparky-xterm ];then
+if [ -f /usr/bin/sparky-xterm ]; then
 	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
 	echo "sparky-xterm is missing... Exiting..."
@@ -90,58 +90,6 @@ else
 fi
 }
 
-#mainmenu () {
-#CHOICES=`$DIALOG $TITLE"$TITLETEXT" $OKEXIT $MENU $TEXT"$LOCAL26" \
-#NON_PAE "$LOCAL62" \
-#PAE "$LOCAL63" \
-#64 "$LOCAL64" \
-#Exit "$LOCAL30"`
-
-#if [ "$?" = "0" ]; then
-#	CHOICE=`echo $CHOICES | cut -d "|" -f 1`
-#else
-#	exit 0
-#fi
-
-#if [ "$CHOICE" = "NON_PAE" ]; then
-#nonpaemenu
-#elif [ "$CHOICE" = "PAE" ]; then
-#paemenu
-#elif [ "$CHOICE" = "64" ]; then
-#amd64menu
-#elif [ "$CHOICE" = "Exit" ]; then
-#exit 0
-#else
-#exit 0
-#fi
-#}
-
-#nonpaemenu () {
-#if [ "$ARCH" != "" ]; then
-#	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL31"
-#	mainmenu
-#fi
-
-# preper the sparky unstable list
-#if [ -f /etc/apt/sources.list.d/sparky-unstable.list ]; then
-#	rm -f /etc/apt/sources.list.d/sparky-unstable.list
-#fi
-
-#cat > /etc/apt/sources.list.d/sparky-unstable.list <<FOO
-# sparky unstable repository
-#deb http://sparkylinux.org/repo/ unstable main
-#deb-src http://sparkylinux.org/repo/ unstable main
-#FOO
-
-#$SPARKYXTERM "apt-get update"
-
-# install i686 NON-PAE Sparky kernel and headers
-#$SPARKYXTERM "apt-get install linux-image-sparky-686 linux-headers-sparky-686"
-
-#$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL65"
-#exit 0
-#}
-
 paemenu () {
 $DIALOG $TITLE"$TITLETEXT" $OKEXIT $TEXT"$LOCAL63\n\n$LOCAL91"
 
@@ -157,8 +105,8 @@ else
 
 cat > /etc/apt/sources.list.d/sparky-unstable.list <<FOO
 # sparky unstable repository
-deb http://sparkylinux.org/repo/ unstable main
-deb-src http://sparkylinux.org/repo/ unstable main
+deb https://repo.sparkylinux.org/ unstable main
+deb-src https://repo.sparkylinux.org/ unstable main
 FOO
 
 	$SPARKYXTERM "apt-get update"
@@ -186,8 +134,8 @@ else
 
 cat > /etc/apt/sources.list.d/sparky-unstable.list <<FOO
 # sparky unstable repository
-deb http://sparkylinux.org/repo/ unstable main
-deb-src http://sparkylinux.org/repo/ unstable main
+deb https://repo.sparkylinux.org/ unstable main
+deb-src https://repo.sparkylinux.org/ unstable main
 FOO
 
 	$SPARKYXTERM "apt-get update"

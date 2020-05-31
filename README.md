@@ -33,8 +33,9 @@ iputils-ping
 sparky-apt
 sparky-aptus-extra (>= 0.2.14)
 sparky-codecs (>= 0.2.0)
-sparky-desktop
+sparky-desktop (>= 20200530)
 sparky-editor
+sparky-info
 sparky-office (>= 0.2.0)
 sparky-remsu (>= 0.2.3)
 sparky-webbrowser-installer (>= 20180424)

@@ -3,35 +3,35 @@
 # Sparky APTus is a simply GUI frontend for APT-GET and DPKG
 # Created by Paweł "pavroo" Pijanowski 2013/08/31
 # Copyright 2013-2020 under the GNU GPL2 License
-# Last updated 2020/05/18
+# Last updated 2020/05/30
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
-if [ "`cat /etc/default/locale | grep de`" != "" ]; then
+if [ "`cat /etc/default/locale | grep LANG=de`" != "" ]; then
 . $DEFLOCDIR/de
-elif [ "`cat /etc/default/locale | grep el`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=el`" != "" ]; then
 . $DEFLOCDIR/el
-elif [ "`cat /etc/default/locale | grep es`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=es`" != "" ]; then
 . $DEFLOCDIR/es
-elif [ "`cat /etc/default/locale | grep fr`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=fr`" != "" ]; then
 . $DEFLOCDIR/fr
-elif [ "`cat /etc/default/locale | grep hu`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=hu`" != "" ]; then
 . $DEFLOCDIR/hu
-elif [ "`cat /etc/default/locale | grep id_ID`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=id_ID`" != "" ]; then
 . $DEFLOCDIR/id_ID
-elif [ "`cat /etc/default/locale | grep it`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=it`" != "" ]; then
 . $DEFLOCDIR/it
-elif [ "`cat /etc/default/locale | grep ja`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=ja`" != "" ]; then
 . $DEFLOCDIR/ja
-elif [ "`cat /etc/default/locale | grep pl`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=pl`" != "" ]; then
 . $DEFLOCDIR/pl
-elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=pt_BR`" != "" ]; then
 . $DEFLOCDIR/pt_BR
-elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=pt_PT`" != "" ]; then
 . $DEFLOCDIR/pt_PT
-elif [ "`cat /etc/default/locale | grep ru`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=ru`" != "" ]; then
 . $DEFLOCDIR/ru
-elif [ "`cat /etc/default/locale | grep zh_CN`" != "" ]; then
+elif [ "`cat /etc/default/locale | grep LANG=zh_CN`" != "" ]; then
 . $DEFLOCDIR/zh_CN
 else
 . $DEFLOCDIR/en
@@ -69,6 +69,10 @@ ARCHARM="`uname -m | grep arm`"
 KEY="--key"
 YADKEY=$$
 PLUG="--plug=$YADKEY"
+# checking Sparky 4/5/6
+SPARKYVERCHECK6="`cat /etc/lsb-release | grep Tolo`"
+SPARKYVERCHECK5="`cat /etc/lsb-release | grep Nibiru`"
+SPARKYVERCHECK4="`cat /etc/lsb-release | grep Tyche`"
 
 if [ -f "$DIR/game/wine.desktop" ]; then
 	### Accessories, Codecs, Audio, Video, Desktop, Game, Office, Graphics, Web, IM, Email, RSS, FileTransfer, Security, System
@@ -87,8 +91,12 @@ if [ -f "$DIR/game/wine.desktop" ]; then
 	# Tab 7 Desktop
 	if [ "$ARCHARM" != "" ]; then
 		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop-arm $ITEM $SORT $CENTER &
+	elif [ "$SPARKYVERCHECK4" != "" ]; then
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop4 $ITEM $SORT $CENTER &
+	elif [ "$SPARKYVERCHECK5" != "" ]; then
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop5 $ITEM $SORT $CENTER &
 	else
-		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop $ITEM $SORT $CENTER &
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop0 $ITEM $SORT $CENTER &
 	fi
 	# Tab 8 Game
 	$YAD $PLUG $TABNUM=8 $IMAGEONTOP $ICONS $READDIR=$DIR/game $ITEM $SORT $CENTER &
@@ -125,8 +133,12 @@ else
 	# Tab 7 Desktop
 	if [ "$ARCHARM" != "" ]; then
 		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop-arm $ITEM $SORT $CENTER &
+	elif [ "$SPARKYVERCHECK4" != "" ]; then
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop4 $ITEM $SORT $CENTER &
+	elif [ "$SPARKYVERCHECK5" != "" ]; then
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop5 $ITEM $SORT $CENTER &
 	else
-		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop $ITEM $SORT $CENTER &
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop0 $ITEM $SORT $CENTER &
 	fi
 	# Tab 8 Office
 	$YAD $PLUG $TABNUM=8 $IMAGEONTOP $ICONS $READDIR=$DIR/office $ITEM $SORT $CENTER &
