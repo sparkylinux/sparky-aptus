@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Warpinator
+Comment=Transfer files from one computer to another on the local network
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools warpinator
+Icon=warpinator
+Type=Application
+Categories=Applications;System;

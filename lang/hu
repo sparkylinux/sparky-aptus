@@ -1,7 +1,7 @@
 # Hungarian localization file for Sparky APTus. (Translated by Nemomen).
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2019/02/27 by pavroo
+# Last update 2020/06/08 by pavroo
 LOCAL1="Frissítés"
 LOCAL2="Telepítés"
 LOCAL3="Eltávolítás"
@@ -28,7 +28,7 @@ LOCAL23="Liquorix Kernel Telepítő"
 LOCAL24="Kilépés"
 LOCAL25="A Liquorix Kernel már telepítve van! \n\nKilépés most..."
 LOCAL26="Kérjük, válasszon opciót!"
-LOCAL27="Telepítse az i686 NON-PAE Liquorix kernelt!
+LOCAL27="Telepítse az i686 NON-PAE Liquorix kernelt!"
 LOCAL28="Telepítse az i686-PAE Liquorix kernelt!"
 LOCAL29="Telepítse a 64 bites Liquorix kernelt!”
 LOCAL30="Kilép, ne tegyen semmit"
@@ -57,8 +57,8 @@ LOCAL52="Letöltés és telepítés"
 LOCAL53="csomagok most.\n\nKérjük, várjon..."
 LOCAL54="VirtualBox Vendég Segédeszközök Eltávolítása (VirtualBox Guest Utils Remove)"
 LOCAL55="VirtualBox Vendég Segédeszközök (VirtualBox Guest Utils) NINCS telepítve.\n\nKilépés..."
-LOCAL56="Ez eltávolítja a rendszerére telepített VirtualBox Vendég Segédeszközök (VirtualBox Guest Utils) csomagot.\n\nNe távolítsa el, ha Ön a SparkyLinuxot VirtualBox gépen futtatja! \n\nMindenképpen el kívánja távolítani a csomagot?
-LOCAL57="Csalás?\n\nA ´VirtualBox Vendég Segédeszközök´ (VirtualBox Guest Utils) még telepítés alatt áll!\n\nKattintson OK-t a kilépéshez!
+LOCAL56="Ez eltávolítja a rendszerére telepített VirtualBox Vendég Segédeszközök (VirtualBox Guest Utils) csomagot.\n\nNe távolítsa el, ha Ön a SparkyLinuxot VirtualBox gépen futtatja! \n\nMindenképpen el kívánja távolítani a csomagot?"
+LOCAL57="Csalás?\n\nA ´VirtualBox Vendég Segédeszközök´ (VirtualBox Guest Utils) még telepítés alatt áll!\n\nKattintson OK-t a kilépéshez!"
 LOCAL58="Japán betűk - fcitx-mozc csomag telepítése"
 LOCAL59="Asztal"
 LOCAL60="Sparky Kernel Telepítő (Installer)"
@@ -105,7 +105,7 @@ LOCAL100="Ez a csomag nem érhető el az Ön rendszer változatához (verziójá
 LOCAL101="Sparky APTus Gyors-kereső (Quick Search)"
 LOCAL102="Gépelje be a keresni kívánt kulcsszót\nSZÓKÖZZEL tudja elválasztani több szó esetén azokat.\n\nGyőződjön meg róla, hogy rendszere naprakész \nmielőtt elindítja azt!"
 LOCAL103="Nincs érvényes felhasználó, így nem távolítható el a felhasználó gyorsítótára.”
-LOCAL104="Eltávolítsak mind gyorsítótárat a felhasználó ´home´ könyvtárából?
+LOCAL104="Eltávolítsak mind gyorsítótárat a felhasználó ´home´ könyvtárából?"
 LOCAL105="Hangeszköz (AudioTool)"
 LOCAL106="VideoEszköz (VideoTool)"
 ##### .desktop files to be translated too:

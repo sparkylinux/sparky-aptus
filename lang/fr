@@ -1,7 +1,7 @@
 ﻿# Fichier de localisation française de Sparky APTus.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Last update 2019/02/27 by pavroo
+# Last update 2020/06/08 by pavroo
 LOCAL1="Mise à jour"
 LOCAL2="Installer"
 LOCAL3="Supprimer"
@@ -37,6 +37,7 @@ LOCAL32="Si tout s'est bien passé le noyau Liquorix et ses en-têtes ont été 
 LOCAL33="Vous utilisez un système 32 bits actuellement.\nLe noyau 64 bits NE PEUT PAS être installé.\n\nSortie..."
 LOCAL34="Suppresseur de Sparky APTus NonFree"
 LOCAL35="Ceci est une liste des paquets Non-libre et de droit Restreint installés sur votre système?"
+LOCAL36="Would you like to remove all of them?" 
 LOCAL37="Aucun paquet n'a été supprimé! \n\nCliquez sur OK pour fermer la fenêtre."
 LOCAL38="Suppression du noyau"
 LOCAL39="Les noyaux suivants ont été supprimés"
@@ -58,6 +59,7 @@ LOCAL54="Suppression des utilitaires d'invité de VirtualBox "
 LOCAL55="le paquet des utilitaires d'invité de VirtualBox n'est pas installé.\n\nSortie..."
 LOCAL56="Ceci va supprimer le paquet des utilitaires d'invité de VirtualBox installés sur votre système.\n\nNe les supprimer pas si vous exécuter SparkyLinux à l'intérieur de l'environnement VirtualBox. \n\nVoulez-vous supprimer quand même le paquet?"
 LOCAL57="Comment?\n\nles utilitaires d'invité de VirtualBox sont toujours installés!\n\nCliquez sur OK pour quitter."
+LOCAL58="Japanese font - fcitx-mozc package installation"
 LOCAL59="Bureau"
 LOCAL60="Installateur du noyau Sparky"
 LOCAL61="Le noyau Sparky est déjà installé! \n\nSortie..."

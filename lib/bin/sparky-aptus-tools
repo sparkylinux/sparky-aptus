@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2020/05/30 by pavroo
+# Last update 2020/08/07 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -64,6 +64,7 @@ ARCH64="`uname -m | grep x86_64`"
 ARCH32="`uname -m | grep 686`"
 ARCHARM="`uname -m | grep arm`"
 SPARKYVERCHECK4="`cat /etc/lsb-release | grep Tyche`"
+SPARKYVERCHECK5="`cat /etc/lsb-release | grep Nibiru`"
 PINGTEST=$(ping -c 1 debian.org | grep [0-9])
 
 # recive package name
@@ -140,6 +141,9 @@ case $1 in
   flatpak)
 	PACKAGE="flatpak"
      ;;
+   gdebi)
+	PACKAGE="gdebi"
+     ;;
   gitkraken)
 	if [ "$ARCH64" = "" ]; then
 		$DIALOG $TEXT"\n$LOCAL100\n\n$LOCAL24" $TITLE"$TITLETEXT" $MSGBOX
@@ -199,6 +203,13 @@ case $1 in
   webmin)
 	PACKAGE="webmin"
      ;;
+  warpinator)
+	if [ "$SPARKYVERCHECK4" != "" ] || [ "$SPARKYVERCHECK5" != "" ]; then
+		$DIALOG $TEXT"\n$LOCAL100\n\n$LOCAL24" $TITLE"$TITLETEXT" $MSGBOX
+		exit 1
+	fi
+	PACKAGE="warpinator"
+     ;;
   woeusb)
 	PACKAGE="woeusb"
      ;;
@@ -233,7 +244,6 @@ if [ "$1" = "virtualbox" ]; then
 				if [ -f /etc/apt/sources.list.d/debian-stable-backports.list ]; then
 					rm -f /etc/apt/sources.list.d/debian-stable-backports.list
 				fi
-				#echo "deb http://ftp.debian.org/debian/ stable-backports main contrib non-free" >> /etc/apt/sources.list.d/debian-stable-backports.list
 				$SPARKYXTERM "$UPDATE"
 			fi
 			$SPARKYXTERM "$REINSTALL $PACKAGE"
@@ -252,7 +262,6 @@ if [ "$1" = "virtualbox" ]; then
 				if [ -f /etc/apt/sources.list.d/debian-stable-backports.list ]; then
 					rm -f /etc/apt/sources.list.d/debian-stable-backports.list
 				fi
-				#echo "deb http://ftp.debian.org/debian/ stable-backports main contrib non-free" >> /etc/apt/sources.list.d/debian-stable-backports.list
 				$SPARKYXTERM "$UPDATE"
 			fi
 			if [ -d "$VBOX60" ]; then

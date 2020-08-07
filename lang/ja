@@ -1,8 +1,8 @@
 # Japanese localization file for Sparky APTus.
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2019/02/27 by pavroo
 # Translated to Japanese by FuRuYa7.
+# Last update 2020/06/08 by pavroo
 LOCAL1="更新"
 LOCAL2="インストール"
 LOCAL3="削除"
