@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2020/08/07 by pavroo
+# Last update 2020/09/15 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -65,6 +65,7 @@ ARCH32="`uname -m | grep 686`"
 ARCHARM="`uname -m | grep arm`"
 SPARKYVERCHECK4="`cat /etc/lsb-release | grep Tyche`"
 SPARKYVERCHECK5="`cat /etc/lsb-release | grep Nibiru`"
+SPARKYVERCHECK6="`cat /etc/lsb-release | grep Tolo`"
 PINGTEST=$(ping -c 1 debian.org | grep [0-9])
 
 # recive package name
@@ -195,7 +196,11 @@ case $1 in
 		$DIALOG $TEXT"\n$LOCAL100\n\n$LOCAL24" $TITLE"$TITLETEXT" $MSGBOX
 		exit 1
 	fi
-	PACKAGE="virtualbox-6.1"
+	if [ "$SPARKYVERCHECK4" != "" ] || [ "$SPARKYVERCHECK5" != "" ]; then
+		PACKAGE="virtualbox-6.1"
+	else
+		PACKAGE="virtualbox-qt"
+	fi
      ;;
   vulkan-utils)
 	PACKAGE="vulkan-utils"
@@ -217,7 +222,7 @@ esac
 
 if [ "$1" = "virtualbox" ]; then
 	CHECKPACKAGE="/usr/share/doc/$PACKAGE"
-	VBOX60="/usr/share/doc/virtualbox-6.0"
+	#VBOX60="/usr/share/doc/virtualbox-6.0"
 elif [ "$1" = "anydesk" ]; then
 	CHECKPACKAGE="/usr/share/anydesk"
 else
@@ -264,9 +269,9 @@ if [ "$1" = "virtualbox" ]; then
 				fi
 				$SPARKYXTERM "$UPDATE"
 			fi
-			if [ -d "$VBOX60" ]; then
-				$SPARKYXTERM "$UNINSTALL virtualbox-6.0 -y"
-			fi
+			#if [ -d "$VBOX60" ]; then
+			#	$SPARKYXTERM "$UNINSTALL virtualbox-6.0 -y"
+			#fi
 			$SPARKYXTERM "$INSTALL $PACKAGE"
 			USER1000=`cat /etc/passwd | grep 1000 | awk -F: '{ print $1 }'`
 			if [ "$USER1000" != " " ]; then 
