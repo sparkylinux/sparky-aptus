@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=PuTTY
+Comment=Connect to an SSH server with PuTTY
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools putty
+Icon=putty
+Type=Application
+Categories=Applications;System;

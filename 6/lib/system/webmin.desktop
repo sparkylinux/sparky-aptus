@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Webmin
+Comment=Web-based administration interface for Unix systems
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools webmin
+Icon=applications-development
+Type=Application
+Categories=Applications;System;

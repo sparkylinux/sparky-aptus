@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Netdata
+Comment=Real-time charts for system monitoring
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools netdata
+Icon=applications-development
+Type=Application
+Categories=Applications;System;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=balenaEtcher
+Comment=Flash OS images to SD cards and USB drives
+Comment[pl]=Zapisywanie obrazów systemu operacyjnego na kartach SD i napędach USB
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools etcher
+Terminal=false
+Type=Application
+Icon=etcher-electron
+Categories=System;

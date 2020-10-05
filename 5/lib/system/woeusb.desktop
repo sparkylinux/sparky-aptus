@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=WoeUSB
+Comment=Create Windows USB stick installer from a real Windows DVD or an image
+Comment[fr]=Créer des clés USB d'installation de Windows depuis une image CD ou un dvd original
+Comment[pl]=Tworzenie dysku instalacyjnego USB z systemem Windows
+Comment[zh_TW]=從一個既有的 Windows DVD 或光碟映像檔建立 Windows 可開機 USB 安裝碟
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools woeusb
+Terminal=false
+Type=Application
+Icon=woeusbgui-icon
+Categories=System;

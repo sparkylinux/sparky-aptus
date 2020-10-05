@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=VeraCrypt
+Comment=Ppen-source disk encryption software
+Comment[pl]=Otwartoźródłowe narzędzie używane do szyfrowania danych
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools veracrypt
+Icon=veracrypt
+Type=Application
+Categories=Applications;System;

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Timeshift
+Comment=System Restore Utility
+Comment[ca]=Utilitat de restauració del sistema
+Comment[da]=Værktøj til systemgendannelse
+Comment[fr]=Utilitaire de restauration système
+Comment[lt]=Sistemos atkūrimo paslaugų programa
+Comment[pl]=Narzędzie do tworzenia kopii zapasowych systemu
+Comment[ru]=Программа для восстановления системы
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools timeshift
+Icon=timeshift
+Type=Application
+Categories=Applications;System;

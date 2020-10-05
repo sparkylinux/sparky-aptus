@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=TeamViewer
+Comment=A software for remote control, desktop sharing, online meetings, web conferencing and file transfer
+Comment[pl]=Oprogramowanie do zdalnego kontrolowania systemu operacyjnego poprzez Internet
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools teamviewer
+Icon=teamviewer
+Type=Application
+Categories=Applications;System;

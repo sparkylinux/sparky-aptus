@@ -1,0 +1,182 @@
+# Arquivo de localização para o Português do Brasil do Sparky APTus.
+# Copyright 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Sob a licença GNU GPL v2
+# Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/19
+# Corrigido por Elton Fabrício Ferreira "eltonfabricio10" <eltonfabricio10@gmail.com> 2018/07/04
+# Last update 2019/02/27 by pavroo
+LOCAL1="Atualizar"
+LOCAL2="Instalar"
+LOCAL3="Remover"
+LOCAL4="Corrigir Quebrado"
+LOCAL5="Limpeza"
+LOCAL6="Repositório"
+LOCAL7="Feito!\nTodas as versões antigas dos pacotes DEB foram removidas.\n\nClique em OK para sair."
+LOCAL8="Feito!\n\nClique em OK para sair."
+LOCAL9="Feito!\nTodos os pacotes de DEB baixados foram removidos.\nO seu sistema está limpo agora.\n\nClique em OK para sair."
+LOCAL10="Selecione um arquivo da lista de repositórios que você gostaria de editar"
+LOCAL11="Selecione o arquivo DEB da unidade local para ser instalado"
+LOCAL12="Nada foi alterado!\n\nClique em OK para sair."
+LOCAL13="Instalador do Kernel i686-PAE"
+LOCAL14="Você está executando um sistema de 64 bits!\nO kernel i686-PAE é voltado apenas para sistemas de 32 bits.\n\nSaindo agora..."
+LOCAL15="O kernel i686-PAE já está instalado!\n\nSaindo agora ..."
+LOCAL16="Falha no teste de conexão com a Internet!\n\nProvavelmente você NÃO está conectado à Internet ou o servidor de repositório principal está inativo.\n\nVerifique e tente novamente."
+LOCAL17="Isso instalará o kernel i686-PAE e seus headers no sistema de 32 bits.\nCertifique-se de que seu sistema está atualizado antes de iniciar isto.\n\nDeseja instalar agora?"
+LOCAL18="Nenhum pacote foi instalado!\nSaindo agora ..."
+LOCAL19="O kernel i686-PAE e seus headers foram instalados!\nReinicie sua máquina para ter efeitos."
+LOCAL20="Algo está errado!\nProvavelmente você parou a instalação ou sua conexão com a Internet falhou.\nVerifique-a e tente novamente.\n\nSaindo..."
+LOCAL21="Selecione"
+LOCAL22="Info"
+LOCAL23="Instalador do Kernel Liquorix"
+LOCAL24="Sair"
+LOCAL25="O Kernel Liquorix já está instalado!\n\nSaindo agora..."
+LOCAL26="Por favor, selecione uma opção:"
+LOCAL27="Instalar o kernel Liquorix i686 NON-PAE"
+LOCAL28="Instalar o kernel Liquorix do i686-PAE"
+LOCAL29="Instalar o kernel Liquorix de 64 bits"
+LOCAL30="Sair, não fazer nada"
+LOCAL31="Você está executando um sistema de 64 bits agora.\nO kernel i686 NÃO PODE ser instalado.\n\nSaindo agora..."
+LOCAL32="Se tudo correu bem, o kernel do Liquorix e seus headers foram instalados!\n\nReinicie sua máquina para ter efeitos."
+LOCAL33="Você está executando o sistema de 32 bits agora.\nO kernel de 64 bits NÃO PODE ser instalado.\n\nSaindo agora..."
+LOCAL34="Sparky APTus desinstalador Não-Livres"
+LOCAL35="Esta é uma lista de pacotes Não-Livres e Restritos instalados no seu sistema"
+LOCAL36="Você gostaria de remover todos eles?"
+LOCAL37="Nenhum pacote foi removido!\n\nClique em OK para fechar a janela."
+LOCAL38="removendo o kernel"
+LOCAL39="os seguintes kernels foram removidos"
+LOCAL40="Existe apenas um kernel instalado neste sistema:"
+LOCAL41="O kernel atual (ativo) é"
+LOCAL42="Devo remover este kernel?"
+LOCAL43="Kernel não removido"
+LOCAL44="Instalação do Sparky APTus Quick"
+LOCAL45="Digite o nome de um pacote que você deseja instalar.\nVocê pode digitar alguns nomes separados por tecla de espaço.\n\nCertifique-se de que seu sistema está atualizado\nantes de iniciar isso."
+LOCAL46="Remover Sparky APTus Quick"
+LOCAL47="Digite um nome de pacote que você gostaria de remover do sistema.\nVocê pode digitar alguns nomes separados por tecla de espaço.\n\nVocê precisa remover todas as dependências depois disso usando a opção AUTOREMOVE."
+LOCAL48="instalará pacotes de idiomas ausentes do seu idioma.\n\nCertifique-se de que seu sistema está atualizado antes de começar.\n\nPor favor, selecione seu idioma"
+LOCAL49="Isto irá verificar, baixar e instalar pacotes de"
+LOCAL50="idioma"
+LOCAL51="Clique em OK para começar."
+LOCAL52="Fazendo o download e instalando"
+LOCAL53="pacotes agora.\nPor favor, aguarde..."
+LOCAL54="Desinstalar VirtualBox Guest Utils"
+LOCAL55="O pacote VirtualBox Guest Utils NÃO está instalado.\n\nSaindo..."
+LOCAL56="Isso desinstalará o pacote VirtualBox Guest Utils instalado em seu sistema.\n\nNão o desinstale se você estiver executando o SparkyLinux dentro da máquina VirtualBox.\n\nDeseja desinstalar o pacote mesmo assim?"
+LOCAL57="Traindo?\n\nO VirtualBox Guest Utils ainda está instalado!\n\nClique em OK para sair."
+LOCAL58="Fonte japonesa - instalação do pacote fcitx-mozc"
+LOCAL59="Desktop"
+LOCAL60="Instalador do Kernel Sparky"
+LOCAL61="Kernel Sparky já está instalado!\n\nSaindo agora..."
+LOCAL62="Instalar o mais recente kernel Sparky i686 NON-PAE"
+LOCAL63="Instalar o mais recente kernel Sparky i686-PAE"
+LOCAL64="Instalar o mais recente kernel Sparky de 64 bits"
+LOCAL65="Se tudo correu bem, o kernel Sparky mais recente e seus headers foram instalados!\n\nReinicie sua máquina para ter efeitos."
+LOCAL66="Funciona apenas com kernels x86 e x86_64 ...\n\nSaindo agora ..."
+LOCAL67="Não pode ser removido!"
+LOCAL68="Escolha um kernel para desinstalar"
+LOCAL69="Desinstalador de Kernel Antigo"
+LOCAL70="Instalador do Kernel Debian"
+LOCAL71="O Kernel Debian já está instalado!\n\nSaindo agora ..."
+LOCAL72="Instalar o mais recente kernel Debian i686 NON-PAE"
+LOCAL73="Instalar o mais recente kernel Debian i686-PAE"
+LOCAL74="Instale o mais recente kernel Debian 64 bits"
+LOCAL75="Se tudo correr bem, o kernel Debian mais recente e seus headers foram instalados!\n\nReinicie sua máquina para ter efeitos."
+LOCAL76="Upgrade"
+LOCAL77="Upgrade total"
+LOCAL78="Jogos"
+LOCAL79="Codecs"
+LOCAL80="Escritório"
+LOCAL81="Sistema"
+LOCAL82="Navegadores"
+LOCAL83="Acessórios"
+LOCAL84="O APTus permite instalar aplicativos populares.\nÉ recomendado atualizar a lista de pacotes, antes de iniciar a instalação."
+LOCAL85="Reinstalar"
+LOCAL86="Instalador"
+LOCAL87="Instalação concluída".
+LOCAL88="Obter informações sobre o aplicativo por meio do comando:"
+LOCAL89="Esse pacote já está instalado."
+LOCAL90="O que você gostaria de fazer agora?"
+LOCAL91="Gostaria de instalar o pacote que você escolheu?"
+LOCAL92="ÁudioPlayer"
+LOCAL93="VídeoPlayer"
+LOCAL94="IM"
+LOCAL95="E-mail"
+LOCAL96="RSS"
+LOCAL97="Transferência"
+LOCAL98="Gráficos"
+LOCAL99="Segurança"
+LOCAL100="Esse pacote não está disponível para a versão do seu sistema."
+LOCAL101="Pesquisa do Sparky APTus Quick"
+LOCAL102="Digite uma palavra chave que você deseja pesquisar.\nVocê pode digitar alguns nomes separados por tecla de espaço.\n\nCertifique-se de que seu sistema está atualizado\nantes de iniciar isso."
+LOCAL103="Nenhum usuário válido foi encontrado, portanto, não é possível remover o cache do usuário."
+LOCAL104="Deseja remover todo o cache do diretório home do usuário"
+LOCAL105="AudioTool"
+LOCAL106="VideoTool"
+##### .desktop arquivos a serem traduzidos também:
+### autoclean.desktop
+# Name[pt_BR]=Remover pacotes DEB antigos
+# Comment[pt_BR]=Remover todas as versões antigas dos pacotes DEB do sistema
+### autoremove.desktop
+# Name[pt_BR]=Remover pacotes desnecessários
+# Comment[pt_BR]=Remover todos os pacotes desnecessários do sistema
+### clean.desktop
+# Name[pt_BR]=Remover todos os pacotes de DEB
+# Comment[pt_BR]=Remover todos os pacotes de DEB baixados do sistema
+### fix-apt.desktop
+# Name[pt_BR]=Corrigir pacotes quebrados pelo APT
+# Comment[pt_BR]=Verificar e corrigir por pacotes quebrados do APT não instalados / atualizados corretamente
+### fix-dpkg.desktop
+# Name[pt_BR]=Corrigir pacotes quebrados pelo DPKG
+# Comment[pt_BR]=Verificar e consertar por pacotes quebrados do DPKG não instalados / atualizados corretamente
+### install-deb.desktop
+# Name[pt_BR]=Instalar ou reinstalar o pacote DEB a partir de um disco local
+# Comment[pt_BR]=Instalar ou reinstalar o pacote DEB a partir de um disco local
+### install-debian-kernel.desktop
+# Name[pt_BR]=Instalar o kernel da Debian
+# Comment[pt_BR]=Instalar o kernel do Debian
+### install-liquorix.desktop
+# Name[pt_BR]=Instalar o Kernel Liquorix
+# Comment[pt_BR]=Instalar o Kernel Liquorix
+### install-locale.desktop
+# Name[pt_BR]=Instalar pacotes de idiomas
+# Comment[pt_BR]=Instalar pacotes de idiomas ausentes
+### quick-install.desktop
+# Name[pt_BR]=Instalar pacotes do repositório
+# Comment[pt_BR]=Instalar pacotes do repositório
+### kernel.desktop
+# Name[pt_BR]=Remover o kernel do sistema antigo
+# Comment[pt_BR]=Remover o kernel do sistema antigo e não ativo
+### nonfree-remove.desktop
+# Name[pt_BR]=Remover pacotes não-livres
+# Comment[pt_BR]=Remover pacotes não-livres e restritos do sistema
+### quick-remove.desktop
+# Name[pt_BR]=Remover pacote do sistema
+# Comment[pt_BR]=Remover pacote selecionado do sistema
+### vboxguest-remove.desktop
+# Name[pt_BR]=Remover o VirtualBox Guest Utils
+# Comment[pt_BR]=Remover o VirtualBox Guest Utils
+### edit-repo-custom.desktop
+# Name[pt_BR]=Editar repositórios personalizados
+# Comment[pt_BR]=Editar listas de repositórios personalizados
+### edit-repo-main.desktop
+# Name[pt_BR]=Editar repositório principal
+# Comment[pt_BR]=Editar lista de repositórios principais
+### dist-upgrade.desktop
+# Name[pt_BR]=Atualizar o sistema
+# Comment[pt_BR]=Atualizar completamente o sistema
+### update.desktop
+# Name[pt_BR]=Atualizar lista de pacotes
+# Comment[pt_BR]=Atualizar lista de pacotes
+### upgrade.desktop
+# Name[pt_BR]=Atualize com segurança o sistema
+# Comment[pt_BR]=Atualize o sistema com segurança
+### sparky-aptus.desktop
+# Name[pt_BR]=
+# Comment[pt_BR]=Mantenha seu sistema atualizado e limpo, instale e remova pacotes
+### install-sparky-kernel.desktop
+# Name[pt_BR]=Instalar o Sparky Kernel
+# Comment[pt_BR]=Instalar o mais recente kernel Sparky
+### quick-list.desktop
+# Name[pt_BR]=Pesquisar pacotes do repositório
+# Comment[pt_BR]=Pesquisa os pacotes do repositório
+###cache-cleaner.desktop
+# Name[pt_BR]=Remover Cache do Usuário
+# Comment[pt_BR]=Remove os cache do diretório home do usuário

@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Remmina
+Comment=Remote Desktop Client
+Comment[ca]=Client d'escriptori remot
+Comment[cs]=Klient vzdálené pracovní plochy
+Comment[de]=Verbindung zu Fremdrechnern
+Comment[el]=Πελάτης απομακρυσμένης επιφάνειας εργασίας
+Comment[es]=Cliente de escritorio remoto
+Comment[eu]=Urruneko mahaigainaren bezeroa
+Comment[fr]=Afficheur de bureau distant
+Comment[hu]=Távoli asztal kliens
+Comment[it]=Client per connessione a desktop remoto
+Comment[lt]=Nutolusio darbastalio klientas
+Comment[nl]=Client voor verbinding met extern bureaublad
+Comment[pl]=Klient zdalnego pulpitu
+Comment[pt_BR]=Cliente de área de trabalho remota
+Comment[pt_PT]=Cliente de ambiente de trabalho remoto
+Comment[ru]=Клиент удалённого доступа к рабочему столу
+Comment[tr]=Uzak Masaüstü İstemcisi
+Comment[uk]=Клієнт з'єднання з віддаленою стільницею
+Comment[zh_CN]=远程桌面客户端
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools remmina
+Icon=remmina
+Type=Application
+Categories=Applications;System;

@@ -1,0 +1,178 @@
+# Indonesian localization file for Sparky APTus.
+# Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Translated to Indonesian by les kompie
+# Last update 2020/06/08 by pavroo
+LOCAL1="Update"
+LOCAL2="Instal"
+LOCAL3="Hapus"
+LOCAL4="Perbaiki yang rusak"
+LOCAL5="Bersihkan"
+LOCAL6="Repositori"
+LOCAL7="Selesai! \nSemua versi lama paket DEB sudah dihapus. \n\nKlik OK untuk keluar."
+LOCAL8="Selesai! \n\nKlik OK untuk keluar."
+LOCAL9="Selesai! \nSemua paket DEB yang di-download sudah dihapus. \nSistem anda sekarang bersih. \n\nKlik OK untuk keluar."
+LOCAL10="Pilih file daftar repositori yang mau anda edit"
+LOCAL11="Pilih file DEB dari drive lokal untuk di-instal"
+LOCAL12="Tidak ada yang diubah! \n\nKlik OK untuk keluar."
+LOCAL13="Penginstal Kernel i686-PAE"
+LOCAL14="Anda menjalankan sistem 64 bit! \nKernel i686-PAE sebenarnya untuk sistem 32 bit saja. \n\nSekarang keluar..."
+LOCAL15="Kernel i686-PAE sudah ter-instal! \n\nSekarang keluar..."
+LOCAL16="Uji koneksi internet gagal! \n\nMungkin anda tidak terhubung ke Internet, atau server repositori utama sedang mati.\n\nPeriksa dan coba lagi."
+LOCAL17="Ini untuk menginstal kernel i686-PAE dan header-nya di sistem 32 bit. \nPastikan sistem anda sudah di-update sebelum anda memulai ini.\n\nApakah anda mau menginstal sekarang?"
+LOCAL18="Tidak ada paket yang di-instal! \nSekarang keluar..."
+LOCAL19="Kernel i686-PAE dan header-nya sudah diinstal! \nReboot komputer untuk melihat hasilnya."
+LOCAL20="Ada yang salah! \nMungkin anda menghentikan proses instal, atau koneksi internet anda terputus.\nPeriksa dan coba lagi.\n\nKeluar..."
+LOCAL21="Pilih"
+LOCAL22="Info"
+LOCAL23="Penginstal Kernel Liquorix"
+LOCAL24="Keluar"
+LOCAL25="Kernel Liquorix sudah di-instal! \n\nSekarang keluar..."
+LOCAL26="Pilih salah satu:"
+LOCAL27="Instal kernel i686 non-PAE Liquorix"
+LOCAL28="Instal kernel i686-PAE Liquorix"
+LOCAL29="Instal kernel 64 bit Liquorix"
+LOCAL30="Keluar, tidak usah melakukan apapun"
+LOCAL31="Saat ini anda menjalankan sistem 64 bit. \nKernel i686 TIDAK BISA di-instal.\n\nSekarang keluar..."
+LOCAL32="Jika semuanya berjalan dengan baik, kernel Liquorix dan header-nya sudah di-instal! \n\nReboot komputer untuk melihat hasilnya."
+LOCAL33="Saat ini anda menjalankan sistem 32 bit. \nKernel 64 bit TIDAK BISA di-instal.\n\nSekarang keluar..."
+LOCAL34="Sparky APTus Penghapus Non-Free"
+LOCAL35="Ini adalah daftar paket Non-Free dan Restricted yang di-instal di sistem anda"
+LOCAL36="Apakah anda mau menghapus semuanya?"
+LOCAL37="Tidak ada paket yang dihapus! \n\nKlik OK untuk menutup window."
+LOCAL38="menghapus kernel"
+LOCAL39="kernel berikut sudah dihapus"
+LOCAL40="Hanya ada satu kernel yang di-instal di sistem ini:"
+LOCAL41="Kernel aktual (aktif) adalah"
+LOCAL42="Apakah anda mau menghapus kernel ini?"
+LOCAL43="Kernel tidak dihapus"
+LOCAL44="Sparky APTus Instal Cepat"
+LOCAL45="Ketikkan nama paket yang mau anda instal. \nAnda bisa mengetikkan beberapa nama, dipisahkan dengan SPASI. \n\nPastikan sistem sudah di-update sebelum anda memulainya."
+LOCAL46="Sparky APTus Hapus Cepat"
+LOCAL47="Ketikkan nama paket yang mau anda hapus dari sistem. \nanda bisa mengetikkan beberapa nama, dipisahkan dengan SPASI.\n\nAnda harus menghapus semua dependensi sesudahnya, memakai opsi AUTOREMOVE."
+LOCAL48="akan menginstal paket lokal bahasa anda yang hilang.\n\nPastikan sistem anda sudah di-update sebelum anda mulai.\n\nPilih bahasa anda"
+LOCAL49="Ini akan memeriksa, men-download, dan menginstal paket"
+LOCAL50="bahasa"
+LOCAL51="Klik OK untuk memulai."
+LOCAL52="Men-download dan menginstal"
+LOCAL53="paket sekarang.\n\Mohon tunggu..."
+LOCAL54="Penghapusan VirtualBox Guest Utils"
+LOCAL55="Paket VirtualBox Guest Utils TIDAK di-instal.\n\nKeluar..."
+LOCAL56="Ini akan menghapus paket VirtualBox Guest Utils yang ter-instal di sistem anda.\n\nJangan menghapusnya jika anda menjalankan SparkyLinux dari dalam mesin VirtualBox.\n\nApakah anda mau menghapus paket itu?"
+LOCAL57="Curang ya? \n\nVirtualBox Guest Utils masih ter-instal!\n\nKlik OK untuk keluar."
+LOCAL58="Font Jepang - instalasi paket fcitx-mozc"
+LOCAL59="Desktop"
+LOCAL60="Penginstal Kernel Sparky"
+LOCAL61="Kernel Sparky sudah ter-instal! \n\nSekarang keluar..."
+LOCAL62="Instal kernel Sparky i686 non-PAE terbaru"
+LOCAL63="Instal kernel Sparky i686-PAE terbaru"
+LOCAL64="Instal kernel Sparky 64 bit terbaru"
+LOCAL65="Jika semuanya berjalan lancar, kernel Sparky terbaru dan header-nya sudah di-instal! \n\nReboot komputer untuk melihat hasilnya."
+LOCAL66="Ini hanya berfungsi dengan kernel x86 dan x86_64...\n\nSekarang keluar..."
+LOCAL67="Tidak bisa dihapus!"
+LOCAL68="Pilih kernel untuk dihapus"
+LOCAL69="Penghapus Kernel Lama"
+LOCAL70="Penginstal Kernel Debian"
+LOCAL71="Kernel Debian sudah ter-instal! \n\nKeluar sekarang..."
+LOCAL72="Instal kernel Debian i686 non-PAE terbaru"
+LOCAL73="Instal kernel Debian i686-PAE terbaru"
+LOCAL74="Instal kernel Debian 64 bit terbaru"
+LOCAL75="Jika semuanya berjalan lancar, kernel Debian terbaru dan header-nya sudah di-instal! \n\nReboot komputer untuk melihat hasilnya."
+LOCAL76="Upgrade"
+LOCAL77="Upgrade Penuh"
+LOCAL78="Game"
+LOCAL79="Codec"
+LOCAL80="Office"
+LOCAL81="Sistem"
+LOCAL82="Web"
+LOCAL83="Aksesoris"
+LOCAL84="APTus membantu anda menginstal aplikasi populer.\nSebaiknya update dulu daftar paket, sebelum memulai proses instal."
+LOCAL85="Instal ulang"
+LOCAL86="Penginstal"
+LOCAL87="Proses instal selesai."
+LOCAL88="Baca informasi tentang aplikasi, dengan perintah:"
+LOCAL89="Paket ini sudah ter-instal."
+LOCAL90="Apa yang mau anda lakukan sekarang?"
+LOCAL91="Apakah saya harus menginstal paket yang anda pilih?"
+LOCAL92="AudioPlayer"
+LOCAL93="VideoPlayer"
+LOCAL94="IM"
+LOCAL95="Email"
+LOCAL96="RSS"
+LOCAL97="Transfer File"
+LOCAL98="Grafis"
+LOCAL99="Sekuriti"
+LOCAL100="Paket ini tidak tersedia untuk versi sistem anda."
+LOCAL101="Sparky APTus Quick Search"
+LOCAL102="Type a keyword you'd like to search.\nYou can type a few names separated by SPACE key.\n\nMake sure your system is up to date \nbefore you start that."
+LOCAL103="No vailid user found, so can't remove the user cache."
+LOCAL104="Have I remove all cache from home directory of user"
+LOCAL105="AudioTool"
+LOCAL106="VideoTool"
+##### .desktop files to be translated too:
+### autoclean.desktop
+# Name[id_ID]=Hapus paket lama DEB
+# Comment[id_ID]=Hapus semua versi lama paket DEB dari sistem
+### autoremove.desktop
+# Name[id_ID]=Hapus paket tak diperlukan
+# Comment[id_ID]=Hapus semua paket yang tidak diperlukan dari sistem
+### clean.desktop
+# Name[id_ID]=Hapus semua paket DEB
+# Comment[id_ID]=Hapus semua paket DEB yang di-download dari sistem
+### fix-apt.desktop
+# Name[id_ID]=Perbaiki paket rusak oleh APT
+# Comment[id_ID]=Periksa dan perbaiki paket rusak oleh APT, yang tidak di-instal atau di-upgrade dengan benar
+### fix-dpkg.desktop
+# Name[id_ID]=Perbaiki paket rusak oleh DPKG
+# Comment[id_ID]=Periksa dan perbaiki paket rusak oleh DPKG, yang tidak di-instal atau di-upgrade dengan benar
+### install-deb.desktop
+# Name[id_ID]=Instal atau re-instal paket DEB dari disk lokal
+# Comment[id_ID]=Instal atau instal ulang paket DEB dari disk lokal
+### install-debian-kernel.desktop
+# Name[id_ID]=Instal Kernel Debian
+# Comment[id_ID]=Instal Kernel Debian
+### install-liquorix.desktop
+# Name[id_ID]=Install Kernel Liquorix
+# Comment[id_ID]=Install Kernel Liquorix
+### install-locale.desktop
+# Name[id_ID]=Instal paket bahasa
+# Comment[id_ID]=Instal paket bahasa yang hilang
+### quick-install.desktop
+# Name[id_ID]=Instal paket dari repositori
+# Comment[id_ID]=Instal paket dari repositori
+### kernel.desktop
+# Name[id_ID]=Hapus kernel sistem lama
+# Comment[id_ID]=Hapus kernel sistem lama dan tidak aktif
+### nonfree-remove.desktop
+# Name[id_ID]=Hapus Paket Non-Free
+# Comment[id_ID]=Hapus paket Non-Free dan Restricted dari sistem
+### quick-remove.desktop
+# Name[id_ID]=Hapus paket dari sistem
+# Comment[id_ID]=Hapus paket yang dipilih dari sistem
+### vboxguest-remove.desktop
+# Name[id_ID]=Hapus VirtualBox Guest Utils
+# Comment[id_ID]=Hapus VirtualBox Guest Utils
+### edit-repo-custom.desktop
+# Name[id_ID]=Edit repositori kustom
+# Comment[id_ID]=Edit daftar repositori kustom
+### edit-repo-main.desktop
+# Name[id_ID]=Edit repositori utama
+# Comment[id_ID]=Edit daftar repositori utama
+### dist-upgrade.desktop
+# Name[id_ID]=Dist-Upgrade sistem
+# Comment[id_ID]=Upgrade penuh sistem
+### update.desktop
+# Name[id_ID]=Refresh daftar paket
+# Comment[id_ID]=Perbarui daftar paket
+### upgrade.desktop
+# Name[id_ID]=Upgrade sistem
+# Comment[id_ID]=Upgrade sistem secara aman
+### sparky-aptus.desktop
+# Name[id_ID]=
+# Comment[id_ID]=Menjaga sistem up to date, membersihkan, menginstal dan menghapus paket
+### install-sparky-kernel.desktop
+# Name[id_ID]=Instal Kernel Sparky
+# Comment[id_ID]=Menginstal kernel Sparky terbaru
+### quick-list.desktop
+# Name[id_ID]=Search packages from repository
+# Comment[id_ID]=Search packages from repository

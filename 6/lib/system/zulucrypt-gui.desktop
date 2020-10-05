@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=zuluCrypt
+Comment=Encrypted volumes manager
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools zulucrypt
+Icon=zulucrypt
+Type=Application
+Categories=Applications;System;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=GTomb
+Comment=Crypto undertaker
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools gtomb
+Icon=tomb_icon
+Type=Application
+Categories=Applications;System;

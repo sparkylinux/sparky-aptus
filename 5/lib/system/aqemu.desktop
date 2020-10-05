@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=AQEMU
+Comment=Front-end for QEMU and KVM
+Comment[ru]=Управление виртуальными машинами
+Comment[it]=Interfaccia Grafica per QEMU e KVM
+Comment[fr]=Interface graphique pour QEMU et KVM
+Comment[es]=Front-end para QEMU y KVM
+Comment[pt]=Front-end para QEMU e KVM
+Comment[de]=Front-End für QEMU und KVM
+Comment[pl]=Front-end dla QEMU i KVM
+Comment[sv]=Front-end för QEMU och KVM
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools aqemu
+Icon=aqemu-32x32.xpm
+Terminal=false
+Type=Application
+Categories=System;

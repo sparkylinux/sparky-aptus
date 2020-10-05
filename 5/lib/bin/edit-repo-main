@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Last update 2020/05/18
+
+testroot="`whoami`"
+if [ "$testroot" != "root" ]; then
+	echo " Must be root... Exiting"
+	exit 1
+fi
+
+if [ -f /usr/bin/sparky-editor ]; then
+	SPARKYEDITOR="sparky-editor"
+else
+	SPARKYEDITOR="gnome-text-editor"
+fi
+
+$SPARKYEDITOR /etc/apt/sources.list
+
+exit 0

@@ -15,3 +15,49 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Dependencies:
+-------------
+adduser
+apt
+coreutils
+curl
+dctrl-tools
+dialog
+dpkg
+gdebi-core
+gettext-base
+grep
+gawk
+iputils-ping
+sparky-apt
+sparky-aptus-extra (>= 0.2.14)
+sparky-codecs (>= 0.2.0)
+sparky-desktop (>= 20200530)
+sparky-editor
+sparky-info
+sparky-office (>= 0.2.0)
+sparky-remsu (>= 0.2.3)
+sparky-webbrowser-installer (>= 20180424)
+sparky-xterm (>= 0.2.0)
+ssft
+vmplayer-installer
+vrms
+wget
+yad
+zenity
+
+Recommends:
+-------------
+sparky-aptus-gamer (>= 0.2.0)
+xterm (for quick-list)
+
+Install:
+-------------
+su (or sudo) 
+./install.sh
+
+Uninstall:
+-------------
+su (or sudo)
+./install.sh uninstall

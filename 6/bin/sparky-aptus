@@ -1,0 +1,160 @@
+#!/bin/bash
+
+# Sparky APTus is a simply GUI frontend for APT-GET and DPKG
+# Created by Paweł "pavroo" Pijanowski 2013/08/31
+# Copyright 2013-2020 under the GNU GPL2 License
+# Last updated 2020/10/05
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-aptus"
+if [ "`cat /etc/default/locale | grep LANG= | grep de`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep LANG= | grep el`" != "" ]; then
+. $DEFLOCDIR/el
+elif [ "`cat /etc/default/locale | grep LANG= | grep es`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep LANG= | grep fr`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep LANG= | grep hu`" != "" ]; then
+. $DEFLOCDIR/hu
+elif [ "`cat /etc/default/locale | grep LANG= | grep id_ID`" != "" ]; then
+. $DEFLOCDIR/id_ID
+elif [ "`cat /etc/default/locale | grep LANG= | grep it`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep LANG= | grep ja`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep LANG= | grep pl`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep LANG= | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep LANG= | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep LANG= | grep ru`" != "" ]; then
+. $DEFLOCDIR/ru
+elif [ "`cat /etc/default/locale | grep LANG= | grep zh_CN`" != "" ]; then
+. $DEFLOCDIR/zh_CN
+else
+. $DEFLOCDIR/en
+fi
+
+testroot="`whoami`"
+if [ "$testroot" != "root" ]; then
+	echo "Must be root... Exiting..."
+	exit 1
+fi
+
+# General settings for Yad
+YAD="yad"
+WINDOWICON="--window-icon=system-software-installer"
+READDIR="--read-dir"
+DIR="/usr/lib/sparky-aptus"
+ITEM="--item-width=60"
+TITLE="--always-print-result --dialog-sep --title="
+TITLETEXT="APTus"
+TEXT="--text="
+HEIGHT="600"
+WIDTH="870"
+TABNUM="--tabnum"
+TABPOSITION="--tab-pos=left"
+IMAGE="--image=system-software-installer"
+IMAGEONTOP="--image-on-top"
+ICONS="--icons"
+SORT="--sort-by-name"
+CENTER="--center"
+TAB="--tab"
+NOTEBOOK="--notebook"
+NOBUTTONS="--no-buttons"
+ARCHARM="`uname -m | grep arm`"
+# Key to bind the windows
+KEY="--key"
+YADKEY=$$
+PLUG="--plug=$YADKEY"
+# checking Sparky 4/5/6
+#SPARKYVERCHECK6="`cat /etc/lsb-release | grep Tolo`"
+#SPARKYVERCHECK5="`cat /etc/lsb-release | grep Nibiru`"
+#SPARKYVERCHECK4="`cat /etc/lsb-release | grep Tyche`"
+
+if [ -f "$DIR/game/wine.desktop" ]; then
+	### Accessories, Codecs, Audio, Video, Desktop, Game, Office, Graphics, Web, IM, Email, RSS, FileTransfer, Security, System
+	# Tab 1 Accessories
+	$YAD $PLUG $TABNUM=1 $IMAGEONTOP $ICONS $READDIR=$DIR/accessories $ITEM $SORT $CENTER &
+	# Tab 2 Codecs
+	$YAD $PLUG $TABNUM=2 $IMAGEONTOP $ICONS $READDIR=$DIR/codecs $ITEM $SORT $CENTER &
+	# Tab 3 Audio Players
+	$YAD $PLUG $TABNUM=3 $IMAGEONTOP $ICONS $READDIR=$DIR/audio $ITEM $SORT $CENTER &
+	# Tab 4 Audio Tools
+	$YAD $PLUG $TABNUM=4 $IMAGEONTOP $ICONS $READDIR=$DIR/audtools $ITEM $SORT $CENTER &
+	# Tab 5 Video Players
+	$YAD $PLUG $TABNUM=5 $IMAGEONTOP $ICONS $READDIR=$DIR/video $ITEM $SORT $CENTER &
+	# Tab 6 Video Tools
+	$YAD $PLUG $TABNUM=6 $IMAGEONTOP $ICONS $READDIR=$DIR/vidtools $ITEM $SORT $CENTER &
+	# Tab 7 Desktop
+	if [ "$ARCHARM" != "" ]; then
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop-arm $ITEM $SORT $CENTER &
+	else
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop0 $ITEM $SORT $CENTER &
+	fi
+	# Tab 8 Game
+	$YAD $PLUG $TABNUM=8 $IMAGEONTOP $ICONS $READDIR=$DIR/game $ITEM $SORT $CENTER &
+	# Tab 9 Office
+	$YAD $PLUG $TABNUM=9 $IMAGEONTOP $ICONS $READDIR=$DIR/office $ITEM $SORT $CENTER &
+	# Tab 10 Graphics
+	$YAD $PLUG $TABNUM=10 $IMAGEONTOP $ICONS $READDIR=$DIR/graphics $ITEM $SORT $CENTER &
+	# Tab 11 Web
+	$YAD $PLUG $TABNUM=11 $IMAGEONTOP $ICONS $READDIR=$DIR/web $ITEM $SORT $CENTER &
+	# Tab 12 IM
+	$YAD $PLUG $TABNUM=12 $IMAGEONTOP $ICONS $READDIR=$DIR/messenger $ITEM $SORT $CENTER &
+	# Tab 13 Email
+	$YAD $PLUG $TABNUM=13 $IMAGEONTOP $ICONS $READDIR=$DIR/email $ITEM $SORT $CENTER &
+	# Tab 14 RSS
+	$YAD $PLUG $TABNUM=14 $IMAGEONTOP $ICONS $READDIR=$DIR/rss $ITEM $SORT $CENTER &
+	# Tab 15 File transfer
+	$YAD $PLUG $TABNUM=15 $IMAGEONTOP $ICONS $READDIR=$DIR/filetransfer $ITEM $SORT $CENTER &
+	# Tab 16 System
+	$YAD $PLUG $TABNUM=16 $IMAGEONTOP $ICONS $READDIR=$DIR/system $ITEM $SORT $CENTER &
+else
+	### Accessories, Codecs, Audio, Video, Desktop, Game, Office, Graphics, Web, IM, Email, RSS, FileTransfer, Security, System
+	# Tab 1 Accessories
+	$YAD $PLUG $TABNUM=1 $IMAGEONTOP $ICONS $READDIR=$DIR/accessories $ITEM $SORT $CENTER &
+	# Tab 2 Codecs
+	$YAD $PLUG $TABNUM=2 $IMAGEONTOP $ICONS $READDIR=$DIR/codecs $ITEM $SORT $CENTER &
+	# Tab 3 Audio Players
+	$YAD $PLUG $TABNUM=3 $IMAGEONTOP $ICONS $READDIR=$DIR/audio $ITEM $SORT $CENTER &
+	# Tab 4 Audio Tools
+	$YAD $PLUG $TABNUM=4 $IMAGEONTOP $ICONS $READDIR=$DIR/audtools $ITEM $SORT $CENTER &
+	# Tab 5 Video Players
+	$YAD $PLUG $TABNUM=5 $IMAGEONTOP $ICONS $READDIR=$DIR/video $ITEM $SORT $CENTER &
+	# Tab 6 Video Tools
+	$YAD $PLUG $TABNUM=6 $IMAGEONTOP $ICONS $READDIR=$DIR/vidtools $ITEM $SORT $CENTER &
+	# Tab 7 Desktop
+	if [ "$ARCHARM" != "" ]; then
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop-arm $ITEM $SORT $CENTER &
+	else
+		$YAD $PLUG $TABNUM=7 $IMAGEONTOP $ICONS $READDIR=$DIR/desktop0 $ITEM $SORT $CENTER &
+	fi
+	# Tab 8 Office
+	$YAD $PLUG $TABNUM=8 $IMAGEONTOP $ICONS $READDIR=$DIR/office $ITEM $SORT $CENTER &
+	# Tab 9 Graphics
+	$YAD $PLUG $TABNUM=9 $IMAGEONTOP $ICONS $READDIR=$DIR/graphics $ITEM $SORT $CENTER &
+	# Tab 10 Web
+	$YAD $PLUG $TABNUM=10 $IMAGEONTOP $ICONS $READDIR=$DIR/web $ITEM $SORT $CENTER &
+	# Tab 11 IM
+	$YAD $PLUG $TABNUM=11 $IMAGEONTOP $ICONS $READDIR=$DIR/messenger $ITEM $SORT $CENTER &
+	# Tab 12 Email
+	$YAD $PLUG $TABNUM=12 $IMAGEONTOP $ICONS $READDIR=$DIR/email $ITEM $SORT $CENTER &
+	# Tab 13 RSS
+	$YAD $PLUG $TABNUM=13 $IMAGEONTOP $ICONS $READDIR=$DIR/rss $ITEM $SORT $CENTER &
+	# Tab 14 File transfer
+	$YAD $PLUG $TABNUM=14 $IMAGEONTOP $ICONS $READDIR=$DIR/filetransfer $ITEM $SORT $CENTER &
+	# Tab 15 System
+	$YAD $PLUG $TABNUM=15 $IMAGEONTOP $ICONS $READDIR=$DIR/system $ITEM $SORT $CENTER &
+fi
+
+# Read yad window with tabs
+if [ -f "$DIR/game/wine.desktop" ]; then
+	$YAD $CENTER $NOTEBOOK $KEY=$YADKEY $TAB="$LOCAL83" $TAB="$LOCAL79" $TAB="$LOCAL92" $TAB="$LOCAL105" $TAB="$LOCAL93" $TAB="$LOCAL106" $TAB="$LOCAL59" $TAB="$LOCAL78" $TAB="$LOCAL80" $TAB="$LOCAL98" $TAB="$LOCAL82" $TAB="$LOCAL94" $TAB="$LOCAL95" $TAB="$LOCAL96" $TAB="$LOCAL97" $TAB="$LOCAL81" $TABPOSITION $TITLE"$TITLETEXT" --height=$HEIGHT --width=$WIDTH $NOBUTTONS $WINDOWICON
+else
+	$YAD $CENTER $NOTEBOOK $KEY=$YADKEY $TAB="$LOCAL83" $TAB="$LOCAL79" $TAB="$LOCAL92" $TAB="$LOCAL105" $TAB="$LOCAL93" $TAB="$LOCAL106" $TAB="$LOCAL59" $TAB="$LOCAL80" $TAB="$LOCAL98" $TAB="$LOCAL82" $TAB="$LOCAL94" $TAB="$LOCAL95" $TAB="$LOCAL96" $TAB="$LOCAL97" $TAB="$LOCAL81" $TABPOSITION $TITLE"$TITLETEXT" --height=$HEIGHT --width=$WIDTH $NOBUTTONS $WINDOWICON
+fi
+
+exit 0

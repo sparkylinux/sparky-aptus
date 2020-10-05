@@ -1,0 +1,27 @@
+[Desktop Entry]
+Name=Install Sparky Kernel
+Name[de]=Installiere Sparky Kernel
+Name[el]=Εγκατάσταση του πυρήνα Sparky
+Name[es]=Instalar el kernel Sparky
+Name[fr]=Installer le noyau Sparky
+Name[id]=Instal Kernel Sparky
+Name[it]=Installa Kernel Sparky
+Name[ja]=Sparkyカーネルのインストール
+Name[pl]=Instalacja jądra Sparky
+Name[pt_BR]=Instalar o Sparky Kernel
+Name[pt_PT]=Instale o Sparky Kernel
+Name[ru]=Установить ядро Sparky
+Name[zh_CN]=安装 Sparky Kernel
+Comment=Install the latest Sparky Kernel
+Comment[el]=Εγκατάσταση του τελευταίου πυρήνα Sparky
+Comment[fr]=Installer le dernier noyau Sparky
+Comment[id]=Menginstal kernel Sparky terbaru
+Comment[ja]=最新のSparkyカーネルをインストールします
+Comment[pl]=Instalacja najnowszego jądra Sparky
+Comment[pt_BR]=Instalar o mais recente kernel Sparky
+Comment[zh_CN]=安装最新的 Sparky Kernel
+Exec=/usr/lib/sparky-aptus/bin/install-sparky-kernel
+Icon=preferences-other
+Terminal=false
+Type=Application
+Categories=System;

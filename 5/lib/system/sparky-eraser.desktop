@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Eraser
+GenericName=Eraser
+Name[fr]=Effacement
+Comment=Pernamently erase files and directories
+Comment[de]=Dateien und Verzeichnisse dauerhaft löschen
+Comment[es]=Borra permanentemente archivos y directorios
+Comment[fr]=effacer définitivement fichiers ou répertoires
+Comment[id]=Menghapus file dan direktori secara permanen
+Comment[it]=Cancella in maniera definitiva file e cartelle
+Comment[ja]=ファイル・ディレクトリの永久的な消去
+Comment[pl]=Pernamentnie usuń pliki i katalogi
+Comment[pt_BR]=Exclui de modo permanente arquivos e diretórios
+Comment[pt_PT]=Elimina de modo permanente ficheiros e pastas
+Comment[sv]=Radera filer och kataloger permanent
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools sparky-eraser
+Icon=user-trash-full
+Type=Application
+Categories=Applications;System;
