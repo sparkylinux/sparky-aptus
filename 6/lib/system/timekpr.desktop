@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Time Keeper
+Comment=Keep control of computer usage
+Exec=remsu /usr/lib/sparky-aptus/bin/sparky-aptus-tools timekpr
+Icon=timekpr
+Type=Application
+Categories=Applications;System;
