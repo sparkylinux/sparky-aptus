@@ -3,7 +3,7 @@
 # Sob a licença GNU GPL v2
 # Traduzido  por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/12/19
 # Corrigido por Elton Fabrício Ferreira "eltonfabricio10" <eltonfabricio10@gmail.com> 2018/07/04
-# Last update 2019/02/27 by pavroo
+# Last update 2010/10/19 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -69,12 +69,12 @@ LOCAL62="Instalar o mais recente kernel Sparky i686 NON-PAE"
 LOCAL63="Instalar o mais recente kernel Sparky i686-PAE"
 LOCAL64="Instalar o mais recente kernel Sparky de 64 bits"
 LOCAL65="Se tudo correu bem, o kernel Sparky mais recente e seus headers foram instalados!\n\nReinicie sua máquina para ter efeitos."
-LOCAL66="Funciona apenas com kernels x86 e x86_64 ...\n\nSaindo agora ..."
+LOCAL66="Funciona apenas com kernels x86 e x86_64...\n\nSaindo agora..."
 LOCAL67="Não pode ser removido!"
 LOCAL68="Escolha um kernel para desinstalar"
 LOCAL69="Desinstalador de Kernel Antigo"
 LOCAL70="Instalador do Kernel Debian"
-LOCAL71="O Kernel Debian já está instalado!\n\nSaindo agora ..."
+LOCAL71="O Kernel Debian já está instalado!\n\nSaindo agora..."
 LOCAL72="Instalar o mais recente kernel Debian i686 NON-PAE"
 LOCAL73="Instalar o mais recente kernel Debian i686-PAE"
 LOCAL74="Instale o mais recente kernel Debian 64 bits"
@@ -110,6 +110,13 @@ LOCAL103="Nenhum usuário válido foi encontrado, portanto, não é possível re
 LOCAL104="Deseja remover todo o cache do diretório home do usuário"
 LOCAL105="AudioTool"
 LOCAL106="VideoTool"
+LOCAL107="Instalador do Kernel XanMod"
+LOCAL108="Funciona apenas com kernels x86_64...\n\nSaindo agora..."
+LOCAL109="Install latest XanMod Linux kernel"
+LOCAL110="Install current stable XanMod Linux kernel"
+LOCAL111="Install Long Term Support XanMod kernel"
+LOCAL112="Install latest Real-time XanMod Linux kernel"
+LOCAL113="Install stable Real-time XanMod Linux kernel"
 ##### .desktop arquivos a serem traduzidos também:
 ### autoclean.desktop
 # Name[pt_BR]=Remover pacotes DEB antigos
@@ -180,3 +187,6 @@ LOCAL106="VideoTool"
 ###cache-cleaner.desktop
 # Name[pt_BR]=Remover Cache do Usuário
 # Comment[pt_BR]=Remove os cache do diretório home do usuário
+### install-xanmod-kernel.desktop
+# Name[pt_BR]=Instalar o Kernel XanMod
+# Comment[pt_BR]=Instalar o Kernel XanMod

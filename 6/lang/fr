@@ -1,7 +1,7 @@
 ﻿# Fichier de localisation française de Sparky APTus.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Last update 2020/06/08 by pavroo
+# Last update 2020/10/19 by pavroo
 LOCAL1="Mise à jour"
 LOCAL2="Installer"
 LOCAL3="Supprimer"
@@ -24,7 +24,7 @@ LOCAL19="le noyau i686-PAE et ses en-têtes ont été installés! \nRedémarrer 
 LOCAL20="Il y a un problème! \nPeut-être avez-vous stoppé l'installation ou bien votre connexion internet est interrompue.\nVérifiez et réessayez.\n\nSortie..."
 LOCAL21="Choisir"
 LOCAL22="Information"
-LOCAL23="Installation du noyau Liquorix "
+LOCAL23="Installation du noyau Liquorix"
 LOCAL24="Quitter"
 LOCAL25="Le noyau Liquorix est déjà installé! \n\nSortie..."
 LOCAL26="S'il vous plaît, choisissez une option:"
@@ -108,6 +108,13 @@ LOCAL103="No vailid user found, so can't remove the user cache."
 LOCAL104="Have I remove all cache from home directory of user"
 LOCAL105="AudioTool"
 LOCAL106="VideoTool"
+LOCAL107="Installation du noyau XanMod"
+LOCAL108="Fonctionne uniquement avec les noyaux...\n\nSortons maintenant..."
+LOCAL109="Install latest XanMod Linux kernel"
+LOCAL110="Install current stable XanMod Linux kernel"
+LOCAL111="Install Long Term Support XanMod kernel"
+LOCAL112="Install latest Real-time XanMod Linux kernel"
+LOCAL113="Install stable Real-time XanMod Linux kernel"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[fr_FR]=Supprimer les anciens paquets DEB
@@ -175,3 +182,6 @@ LOCAL106="VideoTool"
 ### quick-list.desktop
 # Name[fr_FR]=Search packages from repository
 # Comment[fr_FR]=Search packages from repository
+### install-xanmod-kernel.desktop
+# Name[fr_FR]=Installer le noyau XanMod
+# Comment[fr_FR]=Installer le noyau XanMod

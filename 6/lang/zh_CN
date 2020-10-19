@@ -1,7 +1,7 @@
 # Chinese(Simplified) localization file for Sparky APTus translated by xingjiapeng
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2020/06/08 by pavroo
+# Last update 2020/10/19 by pavroo
 LOCAL1="升级"
 LOCAL2="安装"
 LOCAL3="卸载"
@@ -108,6 +108,13 @@ LOCAL103="没有找到有效用户，故无法删除用户缓存。"
 LOCAL104="我是否删除了用户主目录中的所有缓存"
 LOCAL105="音频工具"
 LOCAL106="视频工具"
+LOCAL107="XanMod 内核安装器"
+LOCAL108="它只适用于 x86_64 内核……\n\n退出中……"
+LOCAL109="Install latest XanMod Linux kernel"
+LOCAL110="Install current stable XanMod Linux kernel"
+LOCAL111="Install Long Term Support XanMod kernel"
+LOCAL112="Install latest Real-time XanMod Linux kernel"
+LOCAL113="Install stable Real-time XanMod Linux kernel"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[zh_CN]=卸载旧 DEB 软件包
@@ -175,3 +182,6 @@ LOCAL106="视频工具"
 ### quick-list.desktop
 # Name[zh_CN]=从软件源中搜索软件包
 # Comment[zh_CN]=从软件源中搜索软件包
+### install-xanmod-kernel.desktop
+# Name[zh_CN]=安装 XanMod Kernel
+# Comment[zh_CN]=安装 XanMod Kernel

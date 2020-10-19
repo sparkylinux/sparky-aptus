@@ -1,7 +1,7 @@
 # German localization file for Sparky APTus.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2020/06/08 by pavroo
+# Last update 2020/10/19 by pavroo
 LOCAL1="Update"
 LOCAL2="Installieren"
 LOCAL3="Entfernen"
@@ -108,6 +108,13 @@ LOCAL103="No vailid user found, so can't remove the user cache."
 LOCAL104="Have I remove all cache from home directory of user"
 LOCAL105="AudioTool"
 LOCAL106="VideoTool"
+LOCAL107="XanMod Kernel Installer"
+LOCAL108="It works with x86_64 kernels only...\n\nExiting now..."
+LOCAL109="Install latest XanMod Linux kernel"
+LOCAL110="Install current stable XanMod Linux kernel"
+LOCAL111="Install Long Term Support XanMod kernel"
+LOCAL112="Install latest Real-time XanMod Linux kernel"
+LOCAL113="Install stable Real-time XanMod Linux kernel"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[de_DE]=Entferne alte DEB-Pakete
@@ -178,3 +185,6 @@ LOCAL106="VideoTool"
 ### quick-list.desktop
 # Name[de_DE]=Search packages from repository
 # Comment[de_DE]=Search packages from repository
+### install-xanmod-kernel.desktop
+# Name[de_DE]=Installiere XanMod Kernel
+# Comment[de_DE]=Installiert den XanMod Kernel

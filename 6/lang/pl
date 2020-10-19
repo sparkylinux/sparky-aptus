@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2020/06/08 by pavroo
+# Last update 2020/10/19 by pavroo
 LOCAL1="Aktualizacja"
 LOCAL2="Instalacja"
 LOCAL3="Usuwanie"
@@ -109,6 +109,13 @@ LOCAL103="Nie znaleziono właściwego użytkownika, więc cache nie może być u
 LOCAL104="Czy mam usunąć cały cache z katalogu domowego użytkownika"
 LOCAL105="AudioTool"
 LOCAL106="VideoTool"
+LOCAL107="Instalacja jądra XanMod"
+LOCAL108="Działa tylko z jądrem x86_64...\n\nWyjście..."
+LOCAL109="Instalacja najnowszego jądra Linux XanMod"
+LOCAL110="Instalacja stabilnego jądra Linux XanMod"
+LOCAL111="Instalacja jądra Linux Long Term Support XanMod"
+LOCAL112="Instalacja najnowszego jądra Linux czasu rzeczywistego XanMod"
+LOCAL113="Instalacja stabilnego jądra Linux czasu rzeczywistego XanMod"
 ##### pliki .desktop, również do przetłumaczenia:
 ### autoclean.desktop
 # Name[pl_PL]=Usuń stare pakiety DEB
@@ -176,3 +183,6 @@ LOCAL106="VideoTool"
 ### quick-list.desktop
 # Name[pl_PL]=Wyszukaj pakiety w repozytoriach
 # Comment[pl_PL]=Wyszukaj pakiety w repozytoriach
+### install-xanmod-kernel.desktop
+# Name[pl_PL]=Instalacja jądra XanMod
+# Comment[pl_PL]=Instalacja jądra XanMod

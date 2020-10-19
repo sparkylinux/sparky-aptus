@@ -2,7 +2,7 @@
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Japanese by FuRuYa7.
-# Last update 2020/06/08 by pavroo
+# Last update 2020/10/19 by pavroo
 LOCAL1="更新"
 LOCAL2="インストール"
 LOCAL3="削除"
@@ -109,6 +109,13 @@ LOCAL103="有効なユーザーが見つからないため、ユーザーキャ�
 LOCAL104="ユーザーのホームディレクトリからすべてのキャッシュを削除しますか"
 LOCAL105="音声編集ツール"
 LOCAL106="動画編集ツール"
+LOCAL107="XanMod カーネルインストール"
+LOCAL108="x86_64 カーネルでのみ動作します...\n\n終了しています..."
+LOCAL109="Install latest XanMod Linux kernel"
+LOCAL110="Install current stable XanMod Linux kernel"
+LOCAL111="Install Long Term Support XanMod kernel"
+LOCAL112="Install latest Real-time XanMod Linux kernel"
+LOCAL113="Install stable Real-time XanMod Linux kernel"
 ##### .desktop file to be translated too:
 ### autoclean.desktop
 # Name[ja_JP]=古い DEB パッケージの削除
@@ -176,3 +183,6 @@ LOCAL106="動画編集ツール"
 ### quick-list.desktop
 # Name[ja_JP]=リポジトリからパッケージを検索
 # Comment[ja_JP]=リポジトリからパッケージを検索します
+### install-xanmod-kernel.desktop
+# Name[ja_JP]=XanMod カーネルのインストール
+# Comment[ja_JP]=XanMod カーネルをインストールします

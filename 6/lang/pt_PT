@@ -1,7 +1,7 @@
 # Arquivo de localização para Portugues de Portugal do Sparky APTus.
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Tuesday 02 February 17:57:55 WET 2016
 # Sob a Licença GNU GPL v2
-# Last update 2019/02/27 by pavroo
+# Last update 2020/10/19 by pavroo
 LOCAL1="Atualizar"
 LOCAL2="Instalar"
 LOCAL3="Remover"
@@ -108,6 +108,13 @@ LOCAL103="No vailid user found, so can't remove the user cache."
 LOCAL104="Have I remove all cache from home directory of user"
 LOCAL105="AudioTool"
 LOCAL106="VideoTool"
+LOCAL107="Instalar o XanMod Kernel"
+LOCAL108="It works with x86_64 kernels only...\n\nExiting now..."
+LOCAL109="Install latest XanMod Linux kernel"
+LOCAL110="Install current stable XanMod Linux kernel"
+LOCAL111="Install Long Term Support XanMod kernel"
+LOCAL112="Install latest Real-time XanMod Linux kernel"
+LOCAL113="Install stable Real-time XanMod Linux kernel"
 ##### Arquivo a ser traduzido também .desktop
 ### autoclean.desktop
 # Name[pt_PT]=Remover pacotes DEB antigos
@@ -175,3 +182,6 @@ LOCAL106="VideoTool"
 ### quick-list.desktop
 # Name[pt_PT]=Search packages from repository
 # Comment[pt_PT]=Search packages from repository
+### install-xanmod-kernel.desktop
+# Name[pt_PT]=Instale o XanMod Kernel
+# Comment[pt_PT]=Para Instalar XanMod Kernel

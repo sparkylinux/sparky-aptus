@@ -1,7 +1,7 @@
 # Hungarian localization file for Sparky APTus. (Translated by Nemomen).
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2020/06/08 by pavroo
+# Last update 2020/10/19 by pavroo
 LOCAL1="Frissítés"
 LOCAL2="Telepítés"
 LOCAL3="Eltávolítás"
@@ -67,7 +67,7 @@ LOCAL62="Telepítse a legutolsó i686 NON-PAE Sparky kernelt!"
 LOCAL63="Telepítse a legutolsó i686-PAE Sparky kernelt!"
 LOCAL64="Telepítse a legutolsó 64 bites Sparky kernelt!"
 LOCAL65="Ha minden rendben ment, az i686-PAE kernel és annak fejállománya telepítésre került! \n\nIndítsa újra (reboot) gépét a változások érvénybe lépéséhez!"
-LOCAL66="Ez csak x86 és x86_64 kernelekkel működik…\n\nKilépés most..."
+LOCAL66="Ez csak x86 és x86_64 kernelekkel működik...\n\nKilépés most..."
 LOCAL67="Nem távolítható el!"
 LOCAL68="Válassza ki az eltávolítandó kernelt!"
 LOCAL69="Régi Kernel Eltávolító (Old Kernel Remover)"
@@ -108,6 +108,13 @@ LOCAL103="Nincs érvényes felhasználó, így nem távolítható el a felhaszn�
 LOCAL104="Eltávolítsak mind gyorsítótárat a felhasználó ´home´ könyvtárából?"
 LOCAL105="Hangeszköz (AudioTool)"
 LOCAL106="VideoEszköz (VideoTool)"
+LOCAL107="XanMod Kernel Telepítő"
+LOCAL108="Ez csak x86_64 kernelekkel működik...\n\nKilépés most..."
+LOCAL109="Install latest XanMod Linux kernel"
+LOCAL110="Install current stable XanMod Linux kernel"
+LOCAL111="Install Long Term Support XanMod kernel"
+LOCAL112="Install latest Real-time XanMod Linux kernel"
+LOCAL113="Install stable Real-time XanMod Linux kernel"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[en_US]=Remove old DEB packages
@@ -175,3 +182,6 @@ LOCAL106="VideoEszköz (VideoTool)"
 ### quick-list.desktop
 # Name[en_US]=Search packages from repository
 # Comment[en_US]=Search packages from repository
+### install-xanmod-kernel.desktop
+# Name[en_US]=Install XanMod Kernel
+# Comment[en_US]=Install XanMod Kernel

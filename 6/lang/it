@@ -1,7 +1,7 @@
 # File di localizzazione italiano per Sparky APTus.
 # Copyright 2015 carlo "malato" Troiani <abbassolafrangetta@gmail.com> 22/10/2015
 # Rilasciato sotto licenza GNU GPL v2
-# Last update 2020/06/08 by pavroo
+# Last update 2020/10/19 by pavroo
 LOCAL1="Aggiorna"
 LOCAL2="Installa"
 LOCAL3="Rimuovi"
@@ -108,6 +108,13 @@ LOCAL103="Non e' stato trovato un utente valido, quindi non possiamo cancellare 
 LOCAL104="Ho rimosso tutta la cache dalla directory home dell'utente"
 LOCAL105="AudioTool"
 LOCAL106="VideoTool"
+LOCAL107="XanMod Kernel Installer"
+LOCAL108="Funziona solamente con kernel x86_64...\n\nSto uscendo..."
+LOCAL109="Install latest XanMod Linux kernel"
+LOCAL110="Install current stable XanMod Linux kernel"
+LOCAL111="Install Long Term Support XanMod kernel"
+LOCAL112="Install latest Real-time XanMod Linux kernel"
+LOCAL113="Install stable Real-time XanMod Linux kernel"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[it_IT]=Rimuovi i vecchi pacchetti DEB
@@ -175,3 +182,6 @@ LOCAL106="VideoTool"
 ### quick-list.desktop
 # Name[it_IT]=Cerca i pacchetti nei repositories
 # Comment[it_IT]=Cerca i pacchetti nei repositories
+### install-xanmod-kernel.desktop
+# Name[it_IT]=Installa Kernel XanMod
+# Comment[it_IT]=Installa il Kernel XanMod
