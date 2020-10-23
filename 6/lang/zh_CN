@@ -75,7 +75,7 @@ LOCAL70="Debian 内核安装器"
 LOCAL71="Debian 内核已经安装！ \n\n退出中……"
 LOCAL72="安装最新的 i686 NON-PAE Debian 内核"
 LOCAL73="安装最新的 i686-PAE Debian 内核"
-LOCAL74="安装最新的 64 位 Debian kernel"
+LOCAL74="安装最新的 64 位 Debian 内核"
 LOCAL75="如果一切正常，最新的 Debian 内核与其头文件（headers）就已经安装好了！ \n\n请重启使它们生效。"
 LOCAL76="升级"
 LOCAL77="升级（自动处理依赖关系）"
@@ -135,11 +135,11 @@ LOCAL113="安装稳定版 Real-time XanMod Linux 内核"
 # Name[zh_CN]=在本地磁盘上安装或卸载 DEB 包
 # Comment[zh_CN]=在本地磁盘上安装或卸载 DEB 包
 ### install-debian-kernel.desktop
-# Name[zh_CN]=安装 Debian Kernel
-# Comment[zh_CN]=安装 Debian Kernel
+# Name[zh_CN]=安装 Debian 内核
+# Comment[zh_CN]=安装 Debian 内核
 ### install-liquorix.desktop
-# Name[zh_CN]=安装 Liquorix Kernel
-# Comment[zh_CN]=安装 Liquorix Kernel
+# Name[zh_CN]=安装 Liquorix 内核
+# Comment[zh_CN]=安装 Liquorix 内核
 ### install-locale.desktop
 # Name[zh_CN]=安装语言包
 # Comment[zh_CN]=安装缺失的语言包
