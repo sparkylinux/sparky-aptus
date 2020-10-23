@@ -1,7 +1,7 @@
 # Chinese(Simplified) localization file for Sparky APTus translated by xingjiapeng
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2020/10/19 by pavroo
+# Last update 2020/10/23 by xingjiapeng
 LOCAL1="升级"
 LOCAL2="安装"
 LOCAL3="卸载"
@@ -22,7 +22,7 @@ LOCAL17="本应用程序将在 32 位系统上安装 i686-PAE 内核与其 heade
 LOCAL18="没有安装任何软件包！ \n现在退出……"
 LOCAL19="i686-PAE 内核与其头文件（headers）已经安装！ \n请重启使它们生效。"
 LOCAL20="出错了！ \n也许因为您终止了安装，也可能因为网络断开。\n请检查并重试。 \n\n退出……"
-LOCAL21="Pick"
+LOCAL21="选择"
 LOCAL22="信息"
 LOCAL23="Liquorix 内核安装器"
 LOCAL24="退出"
@@ -58,7 +58,7 @@ LOCAL53="软件包中\n\请稍等……"
 LOCAL54="VirtualBox Guest Utils 卸载"
 LOCAL55="VirtualBox Guest Utils 软件包并未安装。\n\n退出中……"
 LOCAL56="本程序将卸安装在您系统中的 VirtualBox Guest Utils 软件包\n\n如果您正在 VirtualBox 中运行 SparkyLinux，请不要卸载它。 \n\n您想要卸载该软件包吗？"
-LOCAL57="开玩笑呢？\n\nVirtualBox Guest Utils 还正在安装！\n\n点击 OK 退出。"
+LOCAL57="作弊？\n\nVirtualBox Guest Utils 还正在安装！\n\n点击 OK 退出。"
 LOCAL58="日文字体 - fcitx-mozc 软件包安装"
 LOCAL59="桌面"
 LOCAL60="Sparky 内核安装器"
