@@ -1,7 +1,7 @@
 # Chinese(Simplified) localization file for Sparky APTus translated by xingjiapeng
 # Copyright 2015 Pawel‚ "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2020/06/08 by pavroo
+# Last update 2020/10/23 by xingjiapeng
 LOCAL1="升级"
 LOCAL2="安装"
 LOCAL3="卸载"
@@ -17,12 +17,12 @@ LOCAL12="没有发生改变！ \n\n点击 OK 退出。"
 LOCAL13="i686-PAE 内核安装器"
 LOCAL14="您现在正在运行一个 64 位的系统！ \n内核 i686-PAE 只针对 32 位系统。 \n\n现在退出……"
 LOCAL15="内核 i686-PAE 已经安装！ \n\n现在退出……"
-LOCAL16="网络连接测试失败！\n\n也也许您没有连接到互联网或者主软件仓库服务器不在线。\n\n请检查并重试。"
+LOCAL16="网络连接测试失败！\n\n也许您没有连接到互联网或者主软件仓库服务器不在线。\n\n请检查并重试。"
 LOCAL17="本应用程序将在 32 位系统上安装 i686-PAE 内核与其 headers。 \n请在开始前确保您的系统已最新。\n\n您想要现在开始安装吗？"
 LOCAL18="没有安装任何软件包！ \n现在退出……"
-LOCAL19="i686-PAE 内核与其 headers 已经安装了！ \n请重启使它们生效。"
+LOCAL19="i686-PAE 内核与其头文件（headers）已经安装！ \n请重启使它们生效。"
 LOCAL20="出错了！ \n也许因为您终止了安装，也可能因为网络断开。\n请检查并重试。 \n\n退出……"
-LOCAL21="Pick"
+LOCAL21="选择"
 LOCAL22="信息"
 LOCAL23="Liquorix 内核安装器"
 LOCAL24="退出"
@@ -33,7 +33,7 @@ LOCAL28="安装 i686-PAE Liquorix 内核"
 LOCAL29="安装 64 bit Liquorix 内核"
 LOCAL30="退出，不做任何事"
 LOCAL31="您现在正在运行一个 64 位的系统！\n内核 i686 无法安装。\n\n现在退出……"
-LOCAL32="如果一切正常，Liquorix 内核与其 headers 就已经安装好了！ \n\n请重启使它们生效。"
+LOCAL32="如果一切正常，Liquorix 内核与其头文件（headers）就已经安装好了！ \n\n请重启使它们生效。"
 LOCAL33="您现在正在运行一个 32 位的系统！\n64 位内核无法安装。\n\n现在退出……"
 LOCAL34="Sparky APTus 专有部件卸载器"
 LOCAL35="这是您的系统中安装的非只有和受限制的软件包的列表。"
@@ -48,8 +48,8 @@ LOCAL43="内核不会被卸载"
 LOCAL44="Sparky APTus 快速安装"
 LOCAL45="请键入您想从您安装的软件包的名字。\n您可以键入是个以空格隔开的软件包名。\n\n请在此之前确保您的系统\n已是最新。"
 LOCAL46="Sparky APTus 快速卸载"
-LOCAL47="请键入您想从您的系统中卸载的软件包的名字\nn您可以键入是个以空格隔开的软件包名。\n\n您可以使用 AUTOREMOVE 选项以一处所有的依赖。"
-LOCAL48="将会安装您的语言的一些缺失的本地化软件包。\n\n请在开始前确保您的系统已是最新。\n\n请选择您的语言\n（简体中文在倒数第二位）"
+LOCAL47="请键入您想从您的系统中卸载的软件包的名字\n您可以键入是个以空格隔开的软件包名。\n\n您可以使用 AUTOREMOVE 选项以一处所有的依赖。"
+LOCAL48="将会安装您的语言的一些缺失的本地化软件包。\n\n请在开始前确保您的系统已是最新。\n\n请选择您的语言\n（简体中文在倒数第三位）"
 LOCAL49="本程序将检查、下载并安装"
 LOCAL50="的软件包"
 LOCAL51="点击 OK 开始。"
@@ -58,25 +58,25 @@ LOCAL53="软件包中\n\请稍等……"
 LOCAL54="VirtualBox Guest Utils 卸载"
 LOCAL55="VirtualBox Guest Utils 软件包并未安装。\n\n退出中……"
 LOCAL56="本程序将卸安装在您系统中的 VirtualBox Guest Utils 软件包\n\n如果您正在 VirtualBox 中运行 SparkyLinux，请不要卸载它。 \n\n您想要卸载该软件包吗？"
-LOCAL57="开玩笑呢？\n\nVirtualBox Guest Utils 还正在安装！\n\n点击 OK 退出。"
+LOCAL57="作弊？\n\nVirtualBox Guest Utils 还正在安装！\n\n点击 OK 退出。"
 LOCAL58="日文字体 - fcitx-mozc 软件包安装"
 LOCAL59="桌面"
-LOCAL60="Sparky Kernel 安装器"
-LOCAL61="Sparky Kernel 已经安装！ \n\n退出中……"
-LOCAL62="安装最新的 i686 NON-PAE Sparky kernel"
-LOCAL63="安装最新的 i686-PAE Sparky kernel"
-LOCAL64="安装最新的 64 位 Sparky kernel"
-LOCAL65="如果一切正常，最新的 Sparky kernel 与其 headers 就已经安装好了！ \n\n请重启使它们生效。"
+LOCAL60="Sparky 内核安装器"
+LOCAL61="Sparky 内核已经安装！ \n\n退出中……"
+LOCAL62="安装最新的 i686 NON-PAE Sparky 内核"
+LOCAL63="安装最新的 i686-PAE Sparky 内核"
+LOCAL64="安装最新的 64 位 Sparky 内核"
+LOCAL65="如果一切正常，最新的 Sparky 内核与头文件（headers）就已经安装好了！ \n\n请重启使它们生效。"
 LOCAL66="它只适用于 x86 和 x86_64 内核……\n\n退出中……"
 LOCAL67="无法卸载！"
 LOCAL68="请选择一个要卸载的内核"
 LOCAL69="老旧内核卸载器"
-LOCAL70="Debian Kernel 安装器"
-LOCAL71="Debian Kernel 已经安装！ \n\n退出中……"
-LOCAL72="安装最新的 i686 NON-PAE Debian kernel"
-LOCAL73="安装最新的 i686-PAE Debian kernel"
-LOCAL74="安装最新的 64 位 Debian kernel"
-LOCAL75="如果一切正常，最新的 Debian kernel 与其 headers 就已经安装好了！ \n\n请重启使它们生效。"
+LOCAL70="Debian 内核安装器"
+LOCAL71="Debian 内核已经安装！ \n\n退出中……"
+LOCAL72="安装最新的 i686 NON-PAE Debian 内核"
+LOCAL73="安装最新的 i686-PAE Debian 内核"
+LOCAL74="安装最新的 64 位 Debian 内核"
+LOCAL75="如果一切正常，最新的 Debian 内核与其头文件（headers）就已经安装好了！ \n\n请重启使它们生效。"
 LOCAL76="升级"
 LOCAL77="升级（自动处理依赖关系）"
 LOCAL78="游戏"
@@ -108,6 +108,13 @@ LOCAL103="没有找到有效用户，故无法删除用户缓存。"
 LOCAL104="我是否删除了用户主目录中的所有缓存"
 LOCAL105="音频工具"
 LOCAL106="视频工具"
+LOCAL107="XanMod 内核安装器"
+LOCAL108="它只适用于 x86_64 内核……\n\n退出中……"
+LOCAL109="安装最新的 XanMod Linux 内核"
+LOCAL110="安装当前的稳定版 XanMod Linux 内核"
+LOCAL111="安装长期支持版 XanMod 内核"
+LOCAL112="安装最新的 Real-time XanMod Linux 内核"
+LOCAL113="安装稳定版 Real-time XanMod Linux 内核"
 ##### .desktop files to be translated too:
 ### autoclean.desktop
 # Name[zh_CN]=卸载旧 DEB 软件包
@@ -128,11 +135,11 @@ LOCAL106="视频工具"
 # Name[zh_CN]=在本地磁盘上安装或卸载 DEB 包
 # Comment[zh_CN]=在本地磁盘上安装或卸载 DEB 包
 ### install-debian-kernel.desktop
-# Name[zh_CN]=安装 Debian Kernel
-# Comment[zh_CN]=安装 Debian Kernel
+# Name[zh_CN]=安装 Debian 内核
+# Comment[zh_CN]=安装 Debian 内核
 ### install-liquorix.desktop
-# Name[zh_CN]=安装 Liquorix Kernel
-# Comment[zh_CN]=安装 Liquorix Kernel
+# Name[zh_CN]=安装 Liquorix 内核
+# Comment[zh_CN]=安装 Liquorix 内核
 ### install-locale.desktop
 # Name[zh_CN]=安装语言包
 # Comment[zh_CN]=安装缺失的语言包
@@ -170,8 +177,11 @@ LOCAL106="视频工具"
 # Name[zh_CN]=
 # Comment[zh_CN]=保持您的系统最新且干净，安装或卸载软件包
 ### install-sparky-kernel.desktop
-# Name[zh_CN]=安装 Sparky Kernel
-# Comment[zh_CN]=安装最新的 Sparky Kernel
+# Name[zh_CN]=安装 Sparky 内核
+# Comment[zh_CN]=安装最新的 Sparky 内核
 ### quick-list.desktop
 # Name[zh_CN]=从软件源中搜索软件包
 # Comment[zh_CN]=从软件源中搜索软件包
+### install-xanmod-kernel.desktop
+# Name[zh_CN]=安装 XanMod 内核
+# Comment[zh_CN]=安装 XanMod 内核
