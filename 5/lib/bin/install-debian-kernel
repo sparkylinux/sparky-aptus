@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # install-debian-kernel script lets you install the default Debian's Linux kernel
-# Copyright 2018-2020 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
+# Copyright 2018-2021 Paweł "pavroo" Pijanowski <pavroo@onet.eu>
 # Licensed under the GPLv2 license see /usr/share/common-licenses/GPL-2
 # Created 2018/02/18
-# Last update 2020/10/05
+# Last update 2021/02/15
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -44,7 +44,7 @@ if [ "$testroot" != "root" ]; then
 	exit 1
 fi
 
-DIALOG="yad --window-icon=prefernces-other --width=450 --height=200 --center"
+DIALOG="yad --window-icon=prefernces-other --width=550 --height=300 --center"
 TITLE="--always-print-result --dialog-sep --image=preferences-other --title="
 TEXT="--text="
 MENU="--list --column=$LOCAL21 --column=$LOCAL22"
@@ -53,8 +53,10 @@ MSGBOX="--button=Ok:0"
 TITLETEXT="$LOCAL70"
 ARCH=`uname -r | grep "amd64"`
 TESTDEBIAN64=`dpkg-query -l | grep linux-image-amd64`
+TESTDEBIAN64RT=`dpkg-query -l | grep linux-image-rt-amd64`
 TESTDEBIAN32=`dpkg-query -l | grep linux-image-686 | grep -v pae`
 TESTDEBIAN32PAE=`dpkg-query -l | grep linux-image-686-pae`
+TESTDEBIAN32PAERT=`dpkg-query -l | grep linux-image-rt-686-pae`
 if [ -f /usr/bin/sparky-xterm ];then
 	SPARKYXTERM="/usr/bin/sparky-xterm"
 else
@@ -81,7 +83,9 @@ mainmenu () {
 CHOICES=`$DIALOG $TITLE"$TITLETEXT" $OKEXIT $MENU $TEXT"$LOCAL26" \
 NON_PAE "$LOCAL72" \
 PAE "$LOCAL73" \
+PAE_RT "$LOCAL73 (RealTime)" \
 64 "$LOCAL74" \
+64_RT "$LOCAL74 (RealTime)" \
 Exit "$LOCAL30"`
 
 if [ "$?" = "0" ]; then
@@ -94,8 +98,12 @@ if [ "$CHOICE" = "NON_PAE" ]; then
 	nonpaemenu
 elif [ "$CHOICE" = "PAE" ]; then
 	paemenu
+elif [ "$CHOICE" = "PAE_RT" ]; then
+	paertmenu
 elif [ "$CHOICE" = "64" ]; then
 	amd64menu
+elif [ "$CHOICE" = "64_RT" ]; then
+	amd64rtmenu
 elif [ "$CHOICE" = "Exit" ]; then
 	exit 0
 else
@@ -143,6 +151,26 @@ $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL75"
 exit 0
 }
 
+paertmenu () {
+if [ "$ARCH" != "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL14"
+	mainmenu
+fi
+
+# check is the Debian RealTime i686pae kernel installed already
+if [ "$TESTDEBIAN32PAERT" != "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL71"
+	mainmenu
+fi
+
+# install i686 PAE RealTime Debian kernel and headers
+$SPARKYXTERM "apt-get update"
+$SPARKYXTERM "apt-get install linux-image-rt-686-pae linux-headers-rt-686-pae"
+
+$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL75"
+exit 0
+}
+
 amd64menu () {
 if [ "$ARCH" = "" ]; then
 	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL33"
@@ -158,6 +186,26 @@ fi
 # install 64 bit Debian kernel and headers
 $SPARKYXTERM "apt-get update"
 $SPARKYXTERM "apt-get install linux-image-amd64 linux-headers-amd64"
+
+$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL75"
+exit 0
+}
+
+amd64rtmenu () {
+if [ "$ARCH" = "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL33"
+	mainmenu
+fi
+
+# check is the Debian kernel RealTime amd64 installed already
+if [ "$TESTDEBIAN64RT" != "" ]; then
+	$DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL71"
+	mainmenu
+fi
+
+# install 64 bit Debian RealTime kernel and headers
+$SPARKYXTERM "apt-get update"
+$SPARKYXTERM "apt-get install linux-image-rt-amd64 linux-headers-rt-amd64"
 
 $DIALOG $TITLE"$TITLETEXT" $MSGBOX $TEXT"$LOCAL75"
 exit 0
