@@ -2,7 +2,7 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
-# Last update 2020/06/08 by pavroo
+# Last update 2021/02/20 by pavroo
 LOCAL1="Aktualizacja"
 LOCAL2="Instalacja"
 LOCAL3="Usuwanie"
@@ -76,7 +76,7 @@ LOCAL70="Instalacja Jądra Debian"
 LOCAL71="Jądro Debian jest już zainstalowane! \n\nZamknij..."
 LOCAL72="Instalacja najnowszego jądra i686 NON-PAE Debian"
 LOCAL73="Instalacja najnowszego jądra i686-PAE Debian"
-LOCAL74="Instalacja najnowszego jądra 64 bit Sparky"
+LOCAL74="Instalacja najnowszego jądra 64 bit Debian"
 LOCAL75="Jeśli wszystko poszło dobrze, najnowsze jądro Debian i jego nagłówki zostały zainstalowane! \n\nUruchom ponownie komputer aby zastosować zmiany."
 LOCAL76="Aktualizacja"
 LOCAL77="PełnaAktualizacja"
