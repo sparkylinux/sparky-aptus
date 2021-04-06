@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Last update 2020/10/05 by pavroo
+# Last update 2021/04/06 by pavroo
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-aptus"
@@ -186,6 +186,9 @@ case $1 in
      ;;
   timeshift)
 	PACKAGE="timeshift"
+     ;;
+  ventoy)
+	PACKAGE="ventoy"
      ;;
   virtualbox)
 	if [ "$ARCH64" = "" ]; then
