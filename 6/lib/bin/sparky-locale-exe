@@ -127,7 +127,7 @@ else
 	
 	# install zh_CN task
 	if [ "`cat /etc/default/locale | grep zh_CN`" != "" ]; then
-		$INSTALL fcitx fcitx-sunpinyin fonts-wqy-microhei | $ZENITY $PULSATE $WIDTH $HEIGHT100 $CLOSE $WINDOWICON $TEXT="$LOCAL52 zh_CN $LOCAL53" $TITLE="$TITLETEXT" $NOCANCEL
+		$INSTALL fcitx5 fcitx5-pinyin fonts-wqy-microhei | $ZENITY $PULSATE $WIDTH $HEIGHT100 $CLOSE $WINDOWICON $TEXT="$LOCAL52 zh_CN $LOCAL53" $TITLE="$TITLETEXT" $NOCANCEL
 	fi
 
 	# install lxqt locale files
